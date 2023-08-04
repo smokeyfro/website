@@ -38,3 +38,4 @@ stack: ['Nuxt','Prismic','Vercel','JPEG.rocks']
 testimonial: 
 date: 2021-05-01
 ---
+Migrated the DB Dynamics website from WordPress to the jamstack, using Prismic with their slices features for each content creation and Gridsome for the front-end.

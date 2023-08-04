@@ -17,3 +17,4 @@ stack: ['Joomla','Morph Template Framework', 'Zoo']
 testimonial: Testimonial
 date: 2011-01-01
 ---
+Comprehensive Joomla site built using the Morph template framework.

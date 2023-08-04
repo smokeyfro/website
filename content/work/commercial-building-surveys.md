@@ -17,3 +17,4 @@ stack: ['WordPress','Beans']
 testimonial: 
 date: 2017-06-01
 ---
+Custom theme for a company website, built using the Beans framework for WordPress.

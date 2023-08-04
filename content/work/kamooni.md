@@ -17,3 +17,4 @@ stack: ['HTML','CSS','PHP','Curl','JS','JSON']
 testimonial: Testimonial
 date: 2019-07-01
 ---
+I was hired by the founder of Kamooni to refresh the design of their app.

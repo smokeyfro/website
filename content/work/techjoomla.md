@@ -16,3 +16,4 @@ tools: ['Adobe Fireworks']
 stack: ['Bootstrap','jQuery']
 date: 2008-02-06
 ---
+Designed using Fireworks and implemented in html, css and jQuery.

@@ -1,7 +1,7 @@
 ---
 title: Health Coach
 slug: health-coach
-excerpt: Complete rebuild and migration from WordPress to the Jamstack, using Prismic (and their Slices feature), along with Nuxt and Tailwind for the front-end.
+excerpt: Complete rebuild of my dads site, using Ghost as the content backend and Gridsome for the front-end.
 type: Website
 company: The Health Coach
 contact: Michael Rault 
@@ -43,3 +43,4 @@ stack: ['Gridsome','Vue','Ghost','Vercel']
 testimonial: 
 date: 2021-06-01
 ---
+Finally migrated my dads old WordPress site to the jamstack.

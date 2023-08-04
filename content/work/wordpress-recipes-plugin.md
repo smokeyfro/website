@@ -16,3 +16,4 @@ tools: ['Adobe XD']
 stack: ['UIkit','Beans', 'WordPress']
 date: 2018-06-01
 ---
+Proof of concept for a recipe plugin for WordPress using the Beans framework.
