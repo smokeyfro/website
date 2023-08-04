@@ -1,7 +1,6 @@
 <template>
   <nuxt-page />
 </template>
-
 <script setup lang="ts">
   onMounted(async () => {
       const [{ initRuntime }, { default: config }] = await Promise.all([

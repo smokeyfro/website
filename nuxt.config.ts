@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   nitro: {
     compressPublicAssets: true,
     prerender: {
-      // routes: ['/sitemap.xml'],
+      routes: ['/sitemap.xml'],
       crawlLinks: true
     }
   },

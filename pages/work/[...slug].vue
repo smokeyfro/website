@@ -3,7 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
-    <div class="grid grid-cols:2 gap:50">
+    <div v-if="page !== null" class="grid grid-cols:2 gap:50">
       <div>
         <base-title>{{ page.title }}</base-title>
         <base-excerpt>{{ page.excerpt }}</base-excerpt>
