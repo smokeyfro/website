@@ -16,5 +16,11 @@ video_duration: "37"
 searchTerms: wordpress, customise, customize, child theme, beans, tutorials, tuts, tutorial
 excerpt: "A quick video showing the process of getting setup with Beans, a child-theme and the Child-Theme Modifications for Beans plugin."
 ---
-`youtube:https://youtu.be/MqHCqtBRAm4`
-`youtube:https://youtu.be/urpeVOjmQkQ`
+
+::youtube{title="Part 1" id="MqHCqtBRAm4"}
+Part 1
+::
+
+::youtube{title="Part 2" id="urpeVOjmQkQ" custom_class="mt:20"}
+Part 2
+::

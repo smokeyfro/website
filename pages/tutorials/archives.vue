@@ -22,7 +22,7 @@
     () => queryContent<TutorialPreview>('tutorials')
       .where({ topic: 'WordPress' })
       .sort({ date: -1 })
-      .only(['title', 'slug', 'description', 'excerpt', 'image', 'topics', 'topic'])
+      .only(['title', 'slug', '_path', 'description', 'excerpt', 'image', 'topics', 'topic'])
       .find(),
   )
 
