@@ -139,11 +139,6 @@ export const NavLinks: Navigation[] = [
                 url: '/journal',
                 text: 'Journal',
                 title: 'Journal',
-            },
-            {
-                url: '/journal/topics',
-                text: 'Topics',
-                title: 'Topics',
             }
         ]
     },
