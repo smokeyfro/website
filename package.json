@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.7.2",
+    "@nuxt/devtools": "^0.7.1",
+    "@nuxt/image-edge": "1.0.0-rc.1-28180077.d51e794",
+    "@nuxtjs/robots": "^3.0.0",
+    "@types/node": "^18.17.0",
+    "lite-youtube-embed": "^0.2.0",
+    "nuxt": "^3.6.5",
+    "sitemap": "^7.1.1",
+    "vue-silentbox": "^3.0.4",
+    "vue3-perfect-scrollbar": "^1.6.1"
+  },
+  "dependencies": {
+    "@master/css-server.nitro": "2.0.0-beta.165",
+    "@master/css.vue": "2.0.0-beta.165"
+  }
+}

@@ -1,0 +1,51 @@
+---
+title: Approved Experts
+slug: approved-experts
+excerpt: Design for a web-application that would pair up appropriate service providers on a per project basis.
+type: Web App
+company: Fatwax Media
+contact: Kieron Bolton
+order: 
+featured: false
+thumb: "/media/work/approvedexperts-thumb.jpg"
+image: "/media/work/approved-experts.jpg"
+gallery:
+- thumbnail: "/media/work/approved-experts-front-page.jpg"
+  src: "/media/work/approved-experts-front-page.jpg"
+  alt: "ApprovedExperts Front Page"
+  title: "ApprovedExperts Front Page"
+
+- thumbnail: "/media/work/approved-experts-register.jpg"
+  src: "/media/work/approved-experts-register.jpg"
+  alt: "ApprovedExperts - Register"
+  title: "ApprovedExperts Register Page"
+  
+- thumbnail: "/media/work/approved-experts-post-job.jpg"
+  src: "/media/work/approved-experts-post-job.jpg"
+  alt: "ApprovedExperts - Job"
+  title: "ApprovedExperts Job Page"
+
+- thumbnail: "/media/work/approved-experts-client.jpg"
+  src: "/media/work/approved-experts-client.jpg"
+  alt: "ApprovedExperts - Client"
+  title: "ApprovedExperts Client Page"
+
+- thumbnail: "/media/work/approved-experts-provider.jpg"
+  src: "/media/work/approved-experts-provider.jpg"
+  alt: "ApprovedExperts - Provider"
+  title: "ApprovedExperts Provider Page"
+
+url: https://approvedexperts.com
+status: Offline
+services: ['UI Design','Wireframing','Prototyping','Development']
+tools: ['Adobe Fireworks']
+stack: ['Web App', 'Apache', 'PHP', 'MySQL']
+testimonial: 
+date: 2015-08-04
+layout: work
+---
+Approved Experts was a service that aimed to simplify the process of finding experts in a particular area of the UK.
+
+Given a few details of what you're looking for, the system would list the available experts with the appropriate skills. If no experts meet the clients needs, the support team would find experts in the clients area based on the criteria given.
+
+I was hired to design the marketing site and the web app, which included the initial onboarding process.
