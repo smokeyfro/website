@@ -29,9 +29,6 @@ export default defineNuxtConfig({
       use_filename: true,
       unique_filename: false
     },
-    imgix: {
-      baseURL: 'https://images.unsplash.com/',
-    },
     presets: {
       journal: {
         modifiers: {

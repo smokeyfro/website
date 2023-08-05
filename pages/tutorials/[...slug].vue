@@ -4,15 +4,18 @@
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
     <div class="max-width:760">
-      <base-title>{{ page.title }}</base-title>
-      <base-excerpt>{{ page.excerpt }}</base-excerpt>
-      <div class="text:xl ">
+      <ContentDoc v-slot="{ page }">
+        <base-title>{{ page.title }}</base-title>
+        <base-excerpt>{{ page.excerpt }}</base-excerpt>
+        <ContentRenderer :value="page" />
+      </ContentDoc>
+      <!-- <div class="text:xl ">
           <ContentRenderer :value="page">
             <template #empty>
               <p>No content found.</p>
             </template>
           </ContentRenderer>
-      </div>
+      </div> -->
     </div>
   </nuxt-layout>
 </template>
