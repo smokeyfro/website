@@ -1,4 +1,3 @@
-
 <template>
   <layout-loading />
   <div class="app three-cols">
@@ -14,5 +13,9 @@
 <style>
   .three-cols {
     grid-template-columns: 80px 200px 1fr;
+  }
+  .three-cols h1 {
+    font-size: 80px;
+    line-height: .6;
   }
 </style>

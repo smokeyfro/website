@@ -8,7 +8,7 @@
         <base-title>{{ page.title }}</base-title>
         <base-excerpt>{{ page.excerpt }}</base-excerpt>
         <p class="my:10" v-if="page.url && page.status != 'Offline'">
-          <a :href="page.url" target="_blank" class="btn btn:large btn:primary">View the site <!--<img src="/external.svg" alt="External link" class="inline-block w-3 h-3">--></a>
+          <a :href="page.url" target="_blank" class="btn btn-lg btn-primary">View the site <!--<img src="/external.svg" alt="External link" class="inline-block w-3 h-3">--></a>
         </p>
         <ul class="grid grid-cols:2 gap:20 list-style:none p:0 m:0 mt:30">
           <li class="p:0 m:0 mb:3 truncate" v-if="page.company">
@@ -53,7 +53,11 @@
     <div class="markdown pt:6 my:5">
       <h2 class="text:base font:bold my:3">About</h2>
       <div class="text:xl">
-        <ContentRenderer :value="page"></ContentRenderer>
+        <ContentRenderer :value="page">
+          <template #empty>
+            
+          </template>
+        </ContentRenderer>
       </div>
     </div>
     <client-only>

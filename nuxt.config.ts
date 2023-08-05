@@ -9,8 +9,17 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxt/content',
-    '@nuxt/image-edge'
+    '@nuxt/image-edge',
+    '@nuxtjs/google-fonts'
   ],
+  googleFonts: {
+    download: true,
+    display: 'swap',
+    families: {
+      Lateef: [400],
+      Mandali: [400]
+    }
+  },
   content: {
     documentDriven: false
   },

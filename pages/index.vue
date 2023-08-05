@@ -4,8 +4,8 @@
     <home-image />
     <div class="flex ai:center ji:flex-end h:full">
       <div class="max-w:3xl space-y:6 px:30 font:sans text:3xl">
-        <h1 class="f:50 mb:0 color:rgba(19,23,27,0.94902)">{{ page.title }}</h1>
-        <p class="f:25" v-html="page.excerpt" />
+        <h1 class="mb:0 color:rgba(19,23,27,0.94902)">{{ page.title }}</h1>
+        <p class="f:25 lh:1.4" v-html="page.excerpt" />
         <content-renderer :value="page" />
       </div>
     </div>

@@ -4,7 +4,14 @@ export default {
     classes: {},
     colors: {},
     themes: {},
-    rules: {},
+    rules: {
+        fontFamily: {
+            values: {
+                sans: 'Mandali',
+                serif: 'Recoleta'
+            }
+        }
+    },
     values: {},
     semantics: {},
     breakpoints: {},

@@ -46,7 +46,41 @@
     height: max-content;
     min-height: min-content;
   }
+  h1, h2, h3 {
+    font-family: "Lateef";
+    color: #1f2226;
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p, li {
+    color: #1f2226;
+    font-family: "Mandali";
+    line-height: 1.4;
+    font-size: 17px;
+  }
+  main a:not(.btn) {
+    text-decoration: none;
+    position: relative;
+  }
+  main a:not(.btn):after {
+    content: ' ';
+    border-bottom: 2px solid;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+  }
+  main a:not(.btn):hover {
+    background: #fff;
+  }
   .btn {
+    font-family: "Mandali";
     display: inline-block;
     border: 0;
     text-decoration: none;

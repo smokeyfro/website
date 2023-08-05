@@ -16,4 +16,8 @@
   .two-cols {
     grid-template-columns: 80px 1fr;
   }
+  .two-cols h1 {
+    font-size: 80px;
+    line-height: .6;
+  }
 </style>
