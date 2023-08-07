@@ -3,7 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
-    <base-title>Portfolio</base-title>
+    <base-title>Work</base-title>
     <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
     <content-list path="/work" :query="{
       only: [ 'title', 'slug', '_path', 'excerpt', 'thumb', 'topic' ], 
