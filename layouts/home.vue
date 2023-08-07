@@ -7,9 +7,11 @@
   <layout-loading />
   <div class="app two-cols">
     <layout-header />
-    <layout-main>
-        <slot />
-    </layout-main>
+    <main class="bg:rgba(255,255,255,0.85)">
+      <div class="font:20 overflow:hidden h:full">
+          <slot />
+      </div>
+    </main>
   </div>
 </template>
 <style>

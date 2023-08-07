@@ -4,13 +4,13 @@
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
     <div class="resume">
-    <resume-intro :data="resume[0].info[0]" />
-    <resume-experience :data="resume[0].experience" />
-    <resume-skills :data="resume[0].skills" />
-    <resume-projects :data="resume[0].projects" />
-    <resume-references :data="resume[0].references" />
-    <resume-education :data="resume[0].education" />
-    <resume-contact :data="resume[0].contact[0]" />
+      <resume-intro :data="resume[0].info[0]" />
+      <resume-experience :data="resume[0].experience" />
+      <resume-skills :data="resume[0].skills" />
+      <resume-projects :data="resume[0].projects" />
+      <resume-references :data="resume[0].references" />
+      <resume-education :data="resume[0].education" />
+      <resume-contact :data="resume[0].contact[0]" />
     </div>
   </nuxt-layout>
 </template>
