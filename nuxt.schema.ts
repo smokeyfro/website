@@ -5,7 +5,7 @@ export default defineNuxtSchema({
       twitter: 'smokeyfro',
       github: 'smokeyfro',
       instagram: 'smokeyfro',
-      linkedin: 'chrisrault',
+      linkedin: 'chrisrault'
     }
   }
 })
