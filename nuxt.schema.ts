@@ -3,7 +3,9 @@ export default defineNuxtSchema({
     cover: '/cover.jpg',
     socials: {
       twitter: 'smokeyfro',
-      github: 'smokeyfro'
+      github: 'smokeyfro',
+      instagram: 'smokeyfro',
+      linkedin: 'chrisrault',
     }
   }
 })
