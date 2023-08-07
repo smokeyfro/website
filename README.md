@@ -1,6 +1,6 @@
-# Content v2 Minimal Starter
+# Nuxt 3 + Nuxt Content v2 + MasterCSS
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+This is the code for the latest version of my portfolio, which uses Nuxt 3 with Nuxt Content v2 and MasterCSS.
 
 ## Setup
 
