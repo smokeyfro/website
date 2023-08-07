@@ -15,7 +15,6 @@
     min-height: 100vh; 
   }
   html { 
-    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     overflow: hidden;
   }
   body { 
@@ -46,12 +45,16 @@
     height: max-content;
     min-height: min-content;
   }
-  h1, h2, h3 {
-    font-family: "Lateef";
+  h1, h2, h3, h4, h5, p, li {
+    font-family: "Lora";
     color: #1f2226;
+  }
+  h1 {
+    font-weight: 700;
   }
   h2 {
     font-size: 50px;
+    font-weight: 400;
     line-height: 1;
     margin-bottom: 1rem;
   }
@@ -60,15 +63,18 @@
   }
   p, li {
     color: #1f2226;
-    font-family: "Mandali";
-    line-height: 1.4;
-    font-size: 17px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p, ul {
+    margin-bottom: 2rem;
   }
   main a:not(.btn) {
     text-decoration: none;
     position: relative;
   }
-  main a:not(.btn):after {
+/*  main div:not(.download) a:not(.btn):after {
     content: ' ';
     border-bottom: 2px solid;
     width: 100%;
@@ -78,7 +84,7 @@
   }
   main a:not(.btn):hover {
     background: #fff;
-  }
+  } */
   .btn {
     font-family: "Mandali";
     display: inline-block;

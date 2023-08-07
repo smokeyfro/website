@@ -1,10 +1,10 @@
 <template>
-    <!-- Education -->
-    <h2>Education</h2>
-    <ul class="list-style:none m:0 p:0 grid-cols:2 gap:20">
+    <h2 class="mb:40">Education</h2>
+    <ul class="list-style:none m:0 p:0 grid-cols:2 gap:40">
       <li v-for="{ topic, date, location, organization } in data" :key="id">
         <h3 class="m:0">{{ topic }}</h3>
-        <p class="mt:5 mb:0">{{ date }} &middot; {{ organization }} - {{ location }}</p>
+        <p class="mt:5 mb:0">{{ organization }} - {{ location }}</p>
+        <p class="mt:5 text:14">{{ date }}</p>
       </li>
     </ul>
 </template>

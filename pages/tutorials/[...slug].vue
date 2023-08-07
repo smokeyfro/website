@@ -4,10 +4,10 @@
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
     <div class="max-width:760">
-      <ContentDoc v-slot="{ page }">
-        <base-title>{{ page.title }}</base-title>
-        <base-excerpt>{{ page.excerpt }}</base-excerpt>
-        <ContentRenderer :value="page" />
+      <ContentDoc v-slot="{ doc }">
+        <base-title>{{ doc.title }}</base-title>
+        <base-excerpt>{{ doc.excerpt }}</base-excerpt>
+        <ContentRenderer :value="doc" />
       </ContentDoc>
       <!-- <div class="text:xl ">
           <ContentRenderer :value="page">
@@ -19,7 +19,7 @@
     </div>
   </nuxt-layout>
 </template>
-<script setup lang="ts">
+<!-- <script setup lang="ts">
   import type { Tutorial } from '~/types'
   const { path } = useRoute()
   const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
@@ -98,4 +98,4 @@
       },
     ],
   })
-</script>
+</script> -->

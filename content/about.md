@@ -7,7 +7,7 @@ draft: false
 searchTerms: about
 ---
 
-<div class="float:left m:-10|25|25|0 w:170 h:170">
+<div class="float:left m:-10|50|30|0 w:200 h:200">
 
 ![Chris Close-up](/chris-closeup.svg) 
 

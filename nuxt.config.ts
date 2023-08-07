@@ -16,8 +16,7 @@ export default defineNuxtConfig({
     download: true,
     display: 'swap',
     families: {
-      Lateef: [400],
-      Mandali: [400]
+      Lora: [400, 700],
     }
   },
   content: {

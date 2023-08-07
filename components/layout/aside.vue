@@ -6,12 +6,8 @@
     </aside>
 </template>
 <style>
-  aside nav a {
-    padding: 5px 10px;
-  }
   aside nav .router-link-exact-active {
-    background: #1f2226;
-    color: #fff;
-    border-radius: 3px;
+    color: #777;
+    text-decoration: line-through;
   }
 </style>

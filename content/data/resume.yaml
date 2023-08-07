@@ -26,23 +26,13 @@ contact:
     stackoverflow: smokeyfro
 
 projects:
-  - name: EdenHub
-    status: Ongoing
-    url: https://edenhub.org
-    image: na
-    summary: Non-profit I co-founded which is focussed on food security and community development.
   - name: SavvyGarden
-    status: Live
+    status: Ongoing
     url: https://savvygarden.vercel.app/
     image: na
     summary: Permaculture-inspired tools for the SavvyGardener. Building the Gardeniing app I always wanted.
-  - name: JammeryHQ
-    status: WIP
-    url: https://jammery.vercel.app
-    image: na
-    summary: In collaboration with two other founders, we're building tools for the modern web.
   - name: Mzango
-    status: WIP
+    status: Ongoing
     url: https://mzango.vercel.app
     image: na
     summary: Backpackers guide to South Africa where the traveller is not the product.
@@ -50,25 +40,25 @@ projects:
 experience:
 - id: 9
   company: SmokeyFro
-  role: Freelance Consultant
-  location: Garden Route
+  role: Freelance
+  location: Remote
   date: Jul 2022 - Present
   summary: Back to freelancing, working on a number of exciting projects using the jamstack. Current preferred stack is Nuxt 3 paired with Directus as the headless cms.
 - id: 8
   company: EdenHub
-  role: Technical Director / Co-founder
+  role: Technical Director
   location: Garden Route
   date: Jun 2021 - June 2022
   summary: Working as the technical lead, I was responsible for setting up our digital infrustructure, design and development of our site and the multi-vendor marketplace.
 - id: 7
   company: SmokeyFro
-  role: Freelancer
+  role: Freelance
   location: Remote
-  date: Jun 2019 - Present
+  date: Jun 2019 - Jun 2021
   summary: I spent the past six months freelancing while I work on a number of side-projects, which include Mzango (a backpackers guide to South Africa) and setting up a tented camp on our family farm. Currently taking on new projects.
 - id: 6
   company: WineFolly
-  role: Front-end Developer
+  role: Developer
   location: Remote
   date: Dec 2018 - Jun 2019
   summary: I was initially contracted to rebuild the popular wine blog and information site WineFolly.com, but stayed on for a year and a half to work directly with WineFolly's founder, award winning book author Madeline Puckette.
@@ -92,7 +82,7 @@ experience:
   summary: A former collegue and I setup an e-commerce site that provided wholesale label clothing to other retailers selling on eBay. While initially profitable, we ended up shutting it down as it was too hard to manage while travelling.
 - id: 2
   company: RPC Data
-  role: Technical Sales Consultant
+  role: Tech Sales Consultant
   location: George, ZA
   date: Feb 2001 – Jun 2003
   summary: I was recruited for a rigorous six month bootcamp then three months of Oracle training in Zimbabwe and later advanced web design at UCT. My responsibilities included building technical demos, prototypes and more.
