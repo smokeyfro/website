@@ -29,11 +29,6 @@ export const NavLinks: Navigation[] = [
                 title: 'Videos',
             },
             {
-                url: '/gear',
-                text: 'Gear',
-                title: 'Gear',
-            },
-            {
                 url: '/credits',
                 text: 'Credits',
                 title: 'Credits',
@@ -62,11 +57,6 @@ export const NavLinks: Navigation[] = [
                 title: 'Speaking',
             },
             {
-                url: '/experience',
-                text: 'Experience',
-                title: 'Experience',
-            },
-            {
                 url: '/resume',
                 text: 'Resume',
                 title: 'Resume',
@@ -81,8 +71,8 @@ export const NavLinks: Navigation[] = [
         subnav: [
             {
                 url: '/themes',
-                text: 'All themes',
-                title: 'All themes',
+                text: 'Themes',
+                title: 'Themes',
             },
             {
                 url: '/themes/nuxt',
@@ -118,15 +108,15 @@ export const NavLinks: Navigation[] = [
                 title: 'Tutorials',
             },
             {
+                url: '/tutorials/archives',
+                text: 'Archives',
+                title: 'Archives',
+            },
+            {
                 url: '/tutorials/tags',
                 text: 'Tags',
                 title: 'Tags',
             },
-            {
-                url: '/tutorials/archives',
-                text: 'Archives',
-                title: 'Archives',
-            }
         ]
     },
     {

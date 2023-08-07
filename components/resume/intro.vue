@@ -3,7 +3,7 @@
       <div class="flex jc:start ai:center gap:30 mt:-50">
         <svg-sf />
         <div>
-          <h1 class="mt:15 mb:20">{{ data.name }}</h1>
+          <h1 class="mt:15 mb:5">{{ data.name }}</h1>
           <p class="m:0 font:20">A {{ data.title }} working remotely from {{ data.location }}.</p>
           <div class="m:0 mt:15 font:18 color:#1f2226_:where(a) text:center text:left@md download flex gap:20 color:#222">
             <a href="#">

@@ -1,5 +1,5 @@
 ---
-title: JAM Stack
+title: Jamstack
 slug: jam-stack
 order: 4
 icon: "/media/services/next.svg"

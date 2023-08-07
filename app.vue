@@ -53,8 +53,8 @@
     font-weight: 700;
   }
   h2 {
-    font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 40px;
     line-height: 1;
     margin-bottom: 1rem;
   }
@@ -69,6 +69,9 @@
   }
   p, ul {
     margin-bottom: 2rem;
+  }
+  ul, ol {
+    padding-left: 1.2rem;
   }
   main a:not(.btn) {
     text-decoration: none;

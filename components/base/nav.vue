@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex flex:col gap:10 text-decoration:none_:where(a) color:#222_:where(a) font:20" role="navigation">
+    <nav class="flex flex:col gap:15 f:20" role="navigation">
         <nuxt-link v-for="{ url, title, text } in subnav" :to="url" :title="title">
             <span>{{ text }}</span>
         </nuxt-link>

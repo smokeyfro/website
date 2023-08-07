@@ -32,10 +32,10 @@
 </script>
 
 <template>
-  <ul aria-label="tags" class="list-style:none m:0 p:0 flex flex:wrap gap:20 mb:30">
+  <ul aria-label="tags" class="list-style:none m:0 p:0 flex flex:wrap gap:30 mb:30">
     <li v-for="(tag, i) in sortedArticleTags" :key="tag+i" class="m:0 p:0 block">
-      <nuxt-link :to="`/${section}/tags/${tag}`" class="block bg:#fff b:1px|solid|#999 outline:2px|solid|rgba(0,0,0,0) outline:2px|solid|rgba(0,0,0,0.2):hover p:4|10|6  r:5 text:none">
-        {{ replaceHyphen(tag) }}
+      <nuxt-link :to="`/${section}/tags/${tag}`" class="block f:30 color:#222 bg:#fff:hover px:8 text:none">
+        #{{ replaceHyphen(tag) }}
       </nuxt-link>
     </li>
   </ul>

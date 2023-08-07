@@ -3,22 +3,23 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[1].subnav" />
     </template>
-    <lite-youtube
-      :videoid="video.video_id"
-      :playlabel="video.title"
-      :start="video.start ? video.start : 0"
-      params="controls=0&start=10&end=30&modestbranding=2&rel=0&enablejsapi=1"
-      class="video"
-    />
+    <base-title>{{ video.title }}</base-title>
+    <base-excerpt>{{ video.excerpt }}</base-excerpt>
+    <div class="w:full h:auto">
+      <lite-youtube
+        :videoid="video.video_id"
+        :playlabel="video.title"
+        :start="video.start ? video.start : 0"
+        params="controls=0&modestbranding=2&rel=0&enablejsapi=1"
+        class="video"
+      />
+    </div>
   </nuxt-layout>
 </template>
 <style>
 .video {
   width: 100%;
-  height: 650px;
-  max-width: 100%;
-  border-radius: 5px;
-  overflow: hidden;
+  height: auto;
 }
 </style>
 <script setup lang="ts">

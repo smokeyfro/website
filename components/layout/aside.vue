@@ -6,8 +6,21 @@
     </aside>
 </template>
 <style>
-  aside nav .router-link-exact-active {
-    color: #777;
-    text-decoration: line-through;
-  }
+aside nav a {
+  display: block;
+  color: #666;
+}
+aside nav a:after {
+  display: inline-block;
+  color: transparent;
+  content: "→";
+  transition: color .3s ease-out;
+  margin-left: 10px;
+}
+aside nav .router-link-active {
+  color: #111;
+}
+aside nav .router-link-active:after {
+  color: #fc0;
+}
 </style>
