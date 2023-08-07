@@ -6,8 +6,8 @@
     <base-title>Photos</base-title>
     <base-excerpt>I've always had a fascination with photography and while I'd never consider myself more than an amateur, it's a past time I enjoy and so I pursue it.</base-excerpt>
     <content-list path="/photos" :query="{
-      only: [ 'title', 'slug', '_path', 'description', 'excerpt' ], 
-      where: ({ platform: 'WordPress' }), sort: { date: -1 }
+      only: [ 'title', 'slug', '_path', 'description', 'excerpt', 'image' ], 
+      sort: { date: -1 }
     }">
       <template v-slot="{ list }">
         <ul class="list-style:none m:0 mt:50 p:0 grid-cols:2 gap:40">

@@ -5,9 +5,9 @@
     </template>
     <base-title>Videos</base-title>
     <base-excerpt>I'm an amateur videographer and mostly shoot fauna and flora, wildlife, live music, food and festivals. Check out my gear list if you're interested.</base-excerpt>
-    <content-list path="/tutorials" :query="{
-      only: [ 'title', 'slug', '_path', 'description', 'excerpt', 'image', 'topics', 'topic' ], 
-      where: ({ topic: { $ne: 'WordPress' } }), sort: { date: -1 }
+    <content-list path="/videos" :query="{
+      only: [ 'title', 'slug', '_path', 'description', 'excerpt' ], 
+      sort: { date: -1 }
     }">
       <template v-slot="{ list }">
         <ul class="list-style:none m:0 p:0 bt:1|solid|#222 videos">
