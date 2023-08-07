@@ -21,7 +21,8 @@
         { "source": "/work/experience", "destination": "/resume" },
         { "source": "/work/resume", "destination": "/resume" },
         { "source": "/tutorials/upcoming", "destination": "/tutorials" },
-        { "source": "/tutorials/sponsor", "destination": "/tutorials" }
+        { "source": "/tutorials/sponsor", "destination": "/tutorials" },
+        { "source": "/tutorials/topic/*", "destination": "/tutorials/tag*" }
     ],
     "trailingSlash": false
 }
