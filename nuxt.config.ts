@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     }
   },
   content: {
-    documentDriven: false
+    documentDriven: false,
   },
   image: {
     cloudinary: {

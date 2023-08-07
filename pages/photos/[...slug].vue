@@ -6,16 +6,16 @@
     <base-title>{{ page.title }}</base-title>
     <base-excerpt>{{ page.excerpt }}</base-excerpt>
     <client-only>
-      <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:20 mt:50"></silent-box>
+      <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:30 mt:50"></silent-box>
     </client-only>
   </nuxt-layout>
 </template>
 <style>
 .silentbox-item {
-  border-radius: 5px;
   overflow: hidden;
 }
 .silentbox-item img {
+  border-radius: 5px;
   width: 350px;
   height: 230px;
 }

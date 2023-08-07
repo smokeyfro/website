@@ -12,11 +12,6 @@
     </ContentRenderer>
   </nuxt-layout>
 </template>
-<!-- <script setup lang="ts">
-const page = await queryContent('/about/credits')
-  .where({ _partial: false })
-  .find()
-</script> -->
 <script setup lang="ts">
   import type { Page } from '~/types'
   const { path } = useRoute()

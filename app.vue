@@ -73,10 +73,6 @@
   ul, ol {
     padding-left: 1.2rem;
   }
-  main a:not(.btn) {
-    text-decoration: none;
-    position: relative;
-  }
 /*  main div:not(.download) a:not(.btn):after {
     content: ' ';
     border-bottom: 2px solid;
