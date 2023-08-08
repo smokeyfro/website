@@ -1,5 +1,5 @@
 ---
-title:  Site credits
+title: Site credits
 description: Site credits
 slug: credits
 draft: false

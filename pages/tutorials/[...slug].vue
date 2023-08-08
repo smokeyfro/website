@@ -4,27 +4,13 @@
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
     <div class="max-width:760">
-      <base-title>{{ page?.title }}</base-title>
-      <base-excerpt>{{ page?.excerpt }}</base-excerpt>
       <div class="text:xl ">
-          <ContentRenderer :value="page">
-            <template #empty>
-              <p>No content found.</p>
-            </template>
-          </ContentRenderer>
+        <ContentDoc v-slot="{ doc }">
+          <base-title>{{ doc.title }}</base-title>
+          <base-excerpt>{{ doc.excerpt }}</base-excerpt>
+          <ContentRenderer :value="doc" />
+        </ContentDoc>
       </div>
     </div>
   </nuxt-layout>
 </template>
-<script setup lang="ts">
-  //import type { Tutorial } from '~/types'
-  const { path } = useRoute()
-  const { data: page } = await useAsyncData(`content-${path}`, () => {
-    return queryContent().where({ _path: path }).findOne();
-  });
-  // const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-  //   () => queryContent<Tutorial>('tutorials')
-  //     .where({ _path: path })
-  //     .findOne(),
-  // )
-</script>

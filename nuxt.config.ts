@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  ssr: true,
   devtools: { enabled: false },
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
@@ -18,9 +17,6 @@ export default defineNuxtConfig({
     families: {
       Lora: [400, 700],
     }
-  },
-  content: {
-    documentDriven: false,
   },
   image: {
     cloudinary: {
@@ -42,14 +38,14 @@ export default defineNuxtConfig({
     componentIslands: true,
     payloadExtraction: true
   },
-  routeRules: {
-    '/**': { prerender: true },
-  },
+  // routeRules: {
+  //   '/**': { prerender: true },
+  // },
   nitro: {
     compressPublicAssets: true,
     prerender: {
       routes: ['/sitemap.xml'],
-      crawlLinks: true
+      //crawlLinks: true
     }
   },
   build: {

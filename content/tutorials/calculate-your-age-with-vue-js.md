@@ -75,9 +75,7 @@ Now that the methods are setup, we can output the values in our template using:
 
 Which outputs as:
 
-```
-I've lived on planet earth for 38 years and have worked on the web for 18 of them.
-```
+*I've lived on planet earth for 38 years and have worked on the web for 18 of them.*
 
 Just another example of how Vue.js makes implementing your ideas that much easier. I should also add that I realise this is trivial to do in vanilla js or jQuery, but that is not really the point. I'm simply sharing neat tricks as I figure them out, in the hopes that they might help someone else down the line.
 
