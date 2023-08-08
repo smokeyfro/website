@@ -3,8 +3,8 @@
   <div class="grid-cols:2 h:full w:full">
     <div class="flex h:full ai:center ji:flex-end">
       <div class="space-y:6 text:xl p:80">
-        <h1 class="color:rgba(19,23,27,0.94902) text:40">{{ page.title }}</h1>
-        <p class="f:25 lh:1.4" v-html="page.excerpt" />
+        <h1 class="color:rgba(19,23,27,0.94902) font:40 m:0">{{ page.title }}</h1>
+        <p class="f:25 lh:1.4 mt:15" v-html="page.excerpt" />
         <content-renderer :value="page" />
       </div>
     </div>
