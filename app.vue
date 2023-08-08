@@ -31,6 +31,7 @@
     display: grid;
     min-height: 100vh;
   }
+  .
   @keyframes color {
     0%   { background-color: #33CCCC; }
     20%  { background-color: #33CC36; }
