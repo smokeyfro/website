@@ -25,9 +25,9 @@
             <li v-for="(item, i) in event">
                 <h4 class="m:0">{{ item.name }}</h4>
                 <p class="m:0">{{ item.date }} &middot; {{ item.location }}</p>
-                <ul class="m:0 mt:15 p:0 list-style:none">
+                <ul class="m:0 p:0 list-style:none flex gap:20">
                     <li v-for="(item, i) in item.links">
-                        <a :href="item.url" :title="item.title">
+                        <a :href="item.url" :title="item.title" class="f:15">
                             {{ item.text }}
                         </a>
                     </li>

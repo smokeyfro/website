@@ -18,7 +18,7 @@
 </template>
 <script setup lang="ts">
   import type { TutorialPreview, Sections } from '~/types'
-  
+
   const { data: tutorials } = await useAsyncData('tutorials',
     () => queryContent<TutorialPreview>('tutorials')
       .where({ topic: { $ne: 'WordPress' } })

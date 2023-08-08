@@ -1,10 +1,10 @@
 <template>
     <h2 class="mb:40">Projects</h2>
     <ul class="list-style:none m:0 p:0 grid-cols:2 gap:40">
-      <li v-for="{ tile, status, url, summary } in data" :key="id">
-        <h3 class="m:0">{{ tile }}</h3>
+      <li v-for="{ title, status, url, summary } in data" :key="id">
+        <h3 class="m:0">{{ title }}</h3>
         <p class="my:5">{{ summary }}</p>
-        <p class="mt:0"><a :href="url" :title="`Check out ${name}`">View the project</a></p>
+        <p class="m:0"><nuxt-link :to="url" class="f:bold text:20 text-decoration:underline color:#222">View project</nuxt-link></p>
       </li>
     </ul>
 </template>
