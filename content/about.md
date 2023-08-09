@@ -7,13 +7,7 @@ draft: false
 searchTerms: about
 ---
 
-<div class="float:left m:-10|50|30|0 w:200 h:200">
-
-![Chris Close-up](/chris-closeup.svg) 
-
-</div>
-
- I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
+![Chris Close-up](/chris-closeup.svg){class="float:left m:10|50|30|0 w:200 h:200"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
 
 I am South African born, but have lived in England, Argentina, Brazil and visited the US, Malaysia, Paraguay, Sweden, Scotland and Zimbabwe.
 

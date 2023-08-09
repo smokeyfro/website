@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  debug: true,
   telemetry: false,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
