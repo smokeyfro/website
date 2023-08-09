@@ -75,6 +75,7 @@ export interface Video extends ParsedContent {
   video_url?: string;
   duration?: string;
   start?: string;
+  custom_class?: string;
 }
 
 export type PostPreview = Omit<Post, 'body'>;
