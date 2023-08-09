@@ -11,6 +11,7 @@
         :class="{
                 'bg:green color:#fff': page.topic === 'Learning Vue',
                 'bg:orange color:#fff': page.topic === 'Going Headless',
+                'bg:blue color:#fff': page.topic === 'WordPress',
               }">{{ page.topic }}</span>
         &middot;
         <span v-if="page.tags && page.tags.length" class="flex ai:center jc:start gap:15">
