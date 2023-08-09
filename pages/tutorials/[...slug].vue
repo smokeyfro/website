@@ -18,12 +18,7 @@
   const { path } = useRoute()
   const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
     () => queryContent<Tutorial>(path)
-      .where({ _path: path })
+      .only(['title','excerpt','tags'])
       .findOne(),
   )
-
-  // const { path } = useRoute()
-  // const { data: doc } = await useLazyAsyncData(`content-${path}`, () => {
-  //   return queryContent().where({ _path: path }).findOne();
-  // });
 </script>
