@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
-  //ssr: true,
   //devtools: { enabled: true },
+  debug: true,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
@@ -40,10 +40,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  // experimental: {
-  //   componentIslands: true,
-  //   payloadExtraction: true
-  // },
+  experimental: {
+    //componentIslands: true,
+    payloadExtraction: true,
+    clientFallback: true,
+  },
   // router: {
   //   options: {
   //     strict: true,
