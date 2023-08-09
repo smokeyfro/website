@@ -43,12 +43,12 @@ export default defineNuxtConfig({
     },
   },
   // experimental: {
-  //   //componentIslands: true,
+  //   componentIslands: true,
   //   payloadExtraction: true
   // },
-  routeRules: {
-    '/**': { prerender: true },
-  },
+  // routeRules: {
+  //   '/**': { prerender: true },
+  // },
   nitro: {
     //compressPublicAssets: true,
     prerender: {
