@@ -41,11 +41,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  // experimental: {
-  //   //componentIslands: true,
-  //   //payloadExtraction: true,
-  //   clientFallback: true,
-  // },
+  experimental: {
+    //componentIslands: true,
+    payloadExtraction: false,
+    // clientFallback: true,
+  },
   // router: {
   //   options: {
   //     strict: true,
