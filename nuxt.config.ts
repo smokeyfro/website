@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  //devtools: { enabled: true },
   debug: true,
   telemetry: false,
   css: [
@@ -20,11 +19,6 @@ export default defineNuxtConfig({
       Lora: [400, 700],
     }
   },
-  // content: {
-  //   highlight: {
-  //     theme: 'github-dark'
-  //   },
-  // },
   image: {
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/smokeyfro/image/upload/',
@@ -42,18 +36,8 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
-    //componentIslands: true,
-    payloadExtraction: false,
-    // clientFallback: true,
+    payloadExtraction: true,
   },
-  // router: {
-  //   options: {
-  //     strict: true,
-  //   },
-  // },
-  // routeRules: {
-  //   '/**': { prerender: true },
-  // },
   nitro: {
     preset: 'static',
     compressPublicAssets: true,
