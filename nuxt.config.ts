@@ -36,6 +36,10 @@ export default defineNuxtConfig({
   },
   experimental: {
     payloadExtraction: true,
+    inlineSSRStyles: false
+  },
+  routeRules: {
+    '/**': { prerender: true, experimentalNoScripts: true },
   },
   nitro: {
     preset: 'static',
