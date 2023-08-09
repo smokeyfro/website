@@ -1,16 +1,9 @@
 export default defineNuxtConfig({
-  // devtools: { enabled: true },
-  // ssr: true,
+  ssr: true,
+  devtools: { enabled: false },
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
-  // content: {
-  //   highlight: {
-  //     theme: {
-  //       default: "dracula",
-  //     },
-  //   },
-  // },
   plugins: [
     '~/plugins/silentbox.js',
   ],
@@ -26,6 +19,11 @@ export default defineNuxtConfig({
       Lora: [400, 700],
     }
   },
+  // content: {
+  //   highlight: {
+  //     theme: 'github-dark'
+  //   },
+  // },
   image: {
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/smokeyfro/image/upload/',
@@ -42,17 +40,19 @@ export default defineNuxtConfig({
       },
     },
   },
-  // experimental: {
-  //   componentIslands: true,
-  //   payloadExtraction: true
-  // },
-  // routeRules: {
-  //   '/**': { prerender: true },
-  // },
+  experimental: {
+    componentIslands: true,
+    payloadExtraction: true
+  },
+  routeRules: {
+    '/**': { prerender: true },
+  },
   nitro: {
-    //compressPublicAssets: true,
+    preset: 'static',
+    compressPublicAssets: true,
     prerender: {
-      routes: ['/sitemap.xml']
+      routes: ['/sitemap.xml'],
+      crawlLinks: true
     }
   },
   build: {
@@ -62,5 +62,5 @@ export default defineNuxtConfig({
     compilerOptions: {
       isCustomElement: tag => ['lite-youtube'].includes(tag),
     },
-  },
+  }
 })

@@ -3,7 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:760" v-if="doc">
+    <div class="max-width:760">
       <base-title>{{ doc.title }}</base-title>
       <base-excerpt>{{ doc.excerpt }}</base-excerpt>
       <div v-if="doc.tags && doc.tags.length" class="flex ai:center jc:start gap:15">
