@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  ssr: true,
+  // devtools: { enabled: true },
+  // ssr: true,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
@@ -42,18 +42,17 @@ export default defineNuxtConfig({
       },
     },
   },
-  experimental: {
-    componentIslands: true,
-    payloadExtraction: true
-  },
+  // experimental: {
+  //   //componentIslands: true,
+  //   payloadExtraction: true
+  // },
   routeRules: {
     '/**': { prerender: true },
   },
   nitro: {
-    compressPublicAssets: true,
+    //compressPublicAssets: true,
     prerender: {
-      routes: ['/sitemap.xml'],
-      //crawlLinks: true
+      routes: ['/sitemap.xml']
     }
   },
   build: {
