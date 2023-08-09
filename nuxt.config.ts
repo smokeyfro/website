@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     inlineSSRStyles: false
   },
   routeRules: {
-    '/**': { prerender: true, experimentalNoScripts: true },
+    '/**': { prerender: true },
   },
   nitro: {
     preset: 'static',
