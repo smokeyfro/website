@@ -1,7 +1,7 @@
 ---
-title:  My story
-description: All about that guy called SmokeyFro, aka Chris Rault
-excerpt: My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa.
+title:  "My story"
+description: "All about that guy called SmokeyFro, aka Chris Rault"
+excerpt: "My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa."
 slug: about
 draft: false
 searchTerms: about

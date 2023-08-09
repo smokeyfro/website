@@ -5,7 +5,7 @@
     </template>
     <base-title>Tutorial tags</base-title>
     <div class="max-width:760 mt:30">
-      <tags-cloud :section="section" />
+      <!-- <tags-cloud :section="section" /> -->
     </div>
   </nuxt-layout>
 </template>

@@ -3,27 +3,19 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:760">
-      <!-- <ContentDoc v-slot="{ doc }">
-        <base-title>{{ doc.title }}</base-title>
-        <base-excerpt>{{ doc.excerpt }}</base-excerpt>
-        <ContentRenderer :value="doc" />
-      </ContentDoc> -->
-
-       <ContentRenderer :value="doc">
-       <base-title>{{ doc.title }}</base-title>
-        <base-excerpt>{{ doc.excerpt }}</base-excerpt>
-        <ContentRendererMarkdown :value="doc" />
-        <template #empty>
-          <p class="text-center mt-6">🤷🏼‍♂️ No content.</p>
-        </template>
-      </ContentRenderer>
+    <div class="max-width:760" v-if="doc">
+      <base-title>{{ doc.title }}</base-title>
+      <base-excerpt>{{ doc.excerpt }}</base-excerpt>
+      <div v-if="doc.tags && doc.tags.length" class="flex ai:center jc:start gap:15">
+        <span v-for="(tag, index) in doc.tags" :key="index" v-html="tag" />
+      </div>
+      <content-doc />
     </div>
   </nuxt-layout>
 </template>
 <script setup lang="ts">
   const { path } = useRoute()
-  const { data: doc } = await useAsyncData(`content-${path}`, () => {
+  const { data: doc } = await useLazyAsyncData(`content-${path}`, () => {
     return queryContent().where({ _path: path }).findOne();
   });
 </script>

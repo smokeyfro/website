@@ -5,7 +5,7 @@
     </template>
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
-    <topics-cloud :section="section" />
+    <!-- <topics-cloud :section="section" /> -->
     <ul class="list-style:none m:0 p:0 grid-cols:2 gap:30">
       <li v-for="{ _path: slug, title, excerpt, image } in tutorials" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222">
@@ -19,7 +19,7 @@
 <script setup lang="ts">
   import type { TutorialPreview, Sections } from '~/types'
 
-  const { data: tutorials } = await useAsyncData('tutorials',
+  const { data: tutorials } = await useLazyAsyncData('tutorials',
     () => queryContent<TutorialPreview>('tutorials')
       .where({ topic: { $ne: 'WordPress' } })
       .sort({ date: -1 })

@@ -1,8 +1,16 @@
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  devtools: { enabled: true },
+  ssr: true,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
+  // content: {
+  //   highlight: {
+  //     theme: {
+  //       default: "dracula",
+  //     },
+  //   },
+  // },
   plugins: [
     '~/plugins/silentbox.js',
   ],
@@ -38,9 +46,9 @@ export default defineNuxtConfig({
     componentIslands: true,
     payloadExtraction: true
   },
-  // routeRules: {
-  //   '/**': { prerender: true },
-  // },
+  routeRules: {
+    '/**': { prerender: true },
+  },
   nitro: {
     compressPublicAssets: true,
     prerender: {

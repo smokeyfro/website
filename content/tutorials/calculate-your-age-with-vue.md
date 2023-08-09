@@ -1,6 +1,6 @@
 ---
-title:  Calculate your age with Vue.js
-slug: calculate-your-age-with-vuejs
+title:  Calculate your age with Vue
+slug: calculate-your-age-with-vue
 date: 2019-09-02
 published: true
 tags: ['vue', 'snippets', 'computed']
@@ -80,5 +80,4 @@ Which outputs as:
 Just another example of how Vue.js makes implementing your ideas that much easier. I should also add that I realise this is trivial to do in vanilla js or jQuery, but that is not really the point. I'm simply sharing neat tricks as I figure them out, in the hopes that they might help someone else down the line.
 
 Until next time, 
-
 SmokeyFro out.
