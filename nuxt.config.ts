@@ -55,11 +55,11 @@ export default defineNuxtConfig({
   //   '/**': { prerender: true },
   // },
   nitro: {
-    // preset: 'static',
-    // compressPublicAssets: true,
+    preset: 'static',
+    compressPublicAssets: true,
     prerender: {
       routes: ['/sitemap.xml'],
-      //crawlLinks: true
+      crawlLinks: true
     }
   },
   build: {
