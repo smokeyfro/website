@@ -44,6 +44,11 @@ export default defineNuxtConfig({
     componentIslands: true,
     payloadExtraction: true
   },
+  router: {
+    options: {
+      strict: true,
+    },
+  },
   routeRules: {
     '/**': { prerender: true },
   },
