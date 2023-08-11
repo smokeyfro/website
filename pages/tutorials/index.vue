@@ -6,10 +6,10 @@
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <topics-cloud :section="section" />
-    <ul class="list-style:none m:0 p:0 flex flex:col gap:30">
+    <ul class="list-style:none m:0 mt:20 p:0 flex flex:col">
       <li v-for="{ _path: slug, title, excerpt, image } in tutorials" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222">
-          <h2>{{ title }}</h2>
+          <h2 class="m:0">{{ title }}</h2>
           <p>{{ excerpt }}</p>
         </nuxt-link>
       </li>

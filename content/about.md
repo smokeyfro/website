@@ -1,12 +1,11 @@
 ---
-title:  "My story"
-description: "All about that guy called SmokeyFro, aka Chris Rault"
-excerpt: "My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa."
+title: My story
 slug: about
 draft: false
-searchTerms: about
 ---
 
+My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa.
+<!--more-->
 ![Chris Close-up](/chris-closeup.svg){class="float:left m:10|50|30|0 w:200 h:200"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
 
 I am South African born, but have lived in England, Argentina, Brazil and visited the US, Malaysia, Paraguay, Sweden, Scotland and Zimbabwe.

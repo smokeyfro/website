@@ -4,13 +4,11 @@ slug: the-long-overdue-update-what-ive-been-working-on
 date: 2022-06-20
 published: true
 tags: ['updates', 'life', 'work']
-series: false
-image: 
-canonical_url: false
 topics: ['updates'] 
-searchTerms: ['updates']
-excerpt: Every site redesign / rebuild starts off with the best intentions. In my case, having a shiny new home for my portfolio and blog would of course mean I'd miraculously start blogging daily, but alas that hasn't been the case. Real life happened and as a result, updating my site fell by the way-side. 
 ---
+
+Every site redesign / rebuild starts off with the best intentions. In my case, having a shiny new home for my portfolio and blog would of course mean I'd miraculously start blogging daily, but alas that hasn't been the case. Real life happened and as a result, updating my site fell by the way-side.
+<!--more-->
 That doesn't mean I haven't been busy though.
 
 In all the madness of the past 2+ years, my priorities have shifted from working online to preparing offline. Things like taking the farm from a hobby to a reliable source of food, establishing systems that either feed, heat or heal, all the while thinking of the farms place in our wider community, my role in all of it and ways I can help foster more collaboration and resilience within our community.
