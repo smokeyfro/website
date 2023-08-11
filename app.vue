@@ -25,6 +25,8 @@
     background-image: url('/topography.svg'); 
     background-repeat: repeat;
     animation: color 9s infinite linear;
+    font-family: "Lora";
+    font-weight: 400;
   }
   .app {
     width: 100%;
@@ -109,5 +111,15 @@
   }
   .btn-lg {
     padding: 10px 15px;
+  }
+  .silentbox-item {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .silentbox-item img {
+    border-radius: 5px;
+    width: 350px;
+    height: 230px;
   }
 </style>

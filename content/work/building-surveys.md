@@ -1,6 +1,6 @@
 ---
-title: Commercial Building Surveys
-slug: commercial-building-surveys
+title: Building Surveys
+slug: building-surveys
 excerpt: A fresh new look for a UK company specialising in commercial property building surveys.
 type: WordPress
 company: Liquasil Ltd

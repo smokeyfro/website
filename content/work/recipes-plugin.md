@@ -1,7 +1,7 @@
 ---
-title: Recipe Plugin for WordPress
-slug: repice-plugin-wordpress
-excerpt: Design for a WordPress plugin we were planning on releasing. On the backburner for now.
+title: Recipes Plugin
+slug: repices-plugin
+excerpt: Design for a WordPress plugin we were planning on releasing.
 type: UI/UX Design
 contact: Internal
 client_content: Internal

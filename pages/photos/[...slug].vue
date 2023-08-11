@@ -3,23 +3,15 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[1].subnav" />
     </template>
-    <base-title>{{ page.title }}</base-title>
-    <base-excerpt>{{ page.excerpt }}</base-excerpt>
-    <client-only>
-      <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:30 mt:50"></silent-box>
-    </client-only>
+    <div v-if="page" class="max-width:960">
+      <base-title>{{ page.title }}</base-title>
+      <base-excerpt>{{ page.excerpt }}</base-excerpt>
+      <client-only>
+        <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:30 mt:50"></silent-box>
+      </client-only>
+    </div>
   </nuxt-layout>
 </template>
-<style>
-.silentbox-item {
-  overflow: hidden;
-}
-.silentbox-item img {
-  border-radius: 5px;
-  width: 350px;
-  height: 230px;
-}
-</style>
 <script setup lang="ts">
   import type { Album } from '~/types'
 

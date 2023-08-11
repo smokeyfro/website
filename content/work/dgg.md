@@ -1,6 +1,6 @@
 ---
-title: Drinking Games Guide
-slug: dgg
+title: Drinking Games
+slug: drinking-games
 excerpt: Drinking games app built with Airtable and Gridsome.
 type: Website
 company: n/a

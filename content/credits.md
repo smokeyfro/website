@@ -13,17 +13,27 @@ excerpt: This site is only possible thanks to hard work from a looong list of fi
 - Nuxt 3
 - Vue 3
 - Pnpm
-- Markdown
+- Cloudflare
 - Vercel
 
 </div>
 <div>
 
-## Nuxt
+## Modules
 - Content
 - Sitemap
 - Robots
+- Google Fonts
 - MasterCSS
+
+</div>
+<div>
+
+## Packages
+- vue-silentbox
+- lite-youtube-embed
+- @types/node
+- vue3-perfect-scrollbar
 
 </div>
 <div>
@@ -31,16 +41,8 @@ excerpt: This site is only possible thanks to hard work from a looong list of fi
 ## Tools
 - SVGOMG
 - TinyPNG
-- Github
 - FormCarry
-
-</div>
-<div>
-
-## Packages
-- VueStorage
-- FSlightbox
-- Vue Clickaway
+- Github
 
 </div>
 <div>

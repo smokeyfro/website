@@ -15,17 +15,10 @@ const handleError = () => clearError({ redirect: "/" });
 <template>
   <NuxtLayout>
     <div>
-      <h1>
-        {{ error.statusCode }}
-      </h1>
-
-      <p>
-        {{ error.statusCode === 404 || "404" ? error.message : "Oops! Error" }}
-      </p>
-
+      <h1>{{ error.statusCode }}</h1>
+      <p>{{ error.statusCode === 404 || "404" ? error.message : "Oops! Error" }}</p>
       <button @click="handleError" class="button">
-        <div></div>
-        <div>Go back home</div>
+        Back to the home page
       </button>
     </div>
   </NuxtLayout>

@@ -14,7 +14,7 @@ const { data: tutorials } = await useAsyncData(`tutorials-${slug}`,
 
 const topic: string = replaceHyphen(slug as string)
 const title: string = 'Tutorials'
-const description: string = 'I learn something new all the time and as such I like the share my discoveries in the hope that it will help someone else down the line.'
+const description: string = 'My technical tutorials, currently focussed on topics relating to the jamstack.'
 const section: Sections = 'tutorials'
 
 useHead({
@@ -28,10 +28,11 @@ useHead({
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
+    <div class="max-width:960">
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <topics-cloud :section="section" />
-    <ul v-if="tutorials !== null" class="list-style:none m:0 p:0 grid-cols:2 gap:30">
+    <ul v-if="tutorials !== null" class="list-style:none m:0 p:0 flex flex:col gap:30">
       <li v-for="{ _path: slug, title, excerpt, image } in tutorials" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222">
           <h2>{{ title }}</h2>
@@ -39,6 +40,6 @@ useHead({
         </nuxt-link>
       </li>
     </ul>
-    <tags-empty v-else />
+    </div>
   </nuxt-layout>
 </template>

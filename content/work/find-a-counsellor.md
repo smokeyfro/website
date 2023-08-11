@@ -1,6 +1,6 @@
 ---
-title: Find a Marriage Counsellor
-slug: find-a-marriage-counsellor
+title: Find a Counsellor
+slug: find-a-counsellor
 excerpt: A searchable directory of marriage counsellors in Australia.
 type: Joomla
 company: Humaneed

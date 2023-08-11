@@ -38,12 +38,21 @@ export interface Portfolio extends MarkdownParsedContent {
   video?: string;
 }
 
-export interface Theme extends MarkdownParsedContent {
+export interface Theme extends ParsedContent {
   title: string;
+  slug: string;
   excerpt: string;
   date: string;
-  image?: string;
   tags: string[];
+  platform: string;
+  demo_url: string;
+  repo_url: string;
+  download_theme: string;
+  download_source: string;
+  requirements?: string;
+  release_date?: string;
+  image?: string;
+  gallery?: string[];
 }
 
 export interface Tutorial extends MarkdownParsedContent {

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   ],
   googleFonts: {
     download: true,
-    display: 'swap',
+    display: 'auto',
     families: {
       Lora: [400, 700],
     }

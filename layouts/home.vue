@@ -1,8 +1,3 @@
-<script lang="ts" setup>
-  definePageMeta({
-    layout: "home",
-  });
-</script>
 <template>
   <layout-loading />
   <div class="app two-cols">

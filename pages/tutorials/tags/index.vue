@@ -4,7 +4,7 @@
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
     <base-title>Tutorial tags</base-title>
-    <div class="max-width:760 mt:30">
+    <div class="max-width:960 mt:30">
       <!-- <tags-cloud :section="section" /> -->
     </div>
   </nuxt-layout>

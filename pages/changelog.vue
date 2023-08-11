@@ -6,7 +6,7 @@
     <div class="p:80">
       <base-title>Changelog</base-title>
       <base-excerpt>This is where I list the changes made to this website over time.</base-excerpt>
-      <!-- <hr class="max-width:760 block mx:0 bt:1px|#ccc h:0" /> -->
+      <!-- <hr class="max-width:960 block mx:0 bt:1px|#ccc h:0" /> -->
       <ul class="list-style:none m:0 p:0 flex gap:20 text:14">
         <li class="flex jc:start gap:10">
           <span><svg xmlns="http://www.w3.org/2000/svg" stroke="green" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 bg-transparent"><circle cx="12" cy="12" r="4"></circle><path d="M1.05 12H7M17.01 12h5.95"></path></svg></span>

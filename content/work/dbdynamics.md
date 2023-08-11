@@ -1,7 +1,7 @@
 ---
 title: DB Dynamics
 slug: dbdynamics
-excerpt: Complete rebuild and migration from WordPress to the Jamstack, using Prismic (and their Slices feature), along with Nuxt and Tailwind for the front-end.
+excerpt: Marketing site for a local company using Nuxt & Prismic.
 type: Website
 company: DB Dynamics
 contact: Leon Wilson

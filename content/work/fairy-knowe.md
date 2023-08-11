@@ -1,7 +1,7 @@
 ---
-title: Fairy Knowe Backpackers (v2)
-slug: fairy-knowe-backpackers-v2
-excerpt: Complete rebuild of my favorite local backpackers in Wilderness, migrating from WordPress to the Jamstack.
+title: Fairy Knowe
+slug: fairy-knowe
+excerpt: New jamstack site for my local backpackers. Built using Gridsome & GraphCMS.
 type: Jamstack
 company: Fairy Knowe Backpackers
 contact: Locan Caddick

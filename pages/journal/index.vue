@@ -3,6 +3,7 @@
     <template #aside>
       <base-nav :subnav="NavLinks[5].subnav" />
     </template>
+    <div class="max-width:960">
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <ul class="list-style:none m:0 p:0 flex flex:col gap:40">
@@ -17,6 +18,7 @@
         </nuxt-link>
       </li>
     </ul>
+    </div>
   </nuxt-layout>
 </template>
 

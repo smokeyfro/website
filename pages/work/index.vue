@@ -3,16 +3,37 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
-    <base-title>Work</base-title>
-    <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
-    <ul class="list-style:none m:0 p:0 grid-cols:2 gap:40">
-      <li v-for="{ _path: slug, title, excerpt, thumb } in work" :key="slug">
-        <nuxt-link :to="slug" class="text-decoration:none color:#222 block bg:#fff">
-          <nuxt-img v-if="thumb" :src="thumb" width="500" height="300" fit="cover" format="webp" loading="lazy" :alt="title" class="max-width:100% w:full" />
-          <div class="bg:#fff p:30 inline-block">
-            <h2 class="mt:10 mb:0">{{ title }}</h2>
+    <div class="max-width:960 rel">
+      <div class="w:960">
+        <base-title>Work</base-title>
+        <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
+      </div>
+    </div>
+    <ul class="list-style:none overflow-x:hidden overflow-y:scroll m:0 p:0|50|0|0 flex flex:no-wrap ai:stretch gap:30">
+      <li v-for="{ _path: slug, title, excerpt, image, date, type, status } in work" :key="slug" class="min-width:400">
+        <nuxt-link :to="slug" class="text-decoration:none color:#222 block bg:#fff b:1|solid|#ccc">
+          <div class="w:400 h:200 overflow:hidden">
+            <nuxt-img v-if="image" :src="image" width="400" height="auto" fit="cover" format="webp" loading="lazy" :alt="title" class="max-width:100% w:full" />
+          </div>
+          <div class="inline-block p:30">
+            <h2 class="m:0">{{ title }}</h2>
             <p class="mt:10 mb:5">{{ excerpt }}</p>
-            <p class="m:0"><nuxt-link :to="slug" class="f:bold text:25 text-decoration:underline color:#222">View project</nuxt-link></p>
+            <div class="flex gap:10 mt:15">
+              <span class="px:5 py:2"
+              :class="{
+                      'bg:pink color:#fff': type === 'Jamstack',
+                      'bg:orange color:#fff': type === 'Web App',
+                      'bg:brown color:#fff': type === 'Web / UI Design',
+                      'bg:red color:#fff': type === 'Joomla',
+                      'bg:purple color:#fff': type === 'Static',
+                      'bg:green color:#fff': type === 'Website',
+                      'bg:blue color:#fff': type === 'WordPress',
+                    }">{{ type }}</span>
+              &middot;
+              <span class="px:5 py:2">{{ status }}</span>
+              &middot;
+              <span class="px:6 py:2">{{ formatDate(date) }}</span>
+            </div>
           </div>
         </nuxt-link>
       </li>

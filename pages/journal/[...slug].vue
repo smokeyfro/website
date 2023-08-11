@@ -3,26 +3,19 @@
     <template #aside>
       <base-nav :subnav="NavLinks[5].subnav" />
     </template>
-    <div v-if="page">
-    <base-title>{{ page.title }}</base-title>
-    <base-excerpt>{{ page.excerpt }}</base-excerpt>
-    <div
-        v-if="page.tags && page.tags.length"
-        class="flex items-center justify-start py-1 text-sm"
-      >
-        <div v-for="(tag, index) in page.tags" :key="index" class="pl-2">
-          <span
-            class="mr-2 inline-flex items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium leading-4 text-stone-800"
-          >
-            {{ tag }}
+    <div v-if="page" class="max-width:960">
+      <base-title>{{ page.title }}</base-title>
+      <base-excerpt>{{ page.excerpt }}</base-excerpt>
+      <div v-if="page.tags && page.tags.length" class="flex ai:center jc:start gap:10 py:1 text:14">
+          <span v-for="(tag, index) in page.tags" :key="index">
+              {{ tag }}
           </span>
         </div>
-      </div>
-    <content-doc :path="$route.params.slug ? `/journal/${$route.params.slug[0]}` : '/journal'">
-      <template #not-found>
-        <h2>({{ $route.params.slug }}) not found</h2>
-      </template>
-    </content-doc>
+      <content-doc :path="$route.params.slug ? `/journal/${$route.params.slug[0]}` : '/journal'">
+        <template #not-found>
+          <h2>({{ $route.params.slug }}) not found</h2>
+        </template>
+      </content-doc>
     </div>
   </nuxt-layout>
 </template>

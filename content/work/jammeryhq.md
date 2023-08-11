@@ -1,7 +1,7 @@
 ---
 title: JammeryHQ
 slug: jammeryhq
-excerpt: Marketing site for my latest side-project, where myself and two other technical founders are building a suite of tools aimed at the Jamstack.
+excerpt: Marketing site for a collab building a suite of tools aimed at the Jamstack.
 featured: false
 thumb: "/media/work/jammeryhq-home.webp"
 image: "/media/work/jammeryhq-home.webp"
@@ -38,6 +38,10 @@ gallery:
   src: "/media/work/jammeryhq-post.webp"
   alt: "JammeryHQ - Starter Post"
   title: "JammeryHQ Starter Post"
+- thumbnail: "/media/work/jammery-component.jpg"
+  src: "/media/work/jammery-component.jpg"
+  alt: "Jammery UI - Home"
+  title: "Jammery UI Home Page"
 url: https://jammeryhq.vercel.app/
 status: WIP
 services: ['UI Design','Front-end Development','Wireframing','Workflow Optimisation']

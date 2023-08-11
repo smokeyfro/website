@@ -28,7 +28,7 @@ useHead({
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:760">
+    <div class="max-width:960">
       <base-title>Tutorials tagged with {{ topic }}</base-title>
       <tags-cloud :section="section" />
     </div>

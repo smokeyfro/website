@@ -3,16 +3,29 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[3].subnav" />
     </template>
-    <div v-if="page" class="grid grid-cols:2 gap:50">
+    <div v-if="page" class="grid grid-cols:2 gap:50 max-width:960">
       <div>
         <base-title>{{ page.title }}</base-title>
         <base-excerpt>{{ page.excerpt }}</base-excerpt>
-        <div class="mb:35">
-          <span>{{ page.platform }}</span> &middot; <span>{{ page.type }}</span> &middot; <span>{{ page.release_date }}</span>
-        </div>
-        <div>
-          <btn variant="primary" size="lg" :href="page.download_theme" class="mr:30">Download</btn>
-          <btn variant="default" size="lg" :href="page.repo_url">Repo</btn>
+        <div class="bg:#fff mb:20 p:30 r:5 b:1|solid|#ddd">
+          <ul class="m:0 p:0 list-style:none flex ai:end jc:start gap:40">
+            <li>
+              <span class="block f:16">Platform:</span>
+              <strong>{{ page.platform }}</strong>
+            </li>
+            <li>
+              <span class="block f:16">Type:</span>
+              <strong>{{ page.type }}</strong>
+            </li>
+            <li>
+              <span class="block f:16">Released:</span>
+              <strong>{{ page.release_date }}</strong>
+            </li>
+          </ul>
+          <div class="mt:20">
+            <btn variant="primary" size="lg" :href="page.download_theme" class="mr:30">Download</btn>
+            <btn variant="default" size="lg" :href="page.repo_url">Repo</btn>
+          </div>
         </div>
       </div>
       <div>
@@ -23,10 +36,10 @@
           class="r:5 h:auto w:full b:2|solid|#ddd" />
       </div>
     </div>
-    <div>
-      <client-only>
-        <silent-box :gallery="page.gallery" class="gallery grid-cols:3 gap:20 mt:50"></silent-box>
-      </client-only>
+    <div v-if="page" class="max-width:960">
+        <client-only>
+          <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
+        </client-only>
     </div>
   </nuxt-layout>
 </template>

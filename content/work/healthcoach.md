@@ -1,7 +1,7 @@
 ---
 title: Health Coach
 slug: health-coach
-excerpt: Complete rebuild of my dads site, using Ghost as the content backend and Gridsome for the front-end.
+excerpt: Rebuilt my dads site using Ghost and Gridsome.
 type: Website
 company: The Health Coach
 contact: Michael Rault 

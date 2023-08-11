@@ -3,7 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:760">
+    <div class="max-width:960">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.excerpt }}</base-excerpt>
       <div class="flex gap:10 mb:20">
