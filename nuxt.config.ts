@@ -35,8 +35,8 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
-    payloadExtraction: true,
-    inlineSSRStyles: false
+    //payloadExtraction: true,
+    //inlineSSRStyles: false
   },
   routeRules: {
     '/**': { prerender: true },
