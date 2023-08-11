@@ -2,11 +2,10 @@
 interface VideoProps {
     id: string,
     title: string,
-    custom_class?: string
 }
 </script>
 <template>
-    <div class="video-wrap" :class="custom_class">
+    <div class="video-wrap">
         <lite-youtube
             :videoid="id"
             :playlabel="title"

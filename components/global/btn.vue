@@ -9,7 +9,7 @@ interface ButtonProps {
   block?: boolean
   target?: string
   href?: string
-  custom_class?: string
+  //custom_class?: string
 }
 const props = withDefaults(defineProps<ButtonProps>(), {
   type: 'button',
@@ -44,7 +44,7 @@ const buttonProps = computed(() => {
         'btn-lg': size === 'lg',
         'btn-xl': size === 'xl',
       },
-      custom_class,
+      //custom_class,
     ]"
   >
     <ContentSlot :use="$slots.default" unwrap="p" />
