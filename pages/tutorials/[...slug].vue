@@ -3,7 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:960">
+    <div v-if="page">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.excerpt }}</base-excerpt>
       <div class="flex gap:10 mb:20">
@@ -26,9 +26,9 @@
 </template>
 <script setup lang="ts">
   import type { Tutorial } from '~/types'
-  const { path } = useRoute()
-  const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-    () => queryContent<Tutorial>(path)
+  const route = useRoute();  
+  const { data: page } = await useAsyncData(route.path.replace(/\/$/, ''),
+    () => queryContent<Tutorial>(route.path)
       .only(['title','excerpt','date','topic','tags'])
       .findOne(),
   )

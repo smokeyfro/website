@@ -3,7 +3,6 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:960">
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <topics-cloud :section="section" />
@@ -15,7 +14,6 @@
         </nuxt-link>
       </li>
     </ul>
-    </div>
   </nuxt-layout>
 </template>
 <script setup lang="ts">

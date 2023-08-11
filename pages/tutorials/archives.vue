@@ -3,7 +3,6 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
-    <div class="max-width:960">
     <base-title>Archives</base-title>
     <base-excerpt>Older tutorials which are no longer relevant, or outdated.</base-excerpt>
     <ul class="list-style:none m:0 p:0 flex flex:col gap:30">
@@ -14,7 +13,6 @@
         </nuxt-link>
       </li>
     </ul>
-    </div>
   </nuxt-layout>
 </template>
 <script setup lang="ts">

@@ -1,7 +1,7 @@
 ---
 title: The long overdue update - what I've been working on
 slug: the-long-overdue-update-what-ive-been-working-on
-date: 2019-09-02
+date: 2022-06-20
 published: true
 tags: ['updates', 'life', 'work']
 series: false

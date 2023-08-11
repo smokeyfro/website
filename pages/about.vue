@@ -5,11 +5,7 @@
     </template>
     <base-title>{{ page.title }}</base-title>
     <base-excerpt>{{ page.excerpt }}</base-excerpt>
-    <ContentRenderer :value="page">
-      <template #empty>
-        <p>No content found.</p>
-      </template>
-    </ContentRenderer>
+    <content-doc />    
   </nuxt-layout>
 </template>
 

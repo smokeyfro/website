@@ -3,13 +3,15 @@
     <template #aside>
       <base-nav :subnav="NavLinks[5].subnav" />
     </template>
-    <div class="max-width:960">
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <ul class="list-style:none m:0 p:0 flex flex:col gap:40">
-      <li v-for="{ _path: slug, title, excerpt, date, topic } in posts" :key="slug">
+      <li v-for="{ _path: slug, title, excerpt, date, topics } in posts" :key="slug">
         <nuxt-link :to="slug" class="flex gap:30 text-decoration:none color:#222">
-          <span class="min-width:180 w:180 block mt:5">{{ formatDate(date) }}</span>
+          <div class="mt:10">
+            <span class="min-width:180 w:180 block">{{ formatDate(date) }}</span>
+            <span class="t:16 color:#666">#{{ topics[0] }}</span>
+          </div>
           <div class="w:full">
             <!-- <span>{{ topic }}</span> <span v-for="{tag, i} in tags" :key="i"></span> -->
             <h2 class="mt:5 mb:0">{{ title }}</h2>
@@ -18,7 +20,6 @@
         </nuxt-link>
       </li>
     </ul>
-    </div>
   </nuxt-layout>
 </template>
 

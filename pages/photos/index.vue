@@ -8,7 +8,7 @@
     <ul class="list-style:none m:0 mt:50 p:0 grid-cols:2 gap:40">
       <li v-for="{ _path: slug, title, excerpt, image } in photos" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222">
-          <nuxt-img v-if="image" :src="image" provider="cloudinary" width="530" height="300" fit="cover" :alt="title" class="r:5" />
+          <nuxt-img v-if="image" :src="image" provider="cloudinary" width="530" height="300" fit="cover" :alt="title" class="r:5 max-width:100%" />
         </nuxt-link>
         <h2 class="mt:20 mb:20">{{ title }}</h2>
         <p class="mt:10 mb:15 font:25 lh:1.3">{{ excerpt }}</p>

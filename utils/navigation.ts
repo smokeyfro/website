@@ -129,6 +129,16 @@ export const NavLinks: Navigation[] = [
                 url: '/journal',
                 text: 'Journal',
                 title: 'Journal',
+            },
+            {
+                url: '/subscribe',
+                text: 'Subscribe',
+                title: 'Subscribe',
+            },
+            {
+                url: '/feed',
+                text: 'Feed',
+                title: 'Feed',
             }
         ]
     },

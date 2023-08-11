@@ -1,13 +1,13 @@
 ---
 title: New Jamstack site for my dad
 slug: new-jamstack-site-for-my-dad
-date: 2019-09-02
+date: 2022-05-01
 published: true
 tags: ['updates', 'life', 'work']
 series: false
 image: 
 canonical_url: false
-topics: ['updates'] 
+topics: ['client-projects'] 
 searchTerms: ['updates']
 excerpt: I recently had a few days over in the week after completing a new client project, so without anything else directly competing for my time, I figured it would be a good opportunity to work on a new site for my dad, who is a natural health practitioner and coach.
 ---

@@ -1,18 +1,16 @@
 <template>
-  <nuxt-layout>
+  <nuxt-layout name="work">
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
     <div class="max-width:960 rel">
-      <div class="w:960">
-        <base-title>Work</base-title>
-        <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
-      </div>
+      <base-title>Work</base-title>
+      <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
     </div>
-    <ul class="list-style:none overflow-x:hidden overflow-y:scroll m:0 p:0|50|0|0 flex flex:no-wrap ai:stretch gap:30">
-      <li v-for="{ _path: slug, title, excerpt, image, date, type, status } in work" :key="slug" class="min-width:400">
+    <ul class="list-style:none m:0 p:0 grid-cols:2 gap:30">
+      <li v-for="{ _path: slug, title, excerpt, image, date, type, status } in work" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222 block bg:#fff b:1|solid|#ccc">
-          <div class="w:400 h:200 overflow:hidden">
+          <div class="w:full h:200 overflow:hidden">
             <nuxt-img v-if="image" :src="image" width="400" height="auto" fit="cover" format="webp" loading="lazy" :alt="title" class="max-width:100% w:full" />
           </div>
           <div class="inline-block p:30">

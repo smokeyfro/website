@@ -6,14 +6,10 @@
       <slot name="aside" />
     </layout-aside>
     <main class="bg:rgba(255,255,255,0.85)">
-      <div class="overflow:hidden h:100vh">
-        <perfect-scrollbar>
-          <div class="h:100vh">
-            <div class="p:80 rel max-width:960">
-              <slot />
-            </div>
-          </div>
-        </perfect-scrollbar>
+      <div class="h:100vh">
+        <div class="p:80 rel">
+          <slot />
+        </div>
       </div>
     </main>
   </div>
