@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
   plugins: [
-    '~/plugins/silentbox.js',
+    '~/plugins/silentbox.client.js',
   ],
   modules: [
     '@nuxt/content',
