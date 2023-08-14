@@ -6,7 +6,11 @@
     <div v-if="page">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.description }}</base-excerpt>
-      <content-doc :value="page" /> 
+      <ContentRenderer :value="page">
+        <template #empty>
+          <p>No content found.</p>
+        </template>
+      </ContentRenderer>
     </div>   
   </nuxt-layout>
 </template>
