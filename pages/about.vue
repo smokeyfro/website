@@ -27,6 +27,7 @@
 <style>
 .about-image img {
   position: relative;
-  bottom: -100px;
+  width: calc(100% + 136px);
+  bottom: -50px;
 }
 </style>

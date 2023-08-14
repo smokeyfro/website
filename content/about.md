@@ -5,7 +5,7 @@ draft: false
 description: My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa.
 ---
 
-![Chris Close-up](/chris-closeup.svg){class="float:left m:10|50|30|0 w:230 h:230"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
+![Chris Close-up](v1690808884/chris-closeup.svg){class="float:left m:10|50|30|0 w:230 h:230"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
 
 I am South African born, but have lived in England, Argentina, Brazil and visited the US, Malaysia, Paraguay, Sweden, Scotland and Zimbabwe.
 
@@ -56,8 +56,8 @@ In 2015 I made a conscious choice to shed my material positions and moved out to
 
 As for the Smokey part, I'm borderline obsessed with the art of smoking, curing and grilling all manners of food. I also secretly dream about taking part in South Africa's Ultimate Braai Master show.
 
-<div class="abs bottom:-30 left:0 w:100% h:100 opacity:.9 about-image">
+<div class="abs bottom:-90 left:0 w:100% h:100 opacity:.9 about-image">
 
-![Chris Walking](/chris-walking.svg){class="mr:-140"}
+![Chris Walking](v1690808884/chris-walking.svg){class="mr:-130"}
 
 </div>

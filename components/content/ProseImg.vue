@@ -1,3 +1,3 @@
 <template>
-  <nuxt-img v-bind="$attrs" loading="lazy" sizes="sm:100vw lg:850px" />
+  <nuxt-img v-bind="$attrs" provider="cloudinary" loading="lazy" />
 </template>
