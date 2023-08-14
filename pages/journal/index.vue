@@ -15,7 +15,7 @@
           <div class="w:full">
             <!-- <span>{{ topic }}</span> <span v-for="{tag, i} in tags" :key="i"></span> -->
             <h2 class="mt:5 mb:0">{{ title }}</h2>
-            <p class="mt:15">{{ excerpt }}</p>
+            <p class="mt:15">{{ description }}</p>
           </div>
         </nuxt-link>
       </li>
@@ -31,7 +31,7 @@
 
   const title: string = 'Journal'
   const description: string = 'Updates about what I\'m working on, books I\'m reading, stuff I\'m thinking about, news on the farm, product releases and more.'
-  const section: Sections = 'tutorials'
+  const section: Sections = 'journal'
 
   useHead({
     title,

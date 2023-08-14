@@ -1,11 +1,11 @@
 ---
-title:  Free headless Ghost hosting for your jamstack
-slug: free-headless-ghost-hosting-for-the-jamstack
+title:  Free Ghost hosting for your jamstack blog
+slug: free-ghost-hosting
 date: 2023-08-02
 published: true
 tags: ['headless', 'ghost', 'hosting']
 series: true
-image: /media/tutorials/calculate-age-vue.jpg
+image: /media/tutorials/ghost.png
 canonical_url: false
 topics: ['going-headless']
 topic: Going Headless

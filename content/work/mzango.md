@@ -5,6 +5,7 @@ excerpt: The adventure travellers guide to backpacking in South Africa.
 featured: true
 thumb: "/media/work/mzango-thumb.jpg"
 image: "/media/work/featured-mzango.jpg"
+type: Gridsome
 gallery:
 - thumbnail: "/media/projects/mzango-home-thumb.jpg"
   src: "/media/projects/mzango-home.jpg"

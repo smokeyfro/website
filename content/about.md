@@ -1,12 +1,11 @@
 ---
-title: My story
+title: About
 slug: about
 draft: false
+description: My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa.
 ---
 
-My full name is Christopher Nicholas Rault, but I generally only get called Christopher when I'm in trouble. Good ol Chris will do fine. I live off grid in the Garden Route of South Africa.
-<!--more-->
-![Chris Close-up](/chris-closeup.svg){class="float:left m:10|50|30|0 w:200 h:200"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
+![Chris Close-up](/chris-closeup.svg){class="float:left m:10|50|30|0 w:230 h:230"} I've been alive for 42 years and have worked on the web for 22 of them. Gosh how time flies! Despite being a veteran of the web, I still wake up every morning excited about the days work ahead. There aren’t many jobs that give you the same satisfaction as with working on the ever changing landscape that is the web.
 
 I am South African born, but have lived in England, Argentina, Brazil and visited the US, Malaysia, Paraguay, Sweden, Scotland and Zimbabwe.
 
@@ -24,7 +23,8 @@ Into the wild
 Roughly six months later, I heard about a job managing the training camp on a Game Reserve called Phinda in Kwa-Zulu Natal. I called in to enquire about the job and ended up hitting it off with Graham Vercuil, who was in charge of the ranger recruitment program. We concluded the call with the understanding that if I could get up to the reserve within two weeks, he'd grant me an interview. The only catch was that I needed to have a valid drivers license. This would be all well and good except for the fact that I'd never driven a car before. My dad never let me drive his car and I spent my formative years in boarding school and had not yet had the chance to learn.
 
 Two weeks later I was on the bus, drivers in hand and full of excitment. I managed to land the job and ended up staying for a year and a half. In that time I got to experience the real african bush, saw some amazing wildlife and made a bunch of awesome new friends.
-My path to tech
+
+## My path to tech
 
 Around the middle of 2001 I heard about a company in George that was recruiting a team of young eager individuals who were interested in a career in tech to take part of a 6 month bootcamp, with the possibility of a full-time job at the end.
 
@@ -58,6 +58,6 @@ As for the Smokey part, I'm borderline obsessed with the art of smoking, curing 
 
 <div class="abs bottom:-30 left:0 w:100% h:100 opacity:.9 about-image">
 
-![Chris Walking](/chris-walking.svg)
+![Chris Walking](/chris-walking.svg){class="mr:-140"}
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title:  Calculate your age with Vue
+title:  How to calculate your age with Vue
 slug: calculate-your-age-with-vue
 date: 2019-09-02
 published: true

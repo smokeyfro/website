@@ -9,6 +9,89 @@
       ])
       initRuntime(config)
   })
+
+const description = ''
+const ogTitle = ''
+const twitterDescription = ''
+const twitterCard = 'https://smokeyfro.com/twitter-card.png'
+const mySite = 'https://smokeyfro.com'
+useHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
+  charset: 'utf-8',
+  title: ogTitle,
+  titleTemplate: title =>
+    title !== ogTitle
+      ? `${title} · SmokeyFro`
+      : title,
+  meta: [
+    {
+      name: 'description',
+      content:
+          description,
+    },
+    { 
+      property: 'og:site_name', 
+      content: mySite 
+    },
+    { 
+      property: 'og:type', 
+      content: 'website' 
+    },
+    {
+      property: 'og:url',
+      content: mySite,
+    },
+    {
+      property: 'og:title',
+      content: ogTitle
+    },
+    {
+      property: 'og:description',
+      content: description,
+    },
+    {
+      property: 'og:image',
+      content: twitterCard,
+    },
+    { 
+      name: 'twitter:site', 
+      content: '@smokeyfro' 
+    },
+    { 
+      name: 'twitter:card', 
+      content: 'summary_large_image' 
+    },
+    {
+      name: 'twitter:url',
+      content: mySite,
+    },
+    {
+      name: 'twitter:title',
+      content: ogTitle,
+    },
+    {
+      name: 'twitter:description',
+      content: twitterDescription,
+    },
+    {
+      name: 'twitter:image',
+      content: twitterCard,
+    },
+  ],
+  link: [
+    { 
+      rel: 'icon', 
+      type: 'image/x-icon', 
+      href: '/favicon.png' 
+    },
+    {
+      rel: 'canonical',
+      href: mySite,
+    },
+  ],
+})
 </script>
 <style>
   html, body, #__nuxt { 

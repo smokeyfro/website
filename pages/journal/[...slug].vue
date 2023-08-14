@@ -5,7 +5,7 @@
     </template>
     <div v-if="page">
       <base-title>{{ page.title }}</base-title>
-      <base-excerpt>{{ page.excerpt }}</base-excerpt>
+      <base-excerpt>{{ page.description }}</base-excerpt>
       <div v-if="page.tags && page.tags.length" class="flex ai:center jc:start gap:10 py:1 text:14">
           <span v-for="(tag, index) in page.tags" :key="index">
               {{ tag }}

@@ -2,7 +2,7 @@
 title: Fairy Knowe
 slug: fairy-knowe
 excerpt: New jamstack site for my local backpackers. Built using Gridsome & GraphCMS.
-type: Jamstack
+type: Gridsome
 company: Fairy Knowe Backpackers
 contact: Locan Caddick
 featured: false

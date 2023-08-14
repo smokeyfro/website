@@ -19,18 +19,16 @@
             <div class="flex gap:10 mt:15">
               <span class="px:5 py:2"
               :class="{
-                      'bg:pink color:#fff': type === 'Jamstack',
-                      'bg:orange color:#fff': type === 'Web App',
-                      'bg:brown color:#fff': type === 'Web / UI Design',
-                      'bg:red color:#fff': type === 'Joomla',
-                      'bg:purple color:#fff': type === 'Static',
-                      'bg:green color:#fff': type === 'Website',
+                      'bg:pink color:#fff': type === 'Gridsome',
+                      'bg:orange color:#fff': type === 'Joomla',
+                      'bg:brown color:#fff': type === 'Design',
+                      'bg:red color:#fff': type === 'Nuxt',
                       'bg:blue color:#fff': type === 'WordPress',
                     }">{{ type }}</span>
-              &middot;
+              <!-- &middot;
               <span class="px:5 py:2">{{ status }}</span>
               &middot;
-              <span class="px:6 py:2">{{ formatDate(date) }}</span>
+              <span class="px:6 py:2">{{ formatDate(date) }}</span> -->
             </div>
           </div>
         </nuxt-link>

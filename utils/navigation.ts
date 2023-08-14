@@ -43,8 +43,8 @@ export const NavLinks: Navigation[] = [
         subnav: [
             {
                 url: '/work',
-                text: 'Portfolio',
-                title: 'Portfolio',
+                text: 'Work',
+                title: 'Work',
             },
             {
                 url: '/services',
@@ -74,26 +74,26 @@ export const NavLinks: Navigation[] = [
                 text: 'Themes',
                 title: 'Themes',
             },
-            {
-                url: '/themes/nuxt',
-                text: 'Nuxt',
-                title: 'Nuxt',
-            },
-            {
-                url: '/themes/gridsome',
-                text: 'Gridsome',
-                title: 'Gridsome',
-            },
-            {
-                url: '/themes/vanilla',
-                text: 'Vanilla',
-                title: 'Vanilla',
-            },
-            {
-                url: '/themes/wordpress',
-                text: 'WordPress',
-                title: 'WordPress',
-            },
+            // {
+            //     url: '/themes/nuxt',
+            //     text: 'Nuxt',
+            //     title: 'Nuxt',
+            // },
+            // {
+            //     url: '/themes/gridsome',
+            //     text: 'Gridsome',
+            //     title: 'Gridsome',
+            // },
+            // {
+            //     url: '/themes/vanilla',
+            //     text: 'Vanilla',
+            //     title: 'Vanilla',
+            // },
+            // {
+            //     url: '/themes/wordpress',
+            //     text: 'WordPress',
+            //     title: 'WordPress',
+            // },
         ]
     },
     {

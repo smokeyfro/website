@@ -3,13 +3,11 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[1].subnav" />
     </template>
-    <base-title>{{ page.title }}</base-title>
-    <base-excerpt>{{ page.excerpt }}</base-excerpt>
-    <ContentRenderer :value="page">
-      <template #empty>
-        <p>No content found.</p>
-      </template>
-    </ContentRenderer>
+    <div v-if="page">
+      <base-title>{{ page.title }}</base-title>
+      <base-excerpt>{{ page.description }}</base-excerpt>
+      <content-doc />
+    </div>
   </nuxt-layout>
 </template>
 <script setup lang="ts">
@@ -21,7 +19,7 @@
       .findOne(),
   )
   const title: string = page.value?.title || ''
-  const description: string = page.value?.excerpt || ''
+  const description: string = page.value?.description || ''
   const image: string = page.value?.image || ''
   const ogImage: string = page.value?.image || ''
   useHead({

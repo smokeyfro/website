@@ -20,7 +20,7 @@
       .findOne(),
   )
   const title: string = page.value?.title || ''
-  const description: string = page.value?.excerpt || ''
+  const description: string = page.value?.description || ''
 </script>
 <style>
 .about-image img {

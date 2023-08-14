@@ -1,5 +1,5 @@
 <template>
-  <nuxt-layout>
+  <nuxt-layout name="two-col-scroll">
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[3].subnav" />
     </template>
@@ -8,7 +8,7 @@
         <base-title>{{ page.title }}</base-title>
         <base-excerpt>{{ page.excerpt }}</base-excerpt>
         <div class="bg:#fff mb:20 p:30 r:5 b:1|solid|#ddd">
-          <ul class="m:0 p:0 list-style:none flex ai:end jc:start gap:40">
+          <ul class="m:0 p:0 list-style:none flex ai:end jc:start">
             <li>
               <span class="block f:16">Platform:</span>
               <strong>{{ page.platform }}</strong>
@@ -28,15 +28,16 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="mt:-30">
         <nuxt-img 
           v-if="page.image" 
           :src="page.image" 
           :alt="page.title" 
-          class="r:5 h:auto w:full b:2|solid|#ddd" />
+          provider="cloudinary"
+          class="" />
       </div>
     </div>
-    <div v-if="page" class="max-width:960">
+    <div v-if="page">
         <client-only>
           <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
         </client-only>

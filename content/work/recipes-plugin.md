@@ -2,7 +2,7 @@
 title: Recipes Plugin
 slug: repices-plugin
 excerpt: Design for a WordPress plugin we were planning on releasing.
-type: UI/UX Design
+type: Design
 contact: Internal
 client_content: Internal
 featured: false

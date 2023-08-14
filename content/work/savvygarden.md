@@ -2,7 +2,7 @@
 title: SavvyGarden
 slug: savvygarden
 excerpt: SavvyGarden started as a weekend project to build a comprehensive database of companion plants that I could use to plan our food production efforts on the farm.
-type: Web App
+type: Nuxt
 company: Internal
 contact: NA
 order: 

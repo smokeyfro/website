@@ -3,6 +3,7 @@ title: JammeryHQ
 slug: jammeryhq
 excerpt: Marketing site for a collab building a suite of tools aimed at the Jamstack.
 featured: false
+type: Gridsome
 thumb: "/media/work/jammeryhq-home.webp"
 image: "/media/work/jammeryhq-home.webp"
 gallery:

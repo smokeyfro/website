@@ -2,7 +2,7 @@
 title: OCSL
 slug: ocsl
 excerpt: Multilingual site for adults and juniors learning languages abroad.
-type: Joomla!
+type: Joomla
 contact: OCSL Education
 client_content: Thierry Muller
 featured: false

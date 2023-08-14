@@ -2,7 +2,7 @@
 title: JoomlaJunkie
 slug: joomlajunkie
 excerpt: Joomla template club we ran for 7+ years and the birthplace of the Morph template framework.
-type: Joomla!
+type: Joomla
 contact: Internal Project
 client_content: Me
 featured: false

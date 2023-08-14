@@ -2,7 +2,7 @@
 title: Kamooni
 slug: kamooni
 excerpt: Refreshed the home page design for Kamooni, a booking app for conscious travellers.
-type: Static / API
+type: Design
 contact: Kamooni
 client_content: Herkie Vercuil
 featured: false

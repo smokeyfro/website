@@ -2,7 +2,7 @@
 title: Jomsocial
 slug: jomsocial
 excerpt: A new base theme for a popular social networking component for Joomla!.
-type: UX Design
+type: Design
 contact: Jomsocial
 client_contact: Azrul
 featured: false

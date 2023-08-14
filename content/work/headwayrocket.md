@@ -2,7 +2,7 @@
 title: HeadwayRocket
 slug: headwayrocket
 excerpt: WordPress theme and plugin shop focused on extending the Headway visual site builder.
-type: JAM Stack
+type: WordPress
 contact: Side Project
 featured: false
 thumb: "/media/projects/headwayrocket-v1-thumb.jpg"

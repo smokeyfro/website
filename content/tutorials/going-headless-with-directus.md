@@ -1,18 +1,18 @@
 ---
-title:  Going headless with Directus
+title:  Going headless with Directus CMS
 slug: going-headless-with-directus
 date: 2023-08-02
 published: true
-tags: ['headless', 'directus', 'cms', 'open-source']
+tags: ['directus', 'headless', 'cms']
 series: true
-image: /media/tutorials/calculate-age-vue.jpg
+image: /media/tutorials/directus.png
 canonical_url: false
 topics: ['going-headless']
 topic: Going Headless
 category: Going Headless
 difficulty: Easy
 type: Article
-searchTerms: cms, directus, headless, blog
-excerpt: I'm a huge fan of Directus, an open-source headless content management system - which covers everything you'd want in a cms. I've used it to create an online-learning app, a gardening app, as a page builder for local clients site. It's incredibly versatile and provides so much out-the-box and is easy to extend, but I'll cover that further in.
+searchTerms: directus, headless, cms
+excerpt: I'm a huge fan of Directus, the open-source headless content management system. I've used it to create an online-learning app, a gardening app, as a page builder for client projects. It's incredibly versatile and provides so much out-the-box and is easy to extend.
 ---
 

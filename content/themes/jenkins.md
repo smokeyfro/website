@@ -10,8 +10,8 @@ repo_url: https://github.com/ThemeButler/tbr-jenkins
 requirements: WordPress 4.x
 type: Blog
 release_date: July, 2015
-thumb: /media/themes/jenkins-thumb.jpg
-image: /media/themes/jenkins-full.jpg
+thumb: v1690984745/themes/jenkins-thumb.jpg
+image: v1690984745/themes/jenkins.jpg
 download_theme: "https://github.com/smokeyfro/sf-files/raw/master/sf-jenkins.zip"
 download_source: "https://github.com/smokeyfro/sf-files/raw/master/sf-jenkins-source.zip"
 gallery:

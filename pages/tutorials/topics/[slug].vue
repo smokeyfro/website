@@ -32,11 +32,26 @@ useHead({
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <topics-cloud :section="section" />
-    <ul v-if="tutorials !== null" class="list-style:none m:0 p:0 flex flex:col gap:30">
-      <li v-for="{ _path: slug, title, excerpt, image } in tutorials" :key="slug">
-        <nuxt-link :to="slug" class="text-decoration:none color:#222">
-          <h2>{{ title }}</h2>
-          <p>{{ excerpt }}</p>
+    <ul class="list-style:none m:0 mt:40 p:0 flex flex:col gap:40">
+      <li v-for="{ _path: slug, title, excerpt, image, topic, date, tags } in tutorials" :key="slug">
+        <nuxt-link :to="slug" class="text-decoration:none color:#222 bg:#fff {bg:#f7f7f7}:hover ~all|300ms|ease-in-out r:5 flex ai:center b:1|solid|#1C2F39">
+          <nuxt-img v-if="image" :src="image" width="400" height="300" fit="cover" :alt="title" class="max-width:100%" />
+          <div class="py:40 px:55">
+            <h2 class="m:0">{{ title }}</h2>
+            <div class="flex ai:center gap:10 mt:25 mb:10">
+              <span class="px:6 py:2 f:14 r:3"
+                :class="{
+                'bg:pink color:#fff': topic === 'Going Headless',
+                'bg:green color:#fff': topic === 'Learning Vue',
+              }">{{ topic }}</span>
+              &middot;
+              <span v-if="tags && tags.length" class="flex ai:center jc:start gap:15">
+                <span v-for="(tag, index) in tags" :key="index" v-html="tag" class="bg:#ddd px:6 py:2 f:14 r:3" />
+              </span>
+            </div>
+            <!-- <p class="mb:10">{{ excerpt }}</p> -->
+            <p class="mt:0 mb:0"><span class="f:bold t:25 bb:1|solid|#ccc">Read now →</span></p>
+          </div>
         </nuxt-link>
       </li>
     </ul>
