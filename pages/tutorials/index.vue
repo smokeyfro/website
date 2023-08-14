@@ -13,17 +13,16 @@
           <div class="py:40 px:55">
             <h2 class="m:0">{{ title }}</h2>
             <div class="flex ai:center gap:10 mt:25 mb:10">
-              <span class="px:6 py:2 f:14 r:3"
+              <span class="px:6 py:2 f:14 r:3 color:#fff"
                 :class="{
-                'bg:pink color:#fff': topic === 'Going Headless',
-                'bg:green color:#fff': topic === 'Learning Vue',
+                'bg:pink': topic === 'Going Headless',
+                'bg:green': topic === 'Learning Vue',
               }">{{ topic }}</span>
               &middot;
               <span v-if="tags && tags.length" class="flex ai:center jc:start gap:15">
                 <span v-for="(tag, index) in tags" :key="index" v-html="tag" class="bg:#ddd px:6 py:2 f:14 r:3" />
               </span>
             </div>
-            <!-- <p class="mb:10">{{ excerpt }}</p> -->
             <p class="mt:0 mb:0"><span class="f:bold t:25 bb:1|solid|#ccc">Read now →</span></p>
           </div>
         </nuxt-link>
