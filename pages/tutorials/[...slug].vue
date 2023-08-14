@@ -20,7 +20,9 @@
         &middot;
         <span class="px:6 py:2">{{ formatDate(page.date) }}</span>
       </div>
-      <content-doc :head="false" />
+      <content-renderer :value="page">
+        <template #empty></template>
+      </content-renderer>
     </div>
   </nuxt-layout>
 </template>

@@ -53,11 +53,9 @@
     <div class="markdown pt:6 my:5">
       <h2 class="text:base font:bold my:3">About</h2>
       <div class="text:xl">
-        <ContentRenderer :value="page">
-          <template #empty>
-            
-          </template>
-        </ContentRenderer>
+        <content-renderer :value="page">
+          <template #empty></template>
+        </content-renderer>
       </div>
     </div>
     <client-only>

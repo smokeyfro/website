@@ -41,6 +41,9 @@
         <client-only>
           <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
         </client-only>
+        <content-renderer :value="page">
+          <template #empty></template>
+        </content-renderer>
     </div>
   </nuxt-layout>
 </template>

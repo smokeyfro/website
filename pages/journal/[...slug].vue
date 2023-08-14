@@ -7,15 +7,13 @@
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.description }}</base-excerpt>
       <div v-if="page.tags && page.tags.length" class="flex ai:center jc:start gap:10 py:1 text:14">
-          <span v-for="(tag, index) in page.tags" :key="index">
-              {{ tag }}
-          </span>
-        </div>
-      <content-doc :path="$route.params.slug ? `/journal/${$route.params.slug[0]}` : '/journal'">
-        <template #not-found>
-          <h2>({{ $route.params.slug }}) not found</h2>
-        </template>
-      </content-doc>
+        <span v-for="(tag, index) in page.tags" :key="index">
+          {{ tag }}
+        </span>
+      </div>
+      <content-renderer :value="page">
+        <template #empty></template>
+      </content-renderer>
     </div>
   </nuxt-layout>
 </template>
