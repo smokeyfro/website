@@ -10,11 +10,11 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-  import type { Sections } from '~/types'
+  import type { Section } from '~/types'
 
   const title: string = 'All my tutorial tags'
   const description: string = 'Here\'s a list of all the tags used in my tutorials.'
-  const section: Sections = 'tutorials'
+  const section: Section = 'tutorials'
 
   useHead({
     title,
