@@ -6,8 +6,8 @@ type: WordPress
 company: Liquasil Ltd
 contact: David Carter
 featured: false
-thumb: "/media/work/buildingsurveys-thumb.jpg"
-image: "/media/work/building-surveys-full.jpg"
+thumb: "v1690984745/work/buildingsurveys-thumb.jpg"
+image: "v1690984745/work/building-surveys-full.jpg"
 gallery: ""
 url: https://buildingsurveys.com
 status: Online

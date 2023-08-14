@@ -6,19 +6,19 @@ type: Design
 company: BEDRE reklame
 contact: Torkil Johnsen
 featured: false
-thumb: "/media/work/skagenhotel-thumb.jpg"
-image: "/media/work/skagen-inner.jpg"
+thumb: "v1690984745/work/skagenhotel-thumb.jpg"
+image: "v1690984745/work/skagen-inner.jpg"
 gallery:
-- thumbnail: "/media/work/skagen-inner-thumb.jpg"
-  src: "/media/work/skagen-inner.jpg"
+- thumbnail: "v1690984745/work/skagen-inner-thumb.jpg"
+  src: "v1690984745/work/skagen-inner.jpg"
   alt: "Skagen Hotel Inner Layout"
   title: "Inner layout design for the Skagen Hotel website"
-- thumbnail: "/media/work/skagen-responsive-tablet-thumb.jpg"
-  src: "/media/work/skagen-responsive-tablet.jpg"
+- thumbnail: "v1690984745/work/skagen-responsive-tablet-thumb.jpg"
+  src: "v1690984745/work/skagen-responsive-tablet.jpg"
   alt: "Skagen Hotel Website on Tablet"
   title: "Skagen Hotel Website on Tablet"
-- thumbnail: "/media/work/skagen-responsive-mobile-thumb.jpg"
-  src: "/media/work/skagen-responsive-mobile.jpg"
+- thumbnail: "v1690984745/work/skagen-responsive-mobile-thumb.jpg"
+  src: "v1690984745/work/skagen-responsive-mobile.jpg"
   alt: "Skagen Hotel Website on Mobile"
   title: "Skagen Hotel Website on Mobile"
 url: https://skagen-hotel.no

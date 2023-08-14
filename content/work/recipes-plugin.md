@@ -6,8 +6,8 @@ type: Design
 contact: Internal
 client_content: Internal
 featured: false
-thumb: "/media/work/wordpress-recipe-plugin.jpg"
-image: "/media/work/recipe-plugin-concept.jpg"
+thumb: "v1690984745/work/wordpress-recipe-plugin.jpg"
+image: "v1690984745/work/recipe-plugin-concept.jpg"
 gallery: ""
 url: ""
 status: Shelfed

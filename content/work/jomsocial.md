@@ -6,8 +6,8 @@ type: Design
 contact: Jomsocial
 client_contact: Azrul
 featured: false
-thumb: "/media/work/jomsocial-thumb.jpg"
-image: "/media/work/jomsocial-thumb.jpg"
+thumb: "v1690984745/work/jomsocial-thumb.jpg"
+image: "v1690984745/work/jomsocial-thumb.jpg"
 gallery: ""
 url: https://jomsocial.com
 status: Offline

@@ -6,8 +6,8 @@ type: Design
 contact: TechJoomla
 client_content: Paarth
 featured: false
-thumb: "/media/work/techjoomla-thumb.jpg"
-image: "/media/work/techjoomla-thumb.jpg"
+thumb: "v1690984745/work/techjoomla-thumb.jpg"
+image: "v1690984745/work/techjoomla-thumb.jpg"
 gallery: ""
 url: https://techjoomla.com
 status: Offline

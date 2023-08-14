@@ -7,19 +7,19 @@ company: Internal
 contact: NA
 order: 
 featured: true
-thumb: "/media/work/savvygarden-v2.png"
-image: "/media/work/savvygarden-v2.png"
+thumb: "v1690984745/work/savvygarden-v2.png"
+image: "v1690984745/work/savvygarden-v2.png"
 gallery:
-- thumbnail: "/media/work/savvygarden-v2.png"
-  src: "/media/work/savvygarden-v2.png"
+- thumbnail: "v1690984745/work/savvygarden-v2.png"
+  src: "v1690984745/work/savvygarden-v2.png"
   alt: "Home"
   title: "Home"
-- thumbnail: "/media/work/savvygarden-guilds.png"
-  src: "/media/work/savvygarden-guilds.png"
+- thumbnail: "v1690984745/work/savvygarden-guilds.png"
+  src: "v1690984745/work/savvygarden-guilds.png"
   alt: "Guilds Index"
   title: "WIP Shop Layout"
-- thumbnail: "/media/work/savvygarden-shop.png"
-  src: "/media/work/savvygarden-shop.png"
+- thumbnail: "v1690984745/work/savvygarden-shop.png"
+  src: "v1690984745/work/savvygarden-shop.png"
   alt: "Shop Index"
   title: "Shop Index"
 url: https://savvygarden.app

@@ -7,19 +7,19 @@ company: n/a
 contact: 
 order: 
 featured: true
-thumb: "/media/work/dgg-home.png"
-image: "/media/work/dgg-home.png"
+thumb: "v1690984745/work/dgg-home.png"
+image: "v1690984745/work/dgg-home.png"
 gallery:
-- thumbnail: "/media/work/dgg-home.png"
-  src: "/media/work/dgg-home.png"
+- thumbnail: "v1690984745/work/dgg-home.png"
+  src: "v1690984745/work/dgg-home.png"
   alt: "Drinking Games Guide - Home"
   title: "Drinking Games Guide - Home"
-- thumbnail: "/media/work/dgg-category.png"
-  src: "/media/work/dgg-category.png"
+- thumbnail: "v1690984745/work/dgg-category.png"
+  src: "v1690984745/work/dgg-category.png"
   alt: "Drinking Games Guide - Game Category Layout"
   title: "Drinking Games Guide - Game Category Layout"
-- thumbnail: "/media/work/dgg-game.png"
-  src: "/media/work/dgg-game.png"
+- thumbnail: "v1690984745/work/dgg-game.png"
+  src: "v1690984745/work/dgg-game.png"
   alt: "Drinking Games Guide - Single Game Layout"
   title: "Drinking Games Guide - Single Game Layout"
 url: https://drinkinggames.guide

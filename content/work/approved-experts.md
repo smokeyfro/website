@@ -7,31 +7,31 @@ company: Fatwax Media
 contact: Kieron Bolton
 order: 
 featured: false
-thumb: "/media/work/approvedexperts-thumb.jpg"
-image: "/media/work/approved-experts.jpg"
+thumb: "v1690984745/work/approvedexperts-thumb.jpg"
+image: "v1690984745/work/approved-experts.jpg"
 gallery:
-- thumbnail: "/media/work/approved-experts-front-page.jpg"
-  src: "/media/work/approved-experts-front-page.jpg"
+- thumbnail: "v1690984745/work/approved-experts-front-page.jpg"
+  src: "v1690984745/work/approved-experts-front-page.jpg"
   alt: "ApprovedExperts Front Page"
   title: "ApprovedExperts Front Page"
 
-- thumbnail: "/media/work/approved-experts-register.jpg"
-  src: "/media/work/approved-experts-register.jpg"
+- thumbnail: "v1690984745/work/approved-experts-register.jpg"
+  src: "v1690984745/work/approved-experts-register.jpg"
   alt: "ApprovedExperts - Register"
   title: "ApprovedExperts Register Page"
   
-- thumbnail: "/media/work/approved-experts-post-job.jpg"
-  src: "/media/work/approved-experts-post-job.jpg"
+- thumbnail: "v1690984745/work/approved-experts-post-job.jpg"
+  src: "v1690984745/work/approved-experts-post-job.jpg"
   alt: "ApprovedExperts - Job"
   title: "ApprovedExperts Job Page"
 
-- thumbnail: "/media/work/approved-experts-client.jpg"
-  src: "/media/work/approved-experts-client.jpg"
+- thumbnail: "v1690984745/work/approved-experts-client.jpg"
+  src: "v1690984745/work/approved-experts-client.jpg"
   alt: "ApprovedExperts - Client"
   title: "ApprovedExperts Client Page"
 
-- thumbnail: "/media/work/approved-experts-provider.jpg"
-  src: "/media/work/approved-experts-provider.jpg"
+- thumbnail: "v1690984745/work/approved-experts-provider.jpg"
+  src: "v1690984745/work/approved-experts-provider.jpg"
   alt: "ApprovedExperts - Provider"
   title: "ApprovedExperts Provider Page"
 

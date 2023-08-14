@@ -6,8 +6,8 @@ type: Design
 contact: Internal
 client_content: Internal
 featured: false
-thumb: "/media/work/tastyblocks-thumb.jpg"
-image: "/media/work/tasty-blocks-full.jpg"
+thumb: "v1690984745/work/tastyblocks-thumb.jpg"
+image: "v1690984745/work/tasty-blocks-full.jpg"
 gallery: ""
 url: ""
 status: Shelfed

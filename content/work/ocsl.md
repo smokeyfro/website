@@ -6,8 +6,8 @@ type: Joomla
 contact: OCSL Education
 client_content: Thierry Muller
 featured: false
-thumb: "/media/work/ocsl-thumb.jpg"
-image: "/media/work/ocsl-thumb.jpg"
+thumb: "v1690984745/work/ocsl-thumb.jpg"
+image: "v1690984745/work/ocsl-thumb.jpg"
 gallery: ""
 url: https://ocsl.com
 status: Offline

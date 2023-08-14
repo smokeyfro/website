@@ -6,8 +6,8 @@ type: Joomla
 company: HouseFinder UK
 contact: David Thomas
 featured: false
-thumb: "/media/work/housefinder-thumb.jpg"
-image: "/media/work/housefinder-thumb.jpg"
+thumb: "v1690984745/work/housefinder-thumb.jpg"
+image: "v1690984745/work/housefinder-thumb.jpg"
 gallery: ""
 url: https://housefinderuk.com
 status: Offline

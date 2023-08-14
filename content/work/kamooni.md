@@ -6,8 +6,8 @@ type: Design
 contact: Kamooni
 client_content: Herkie Vercuil
 featured: false
-thumb: "/media/work/kamooni-thumb.jpg"
-image: "/media/work/kamooni-thumb.jpg"
+thumb: "v1690984745/work/kamooni-thumb.jpg"
+image: "v1690984745/work/kamooni-thumb.jpg"
 gallery: ""
 url: https://kamooni.com
 status: Original Offline
