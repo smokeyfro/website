@@ -5,7 +5,8 @@ date: 2018-03-04
 published: true
 tags: ['customize','beans','admin']
 series: false
-image: /media/tutorials/custom-wordpress-admin.jpg
+image: v1690984745/tuts/custom-wordpress-admin.jpg
+thumb: v1690984745/tuts/custom-wordpress-admin.jpg
 canonical_url: false
 topics: ['wordPress']
 topic: WordPress

@@ -5,7 +5,8 @@ date: 2016-04-14
 published: true
 tags: ['uikit','beans','compiler']
 series: false
-image: /media/tutorials/custom-uikit-beans.jpg
+image: v1690984745/tuts/custom-uikit-beans.jpg
+thumb: v1690984745/tuts/custom-uikit-beans.jpg
 canonical_url: false
 topics: ['wordPress']
 topic: WordPress

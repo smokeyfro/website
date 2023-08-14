@@ -5,7 +5,8 @@ date: 2015-12-15
 published: true
 tags: ['customize','beans','child-theme']
 series: false
-image: /media/tutorials/customize-beans-child.jpg
+image: v1690984745/tuts/customize-beans-child.jpg
+thumb: v1690984745/tuts/customize-beans-child.jpg
 canonical_url: false
 topics: ['wordPress']
 topic: WordPress

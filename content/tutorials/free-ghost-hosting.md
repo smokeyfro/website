@@ -5,7 +5,8 @@ date: 2023-08-02
 published: true
 tags: ['headless', 'ghost', 'hosting']
 series: true
-image: /media/tutorials/ghost.png
+image: v1690984745/tuts/ghost.png
+thumb: v1690984745/tuts/ghost.png
 canonical_url: false
 topics: ['going-headless']
 topic: Going Headless

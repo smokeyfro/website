@@ -5,7 +5,8 @@ date: 2016-04-16
 published: true
 tags: ['ghost', 'hosting', 'unubo']
 series: false
-image: /media/tutorials/wordpress-sitemap.jpg
+image: v1690984745/tuts/wordpress-sitemap.jpg
+thumb: v1690984745/tuts/wordpress-sitemap.jpg
 canonical_url: false
 topics: ['wordPress']
 topic: WordPress
