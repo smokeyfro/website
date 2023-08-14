@@ -15,7 +15,7 @@
   import type { Page } from '~/types'
   const { path } = useRoute()
   const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-    () => queryContent<Page>('about')
+    () => queryContent<Page>('/about')
       .where({ _path: path })
       .findOne(),
   )
