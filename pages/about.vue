@@ -6,7 +6,7 @@
     <div v-if="page">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.description }}</base-excerpt>
-      <content-doc /> 
+      <content-doc :value="page" /> 
     </div>   
   </nuxt-layout>
 </template>
