@@ -6,9 +6,7 @@
     <div v-if="page" class="max-width:960">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.excerpt }}</base-excerpt>
-      <client-only>
         <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:30 mt:50"></silent-box>
-      </client-only>
       <content-renderer :value="page">
         <template #empty></template>
       </content-renderer>

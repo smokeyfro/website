@@ -24,6 +24,7 @@
   const title: string = page.value?.title || ''
   const description: string = page.value?.description || ''
 </script>
+
 <style>
 .about-image img {
   position: relative;
