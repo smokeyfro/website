@@ -1,8 +1,8 @@
 <script setup lang="ts">
-  import type { Sections } from '~/types'
+  import type { Section } from '~/types'
 
   interface Props {
-    section: Sections
+    section: Section
   }
 
   const props = defineProps<Props>()

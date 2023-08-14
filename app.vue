@@ -150,7 +150,7 @@ useHead({
   p, li {
     color: #1f2226;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
   }
   p, ul {

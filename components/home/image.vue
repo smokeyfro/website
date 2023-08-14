@@ -8,15 +8,6 @@
 </template>
 <style scoped>
   .home-image { 
-    fill: #fff;
-    animation: fill 9s infinite linear;
-  }
-  @keyframes fill {
-    0%   { fill: #13171bf2; }
-    20%  { fill: #2b3036f2; }
-    40%  { fill: #3b4551f2; }
-    60%  { fill: #4e555ef2; }
-    80%  { fill: #393c40f2; }
-    100% { fill: #202327f2; }
+    fill: #13171bf2;
   }
 </style>
