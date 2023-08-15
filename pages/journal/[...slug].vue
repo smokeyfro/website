@@ -21,11 +21,12 @@
 <script setup lang="ts">
   import type { Post } from '~/types'
   const { path } = useRoute()
-  const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-    () => queryContent<Post>('/journal')
-      .where({ _path: path })
-      .findOne(),
-  )
+
+const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
+  () => queryContent<Post>('journal')
+    .where({ _path: path })
+    .findOne(),
+)
   const title: string = page.value?.title || ''
   const description: string = page.value?.excerpt || ''
   const image: string = page.value?.image || ''
