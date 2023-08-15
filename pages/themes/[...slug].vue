@@ -33,17 +33,14 @@
           v-if="page.image" 
           :src="page.image" 
           :alt="page.title" 
-          provider="cloudinary"
-          class="" />
+          provider="cloudinary" />
       </div>
     </div>
     <div v-if="page">
-        <client-only>
-          <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
-        </client-only>
-        <content-renderer :value="page">
-          <template #empty></template>
-        </content-renderer>
+      <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
+      <content-renderer :value="page">
+        <template #empty></template>
+      </content-renderer>
     </div>
   </nuxt-layout>
 </template>
@@ -51,7 +48,7 @@
   import type { Theme } from '~/types'
   const { path } = useRoute()
   const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-    () => queryContent<Theme>('/themes')
+    () => queryContent<Theme>('themes')
       .where({ _path: path })
       .findOne(),
   )
