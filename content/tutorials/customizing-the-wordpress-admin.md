@@ -16,6 +16,7 @@ type: Article
 searchTerms: wordpress, customise, customize, admin, beans, tutorials, tuts, tutorial
 excerpt: "In this tutorial I share how I customize the WordPress admin for my clients. In it, I'll be cover replacing the WordPress admin login, improving the WordPress dashboard, removing unnecessary elements from the admin and more."
 ---
+
 This tutorial is about different ways you can customize the WordPress admin (for yourself or your clients). Not all of the methods covered in the tutorial will be relevant for every project. You'll need to decide which make sense for your individual clients. Check? Check!
 
 One of the (many) great things about WordPress is how easy it is to customize and extend. If there is something in the admin you're not using, chances are it's pretty easy to remove.
