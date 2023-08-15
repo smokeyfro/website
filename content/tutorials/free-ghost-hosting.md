@@ -7,7 +7,6 @@ tags: ['headless', 'ghost', 'hosting']
 series: true
 image: v1690984745/tuts/ghost.png
 thumb: v1690984745/tuts/ghost.png
-canonical_url: false
 topics: ['going-headless']
 topic: Going Headless
 category: Going Headless

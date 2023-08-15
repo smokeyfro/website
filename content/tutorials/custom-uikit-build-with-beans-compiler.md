@@ -7,7 +7,6 @@ tags: ['uikit','beans','compiler']
 series: false
 image: v1690984745/tuts/custom-uikit-beans.jpg
 thumb: v1690984745/tuts/custom-uikit-beans.jpg
-canonical_url: false
 topics: ['wordPress']
 topic: WordPress
 category: WordPress

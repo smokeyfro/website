@@ -7,7 +7,6 @@ tags: ['directus', 'headless', 'cms']
 series: true
 image: v1690984745/tuts/directus.png
 thumb: v1690984745/tuts/directus.png
-canonical_url: false
 topics: ['going-headless']
 topic: Going Headless
 category: Going Headless

@@ -7,7 +7,6 @@ tags: ['vue', 'snippets', 'computed']
 series: true
 image: v1690984745/tuts/calculate-age-vue.jpg
 thumb: v1690984745/tuts/calculate-age-vue.jpg
-canonical_url: false
 topics: ['learning-vue']
 topic: Learning Vue
 category: Learning Vue

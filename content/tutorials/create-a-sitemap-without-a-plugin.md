@@ -7,7 +7,6 @@ tags: ['ghost', 'hosting', 'unubo']
 series: false
 image: v1690984745/tuts/wordpress-sitemap.jpg
 thumb: v1690984745/tuts/wordpress-sitemap.jpg
-canonical_url: false
 topics: ['wordPress']
 topic: WordPress
 category: WordPress

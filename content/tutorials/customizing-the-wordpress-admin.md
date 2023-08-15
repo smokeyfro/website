@@ -7,7 +7,6 @@ tags: ['customize','beans','admin']
 series: false
 image: v1690984745/tuts/custom-wordpress-admin.jpg
 thumb: v1690984745/tuts/custom-wordpress-admin.jpg
-canonical_url: false
 topics: ['wordPress']
 topic: WordPress
 category: WordPress

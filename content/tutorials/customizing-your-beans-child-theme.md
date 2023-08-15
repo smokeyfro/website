@@ -7,7 +7,6 @@ tags: ['customize','beans','child-theme']
 series: false
 image: v1690984745/tuts/customize-beans-child.jpg
 thumb: v1690984745/tuts/customize-beans-child.jpg
-canonical_url: false
 topics: ['wordPress']
 topic: WordPress
 category: WordPress
