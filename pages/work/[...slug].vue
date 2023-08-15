@@ -47,6 +47,7 @@
           v-if="page.image" 
           :src="page.image" 
           :alt="page.title" 
+          provider="cloudinary"
           class="r:5 h:auto w:full b:2|solid|#ddd" />
       </div>
     </div>

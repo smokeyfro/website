@@ -7,8 +7,8 @@ company: Fatwax Media
 contact: Kieron Bolton
 order: 
 featured: false
-thumb: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approvedexperts-thumb.jpg"
-image: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts.jpg"
+thumb: "v1690984745/work/approvedexperts-thumb.jpg"
+image: "v1690984745/work/approved-experts.jpg"
 gallery:
 - thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-front-page.jpg"
   src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-front-page.jpg"
