@@ -58,9 +58,7 @@
         </content-renderer>
       </div>
     </div>
-    <client-only>
-      <silent-box v-if="page.gallery" :gallery="page.gallery" class="gallery grid-cols:3 gap:20 mt:50"></silent-box>
-    </client-only>
+    <silent-box v-if="page" :gallery="page.gallery" class="gallery grid-cols:3 gap:20 mt:50"></silent-box>
   </nuxt-layout>
 </template>
 <style>

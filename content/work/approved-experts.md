@@ -7,31 +7,31 @@ company: Fatwax Media
 contact: Kieron Bolton
 order: 
 featured: false
-thumb: "v1690984745/work/approvedexperts-thumb.jpg"
-image: "v1690984745/work/approved-experts.jpg"
+thumb: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approvedexperts-thumb.jpg"
+image: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts.jpg"
 gallery:
-- thumbnail: "v1690984745/work/approved-experts-front-page.jpg"
-  src: "v1690984745/work/approved-experts-front-page.jpg"
+- thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-front-page.jpg"
+  src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-front-page.jpg"
   alt: "ApprovedExperts Front Page"
   title: "ApprovedExperts Front Page"
 
-- thumbnail: "v1690984745/work/approved-experts-register.jpg"
-  src: "v1690984745/work/approved-experts-register.jpg"
+- thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-register.jpg"
+  src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-register.jpg"
   alt: "ApprovedExperts - Register"
   title: "ApprovedExperts Register Page"
   
-- thumbnail: "v1690984745/work/approved-experts-post-job.jpg"
-  src: "v1690984745/work/approved-experts-post-job.jpg"
+- thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-post-job.jpg"
+  src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-post-job.jpg"
   alt: "ApprovedExperts - Job"
   title: "ApprovedExperts Job Page"
 
-- thumbnail: "v1690984745/work/approved-experts-client.jpg"
-  src: "v1690984745/work/approved-experts-client.jpg"
+- thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-client.jpg"
+  src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-client.jpg"
   alt: "ApprovedExperts - Client"
   title: "ApprovedExperts Client Page"
 
-- thumbnail: "v1690984745/work/approved-experts-provider.jpg"
-  src: "v1690984745/work/approved-experts-provider.jpg"
+- thumbnail: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-provider.jpg"
+  src: "https://res.cloudinary.com/smokeyfro/image/upload/v1690984745/work/approved-experts-provider.jpg"
   alt: "ApprovedExperts - Provider"
   title: "ApprovedExperts Provider Page"
 
