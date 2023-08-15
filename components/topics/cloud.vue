@@ -23,8 +23,8 @@
   }
 
   const { data } = await useAsyncData('topics', () => queryContent(props.section)
-    .only(["topics"])
-    .where({ published: { $ne: false }, topic: { $ne: 'wordpress' }})
+    .only(["topics", "topic"])
+    .where({ published: { $ne: false }, topic: { $ne: 'WordPress' }})
     .find());
     
   const articleTopics = [...new Set(flatten(data.value, 'topics'))];

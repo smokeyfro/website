@@ -25,10 +25,6 @@
                       'bg:red color:#fff': type === 'Nuxt',
                       'bg:blue color:#fff': type === 'WordPress',
                     }">{{ type }}</span>
-              <!-- &middot;
-              <span class="px:5 py:2">{{ status }}</span>
-              &middot;
-              <span class="px:6 py:2">{{ formatDate(date) }}</span> -->
             </div>
           </div>
         </nuxt-link>
