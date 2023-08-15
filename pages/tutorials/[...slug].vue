@@ -34,7 +34,6 @@
   const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
     () => queryContent<Tutorial>('tutorials')
       .where({ _path: path })
-      .only(['title','excerpt','date','topic','tags'])
       .findOne(),
   )
 </script>

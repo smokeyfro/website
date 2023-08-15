@@ -24,7 +24,7 @@
 
   const { data } = await useAsyncData('topics', () => queryContent(props.section)
     .only(["topics"])
-    .where({ published: { $ne: false }, topic: { $ne: 'WordPress' }})
+    .where({ published: { $ne: false }, topic: { $ne: 'wordpress' }})
     .find());
     
   const articleTopics = [...new Set(flatten(data.value, 'topics'))];
