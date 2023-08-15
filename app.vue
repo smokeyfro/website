@@ -159,6 +159,12 @@ useHead({
   ul, ol {
     padding-left: 1.2rem;
   }
+  code {
+    max-width: 100%;
+    white-space: break-spaces;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
 /*  main div:not(.download) a:not(.btn):after {
     content: ' ';
     border-bottom: 2px solid;

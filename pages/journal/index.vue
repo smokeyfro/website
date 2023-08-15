@@ -24,17 +24,17 @@
 </template>
 
 <script setup lang="ts">
-  const posts = await queryContent('/journal')
+  const posts = await queryContent('journal')
     .sort({ date: -1 })
     .where({ _partial: false })
     .find()
 
   const title: string = 'Journal'
   const description: string = 'Updates about what I\'m working on, books I\'m reading, stuff I\'m thinking about, news on the farm, product releases and more.'
-  const section: Sections = 'journal'
+  //const section: Section = 'journal'
 
-  useHead({
-    title,
-    meta: [{ name: 'description', content: description }],
-  })
+  // useHead({
+  //   title,
+  //   meta: [{ name: 'description', content: description }],
+  // })
 </script>
