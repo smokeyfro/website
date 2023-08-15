@@ -38,7 +38,7 @@ export interface Portfolio extends MarkdownParsedContent {
   video?: string;
 }
 
-export interface Theme extends ParsedContent {
+export interface Theme extends MarkdownParsedContent {
   title: string;
   slug: string;
   excerpt: string;
@@ -64,7 +64,7 @@ export interface Tutorial extends MarkdownParsedContent {
   tags: string[];
 }
 
-export interface Album extends ParsedContent {
+export interface Album extends MarkdownParsedContent {
   title: string;
   excerpt: string;
   date: string;
@@ -74,7 +74,7 @@ export interface Album extends ParsedContent {
   gallery: string[];
 }
 
-export interface Video extends ParsedContent {
+export interface Video extends MarkdownParsedContent {
   title: string;
   slug: string;
   excerpt: string;
