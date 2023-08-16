@@ -52,9 +52,9 @@ collections:
         name: type
         widget: relation
         collection: type
-        search_fields: [type.title]
-        value_field: type.title
-        display_fields: [type.title]
+        search_fields: [title]
+        value_field: title
+        display_fields: [title]
       - label: Image
         name: image
         widget: image
