@@ -33,6 +33,7 @@ collections:
   - name: 'work'
     label: 'Work'
     folder: 'content/work'
+    icon: 'collections_bookmark'
     media_folder: /public/media/work
     public_folder: /media/work
     format: 'frontmatter'
@@ -48,6 +49,7 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image' }
   - name: 'services'
     label: 'Services'
+    icon: design_services
     folder: 'content/services'
     media_folder: /public/media/services
     public_folder: /media/services
@@ -64,6 +66,7 @@ collections:
   - name: 'photos'
     label: 'Photos'
     folder: 'content/photos'
+    icon: photo_library
     media_folder: /public/media/photos
     public_folder: /media/photos
     format: 'frontmatter'
@@ -78,6 +81,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'release-notes'
     label: 'Release Notes'
+    icon: circle_notifications
     folder: 'content/release-notes'
     media_folder: /public/media/release-notes
     public_folder: /media/release-notes
@@ -93,6 +97,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'themes'
     label: 'Themes'
+    icon: draw
     folder: 'content/themes'
     media_folder: /public/media/themes
     public_folder: /media/themes
@@ -108,6 +113,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'tutorials'
     label: 'Tutorials'
+    icon: school
     folder: 'content/tutorials'
     media_folder: /public/media/tutorials
     public_folder: /media/tutorials
@@ -123,6 +129,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'videos'
     label: 'Videos'
+    icon: play_circle
     folder: 'content/videos'
     media_folder: /public/media/videos
     public_folder: /media/videos
