@@ -8,6 +8,15 @@ tags:
   - directus
   - page-builder
 gallery:
-  - {}
+  - alt: Home page
+    title: Home page
+    src: /media/work/header.jpg
+    thumbnail: /media/work/header.webp
+url: https://nieke.co
+service:
+  - Design
+  - Development
+  - Jamstack
+type: Nuxt
 ---
 Directus hosted on [name].
