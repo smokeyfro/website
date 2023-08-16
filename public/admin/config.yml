@@ -51,12 +51,7 @@ collections:
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - {
-          label: 'Gallery',
-          name: 'gallery',
-          widget: 'list',
-          summary: '{{fields.thumbnail}}',
-          field: { 
+      - { label: 'Gallery', name: 'gallery', widget: 'list', summary: '{{fields.thumbnail}}', field: { 
             - { label: "Thumb", name: "thumbnail", widget: "image" }
             - { label: "Source", name: "src", widget: "image" }
             - { label: "Alt Text", name: "alt", widget: "string" }
