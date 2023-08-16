@@ -3,11 +3,14 @@ title: New Jamstack site for my dad
 slug: new-jamstack-site-for-my-dad
 date: 2022-05-01
 published: true
-tags: ['updates', 'life', 'work']
-topics: ['client-projects']
+tags:
+  - updates
+  - life
+  - work
+topics:
+  - client-projects
 description: I recently had a few days over in the week after completing a new client project, so without anything else directly competing for my time, I figured it would be a good opportunity to work on a new site for my dad, who is a natural health practitioner and coach.
 ---
-
 The previous site was thrown together in a day on WordPress.com and a few years down the line and around 200 posts, the site quickly became hard to navigate and even harder to surface content.
 
 ![https://health-coach.co.za](v1691063835/work/healthcoach-home.png)
