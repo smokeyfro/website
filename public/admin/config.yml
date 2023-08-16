@@ -27,6 +27,7 @@ collections:
     format: frontmatter
     create: true
     slug: {{slug}}
+    summary: "{{title | upper}} - {{date | date('YYYY-MM-DD')}} – {{body | truncate(20, '***')}}"
     editor:
       preview: true
     fields:
@@ -35,7 +36,7 @@ collections:
         widget: string
       - label: Description
         name: description
-        widget: string
+        widget: text
       - label: Url
         name: url
         widget: string
