@@ -100,22 +100,22 @@ collections:
       - label: Body
         name: body
         widget: markdown
-  - name: service
+  - name: services
     label: Services
+    icon: design_services
     folder: content/services
-    icon: collections_bookmark
+    media_folder: /public/media/services
+    public_folder: /media/services
     format: frontmatter
     create: true
     slug: {{slug}}
     editor:
       preview: false
     fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: date }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
   - name: journal
     label: Journal
     icon: psychology_alt
@@ -132,67 +132,83 @@ collections:
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Description, name: description, widget: string }
       - { label: Body, name: body, widget: markdown }
-  - name: 'photos'
-    label: 'Photos'
-    folder: 'content/photos'
+  - name: photos
+    label: Photos
+    folder: content/photos
     icon: photo_library
     media_folder: /public/media/photos
     public_folder: /media/photos
-    format: 'frontmatter'
+    format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: {{slug}}
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'release-notes'
-    label: 'Release Notes'
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: release-notes
+    label: Release Notes
     icon: circle_notifications
-    folder: 'content/release-notes'
+    folder: content/release-notes
     media_folder: /public/media/release-notes
     public_folder: /media/release-notes
-    format: 'frontmatter'
+    format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: {{slug}}
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'themes'
-    label: 'Themes'
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: themes
+    label: Themes
     icon: draw
-    folder: 'content/themes'
+    folder: content/themes
     media_folder: /public/media/themes
     public_folder: /media/themes
-    format: 'frontmatter'
+    format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: {{slug}}
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'tutorials'
-    label: 'Tutorials'
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: tutorials
+    label: Tutorials
     icon: school
-    folder: 'content/tutorials'
+    folder: content/tutorials
     media_folder: /public/media/tutorials
     public_folder: /media/tutorials
-    format: 'frontmatter'
+    format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: {{slug}}
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: videos
+    label: Videos
+    icon: play_circle
+    folder: content/videos
+    media_folder: /public/media/videos
+    public_folder: /media/videos
+    format: frontmatter
+    create: true
+    slug: {{slug}}
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
