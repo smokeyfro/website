@@ -52,18 +52,18 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { 
-          label: 'Gallery', 
-          name: 'gallery', 
-          widget: 'list', 
-          summary: '{{fields.thumbnail}}', 
+      - {
+          label: 'Gallery',
+          name: 'gallery',
+          widget: 'list',
+          summary: '{{fields.thumbnail}}',
           field: { 
             - { label: "Thumb", name: "thumbnail", widget: "image" }
             - { label: "Source", name: "src", widget: "image" }
             - { label: "Alt Text", name: "alt", widget: "string" }
             - { label: "Title", name: "title", widget: "string" }
-          } 
-      }
+          }
+        }
   - name: 'services'
     label: 'Services'
     icon: design_services
