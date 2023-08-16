@@ -116,3 +116,83 @@ collections:
       - label: Body
         name: body
         widget: markdown
+  - name: journal
+    label: Journal
+    icon: psychology_alt
+    folder: content/journal
+    media_folder: /public/media/journal
+    public_folder: /media/journal
+    format: frontmatter
+    create: true
+    slug: {{slug}}
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
+  - name: 'photos'
+    label: 'Photos'
+    folder: 'content/photos'
+    icon: photo_library
+    media_folder: /public/media/photos
+    public_folder: /media/photos
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'release-notes'
+    label: 'Release Notes'
+    icon: circle_notifications
+    folder: 'content/release-notes'
+    media_folder: /public/media/release-notes
+    public_folder: /media/release-notes
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'themes'
+    label: 'Themes'
+    icon: draw
+    folder: 'content/themes'
+    media_folder: /public/media/themes
+    public_folder: /media/themes
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'tutorials'
+    label: 'Tutorials'
+    icon: school
+    folder: 'content/tutorials'
+    media_folder: /public/media/tutorials
+    public_folder: /media/tutorials
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
