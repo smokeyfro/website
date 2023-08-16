@@ -36,13 +36,25 @@ collections:
       - label: Description
         name: description
         widget: string
+      - label: Url
+        name: url
+        widget: string
       - label: Date
         name: date
         widget: date
+      - label: Services
+        name: services
+        widget: list
       - label: Tags
         name: tags
         widget: list
-      - label: Image
+      - label: Type
+        name: type
+        widget: relation
+        collection: types
+        search_fields: [type.title]
+        value_field: type.title
+        display_fields: [type.title]
         name: image
         widget: image
       - label: Gallery
@@ -66,3 +78,16 @@ collections:
       - label: Body
         name: body
         widget: markdown
+  - name: type
+    label: Type
+    folder: content/types
+    icon: collections_bookmark
+    format: frontmatter
+    create: true
+    slug: {{slug}}
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
