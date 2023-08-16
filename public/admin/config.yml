@@ -49,9 +49,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - {
           label: 'Gallery',
           name: 'gallery',
@@ -64,6 +63,7 @@ collections:
             - { label: "Title", name: "title", widget: "string" }
           }
         }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'services'
     label: 'Services'
     icon: design_services
