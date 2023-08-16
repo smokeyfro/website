@@ -27,13 +27,17 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-  import type { Tutorial } from '~/types'
+  // import type { Tutorial } from '~/types'
 
+  // const { path } = useRoute()
+
+  // const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
+  //   () => queryContent<Tutorial>('tutorials')
+  //     .where({ _path: path })
+  //     .findOne(),
+  // )
   const { path } = useRoute()
-
-  const { data: page } = await useAsyncData(path.replace(/\/$/, ''),
-    () => queryContent<Tutorial>('tutorials')
-      .where({ _path: path })
-      .findOne(),
-  )
+  const { data: page } = await useAsyncData(`content-${path}`, () => {
+    return queryContent().where({ _path: path }).findOne();
+  });
 </script>
