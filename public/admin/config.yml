@@ -17,7 +17,7 @@ collections:
   - name: 'journal'
     label: 'Journal'
     folder: 'content/journal'
-    media_folder: /static/media/journal
+    media_folder: /public/media/journal
     public_folder: /media/journal
     format: 'frontmatter'
     create: true
@@ -32,7 +32,7 @@ collections:
   - name: 'work'
     label: 'Work'
     folder: 'content/work'
-    media_folder: /static/media/work
+    media_folder: /public/media/work
     public_folder: /media/work
     format: 'frontmatter'
     create: true
@@ -47,7 +47,7 @@ collections:
   - name: 'services'
     label: 'Services'
     folder: 'content/services'
-    media_folder: /static/media/services
+    media_folder: /public/media/services
     public_folder: /media/services
     format: 'frontmatter'
     create: true
@@ -62,7 +62,7 @@ collections:
   - name: 'photos'
     label: 'Photos'
     folder: 'content/photos'
-    media_folder: /static/media/photos
+    media_folder: /public/media/photos
     public_folder: /media/photos
     format: 'frontmatter'
     create: true
@@ -77,7 +77,7 @@ collections:
   - name: 'release-notes'
     label: 'Release Notes'
     folder: 'content/release-notes'
-    media_folder: /static/media/release-notes
+    media_folder: /public/media/release-notes
     public_folder: /media/release-notes
     format: 'frontmatter'
     create: true
@@ -92,7 +92,7 @@ collections:
   - name: 'themes'
     label: 'Themes'
     folder: 'content/themes'
-    media_folder: /static/media/themes
+    media_folder: /public/media/themes
     public_folder: /media/themes
     format: 'frontmatter'
     create: true
@@ -107,7 +107,7 @@ collections:
   - name: 'tutorials'
     label: 'Tutorials'
     folder: 'content/tutorials'
-    media_folder: /static/media/tutorials
+    media_folder: /public/media/tutorials
     public_folder: /media/tutorials
     format: 'frontmatter'
     create: true
@@ -122,7 +122,7 @@ collections:
   - name: 'videos'
     label: 'Videos'
     folder: 'content/videos'
-    media_folder: /static/media/videos
+    media_folder: /public/media/videos
     public_folder: /media/videos
     format: 'frontmatter'
     create: true
