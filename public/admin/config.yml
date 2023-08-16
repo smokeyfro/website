@@ -7,6 +7,12 @@ backend:
 media_folder: public/media
 public_folder: /media
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: smokeyfro
+    api_key: 986198746664826
+    
 collections:
   - name: 'journal'
     label: 'Journal'
