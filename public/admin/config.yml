@@ -4,6 +4,10 @@ backend:
    branch: main
    base_url: https://sveltia-cms-auth.chris-a04.workers.dev
 
+site_url: https://new.smokeyfro.com
+display_url: https://new.smokeyfro.com
+logo_url: https://smokeyfro.com/favicon.png
+
 media_folder: public/media
 public_folder: /media
 
@@ -46,6 +50,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Gallery', name: 'gallery', widget: 'list', summary: '{{fields.image}}', field: { label: Image, name: image, widget: image } }
   - name: 'services'
