@@ -43,10 +43,11 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Gallery', name: 'gallery', widget: 'list', summary: '{{fields.image}}', field: { label: Image, name: image, widget: image } }
   - name: 'services'
     label: 'Services'
     icon: design_services
