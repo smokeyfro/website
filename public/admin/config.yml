@@ -79,7 +79,7 @@ collections:
         name: body
         widget: markdown
   - name: type
-    label: Type
+    label: Types
     folder: content/types
     icon: collections_bookmark
     format: frontmatter
@@ -91,3 +91,6 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: Body
+        name: body
+        widget: markdown
