@@ -27,7 +27,6 @@ collections:
     format: frontmatter
     create: true
     slug: {{slug}}
-    summary: "<span class='title'>{{title}}</span><span class='date'>{{date | date('YYYY-MM')}}</span><span class='type'>{{type}}</span>"
     editor:
       preview: true
     fields:
