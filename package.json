@@ -7,11 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.7.6",
-    "@nuxt/image-edge": "1.0.0-rc.1-28180077.d51e794",
+    "@nuxt/devtools": "^0.8.0",
+    "@nuxt/image-edge": "latest",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/robots": "^3.0.0",
-    "@types/node": "^20.4.9",
+    "@types/node": "^20.5.0",
     "lite-youtube-embed": "^0.2.0",
     "nuxt": "^3.6.5",
     "sitemap": "^7.1.1",

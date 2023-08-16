@@ -84,8 +84,7 @@ The first thing we'll want to remove is the welcome panel that is displayed at t
 Luckily, removing it is simply a case of adding the following snippet to your admin customizations plugin:
 
 ```php
-<?php
-
+...
 remove_action( 'welcome_panel', 'wp_welcome_panel' );
 ```
 
@@ -106,6 +105,7 @@ The widgets we're going to remove are:
 To do so, we'll add the following function to our admin customizations plugin:
 
 ```php
+
 <?php
 
 /**

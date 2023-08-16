@@ -22,7 +22,7 @@ Doing this is in php would be pretty trivial, but being that it's not something 
 
 I'm using Gridsome for my site, but this will apply to any Vue.js project. Here is the snippet, added as computed properties:
 
-```ts
+```js
 <script>
     export default {
       computed:{
@@ -41,7 +41,7 @@ For my site I used the same principle to automatically calculate the number of y
 
 Here is the updated version:
 
-```ts
+```js
 <script>
     export default {
       computed:{
