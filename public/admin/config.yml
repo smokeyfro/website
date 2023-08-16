@@ -46,23 +46,41 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - {
-          label: 'Gallery',
-          name: 'gallery',
-          widget: 'list',
-          fields: { 
-            - { label: 'Thumb', name: 'thumbnail', widget: 'image' }
-            - { label: 'Source', name: 'src', widget: 'image' }
-            - { label: 'Alt', name: 'alt', widget: 'string' }
-            - { label: 'Title', name: 'title', widget: 'string' }
-          }
-        }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["post"]
+      - label: 'Image'
+        name: 'image'
+        widget: 'image'
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'list'
+        fields:
+          - label: 'Thumb'
+            name: 'thumbnail'
+            widget: 'image'
+          - label: 'Source'
+            name: 'src'
+            widget: 'image'
+          - label: 'Alt'
+            name: 'alt'
+            widget: 'string'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
   - name: 'services'
     label: 'Services'
     icon: design_services
