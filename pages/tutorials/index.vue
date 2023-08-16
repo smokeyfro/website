@@ -5,7 +5,6 @@
     </template>
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
-    <topics-cloud />
     <ul class="list-style:none m:0 mt:40 p:0 flex flex:col gap:40">
       <li v-for="{ _path: slug, title, thumb, topic, tags } in tutorials" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222 bg:#fff {bg:#f7f7f7}:hover ~all|300ms|ease-in-out r:5 overflow:hidden flex ai:center b:1|solid|#ccc">

@@ -4,10 +4,10 @@
       <nuxt-link to="/tutorials" class="bg:#fff color:#222 block p:10|20 text:none">All topics</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/tutorials/topics/going-headless" class="bg:#fff color:#222 block p:10|20 text:none">Going Headless</nuxt-link>
+      <nuxt-link to="/tutorials/topics/going-headless" slug="going-headless" class="bg:#fff color:#222 block p:10|20 text:none">Going Headless</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/tutorials/topics/learning-vue" class="bg:#fff color:#222 block p:10|20 text:none">Learning Vue</nuxt-link>
+      <nuxt-link to="/tutorials/topics/learning-vue" slug="learning-vue" class="bg:#fff color:#222 block p:10|20 text:none">Learning Vue</nuxt-link>
     </li>
   </ul>
 </template>
