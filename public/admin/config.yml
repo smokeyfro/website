@@ -1,18 +1,18 @@
 backend:
   name: github
-  repo: smokeyfo/website
+  repo: smokeyfro/website
   branch: main
   squash_merges: true
-  open_authoring: false
+  open_authoring: true
 
 publish_mode: editorial_workflow
 media_folder: public/media
-public_folder: /images
+public_folder: /media
 site_url: "https://new.smokeyfro.com/"
 
 collections:
   - name: post
-    label: Posts
+    label: Journal
     folder: src/content/journal
     create: true
     format: frontmatter
