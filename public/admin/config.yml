@@ -1,26 +1,21 @@
 backend:
-  name: github
-  repo: smokeyfro/website
+  name: git-gateway
   branch: main
-  squash_merges: true
-  open_authoring: true
 
-publish_mode: editorial_workflow
 media_folder: public/media
 public_folder: /media
-site_url: "https://new.smokeyfro.com/"
 
 collections:
-  - name: post
-    label: Journal
-    folder: src/content/journal
+  - name: 'journal'
+    label: 'Journal'
+    folder: 'content/journal'
+    format: 'frontmatter'
     create: true
-    format: frontmatter
-    preview_path: post/{{slug}}
+    slug: '{{slug}}'
+    editor:
+      preview: false
     fields:
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: publishedAt, label: Date, widget: date }
-      - {label: "Publish", name: "isPublish", widget: "boolean", default: true}
-      - {label: "Draft", name: "isDraft", widget: "boolean", default: false}
-      - { name: body, label: Body, widget: markdown }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
