@@ -27,7 +27,7 @@ collections:
     format: frontmatter
     create: true
     slug: {{slug}}
-    summary: "{{title | upper}} - {{date | date('YYYY-MM-DD')}} – {{body | truncate(20, '***')}}"
+    summary: "<span class='title'>{{title}}</span><span class='date'>{{date | date('YYYY-MM')}}</span><span class='type'>{{type}}</span>"
     editor:
       preview: true
     fields:
