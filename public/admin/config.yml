@@ -9,8 +9,8 @@ collections:
   - name: 'journal'
     label: 'Journal'
     folder: 'content/journal'
-    media_folder: /static/media/journal
-    public_folder: /media/journal
+    media_folder: '/static/media/journal'
+    public_folder: '/media/journal'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
@@ -36,7 +36,10 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Image', name: 'image', widget: 'image' }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        choose_url: true
   - name: 'services'
     label: 'Services'
     folder: 'content/services'
