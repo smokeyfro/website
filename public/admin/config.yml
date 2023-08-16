@@ -2,7 +2,7 @@ backend:
    name: github
    repo: smokeyfro/website
    branch: main
-   base_url: https://sveltia-cms-auth.chris-a04.workers.dev/
+   base_url: https://sveltia-cms-auth.chris-a04.workers.dev
 
 media_folder: public/media
 public_folder: /media
