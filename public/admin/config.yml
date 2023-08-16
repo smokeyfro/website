@@ -47,10 +47,6 @@ collections:
         widget: list
         allow_add: true
         label_singular: Service
-        field: 
-          - label: Item
-          - name: item
-          - widget: string
       - label: Tags
         name: tags
         widget: list
