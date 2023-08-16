@@ -28,7 +28,7 @@ collections:
     create: true
     slug: {{slug}}
     editor:
-      preview: false
+      preview: true
     fields:
       - label: Title
         name: title
@@ -38,7 +38,7 @@ collections:
         widget: string
       - label: Date
         name: date
-        widget: datetime
+        widget: date
       - label: Tags
         name: tags
         widget: list
@@ -48,6 +48,7 @@ collections:
       - label: Gallery
         name: gallery
         widget: list
+        required: false
         collapsed: true
         fields:
           - label: Thumb
