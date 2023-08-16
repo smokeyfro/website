@@ -1,7 +1,7 @@
 ---
 title: EdenHub
 slug: edenhub
-excerpt: Multi-seller marketplace connecting local producers with the Garden Route community.
+description: Multi-seller marketplace connecting local producers with the Garden Route community.
 type: WordPress
 featured: true
 thumb: "v1690984745/work/edenhub-marketplace-home-thumb.webp"

@@ -1,7 +1,7 @@
 ---
 title: Tasty Blocks
 slug: tasty-blocks
-excerpt: Concept for a WordPress theme and plugins club centered around the Gutenberg editor.
+description: Concept for a WordPress theme and plugins club centered around the Gutenberg editor.
 type: Design
 contact: Internal
 client_content: Internal

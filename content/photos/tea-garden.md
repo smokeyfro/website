@@ -1,7 +1,7 @@
 ---
 title: Tea Garden
 slug: tea-garden
-excerpt: Our landscaped garden with spaces for tables set inbetween. Inspired by the Secret Garden film.
+description: Our landscaped garden with spaces for tables set inbetween. Inspired by the Secret Garden film.
 image: "v1690808884/albums/tea-garden/tea-garden-at-dusk.jpg"
 category: farm
 albumClass: grid-style3

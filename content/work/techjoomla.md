@@ -1,7 +1,7 @@
 ---
 title: TechJoomla
 slug: techjoomla
-excerpt: Wireframed the key landing pages for a Joomla extension providers new website.
+description: Wireframed the key landing pages for a Joomla extension providers new website.
 type: Design
 contact: TechJoomla
 client_content: Paarth

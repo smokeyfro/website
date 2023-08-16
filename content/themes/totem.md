@@ -1,7 +1,7 @@
 ---
 title: Totem
 slug: totem
-excerpt: Totem is a simple blogging theme with bold typography to e nsure your content always looks great.
+description: Totem is a simple blogging theme with bold typography to e nsure your content always looks great.
 platform: WordPress
 group: beans
 order: 5

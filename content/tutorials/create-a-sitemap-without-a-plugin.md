@@ -12,8 +12,7 @@ topic: WordPress
 category: WordPress
 difficulty: Easy
 type: Article
-searchTerms: wordpress, sitemap, beans, tutorials, tuts, tutorial
-excerpt: "In this tutorial, I cover the steps needed to create a sitemap, without using a plugin. This is something that Thierry came up with, so full credit to him for the code. I'm just sharing it here so you guys can use it too."
+description: "In this tutorial, I cover the steps needed to create a sitemap, without using a plugin. This is something that Thierry came up with, so full credit to him for the code. I'm just sharing it here so you guys can use it too."
 ---
 
 ## What is a sitemap?

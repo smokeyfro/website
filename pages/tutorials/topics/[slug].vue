@@ -50,7 +50,6 @@ useHead({
                 <span v-for="(tag, index) in tags" :key="index" v-html="tag" class="bg:#ddd px:6 py:2 f:14 r:3" />
               </span>
             </div>
-            <!-- <p class="mb:10">{{ excerpt }}</p> -->
             <p class="mt:0 mb:0"><span class="f:bold t:25 bb:1|solid|#ccc">Read now →</span></p>
           </div>
         </nuxt-link>

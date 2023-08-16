@@ -1,7 +1,7 @@
 ---
 title: Building Surveys
 slug: building-surveys
-excerpt: A fresh new look for a UK company specialising in commercial property building surveys.
+description: A fresh new look for a UK company specialising in commercial property building surveys.
 type: WordPress
 company: Liquasil Ltd
 contact: David Carter

@@ -1,7 +1,7 @@
 ---
 title: Health Coach
 slug: health-coach
-excerpt: Rebuilt my dads site using Ghost and Gridsome.
+description: Rebuilt my dads site using Ghost and Gridsome.
 type: Gridsome
 company: The Health Coach
 contact: Michael Rault 

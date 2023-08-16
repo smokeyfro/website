@@ -6,7 +6,7 @@
     <base-title>Themes</base-title>
     <base-excerpt>My growing collection of themes for multiple platforms.</base-excerpt>
     <ul class="list-style:none m:0 mt:-20 ml:-30 p:0 grid-cols:3">
-      <li v-for="{ _path: slug, title, excerpt, image, platform, release_date } in themes" :key="slug">
+      <li v-for="{ _path: slug, title, description, image, platform, release_date } in themes" :key="slug">
         <nuxt-link :to="slug" class="block text-decoration:none color:#222 r:5">
           <nuxt-img v-if="image" provider="cloudinary" :src="image" width="500" height="300" fit="cover" :alt="title" class="max-width:100%" />
           <div class="px:30">
@@ -21,7 +21,7 @@
               &middot;
               <span>{{ release_date }}</span>
             </div>
-            <p class="mb:10">{{ excerpt }}</p>
+            <p class="mb:10">{{ description }}</p>
             <p class="mt:0 mb:0"><span class="f:bold t:25 bb:1|solid|#ccc">View details →</span></p>
           </div>
         </nuxt-link>

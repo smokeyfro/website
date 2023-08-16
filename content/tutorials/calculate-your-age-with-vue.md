@@ -4,7 +4,6 @@ slug: calculate-your-age-with-vue
 date: 2019-09-02
 published: true
 tags: ['vue', 'snippets', 'computed']
-series: true
 image: v1690984745/tuts/calculate-age-vue.jpg
 thumb: v1690984745/tuts/calculate-age-vue.jpg
 topics: ['learning-vue']
@@ -12,8 +11,7 @@ topic: Learning Vue
 category: Learning Vue
 difficulty: Easy
 type: Article
-searchTerms: vue, computed-properties, age, calculate, tutorials, tuts
-excerpt: "Yesterday I finally started updating my new portfolio content and when I got to the about page on my old site, I noticed my age was still set to 35. Whoops."
+description: "Yesterday I finally started updating my new portfolio content and when I got to the about page on my old site, I noticed my age was still set to 35. Whoops."
 ---
 
 This is partly due to me spreading myself too thin and part of the motivation behind pulling all my side projects under a single roof.

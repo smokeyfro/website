@@ -1,7 +1,7 @@
 ---
 title: Skagen Hotel
 slug: skagen-hotel
-excerpt: A new adaptive design for an iconic hotel group in Norway.
+description: A new adaptive design for an iconic hotel group in Norway.
 type: Design
 company: BEDRE reklame
 contact: Torkil Johnsen

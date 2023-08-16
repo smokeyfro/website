@@ -1,7 +1,7 @@
 ---
 title: Find a Counsellor
 slug: find-a-counsellor
-excerpt: A searchable directory of marriage counsellors in Australia.
+description: A searchable directory of marriage counsellors in Australia.
 type: Joomla
 company: Humaneed
 contact: Bernice Morgan

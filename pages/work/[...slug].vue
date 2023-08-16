@@ -6,7 +6,7 @@
     <div v-if="page !== null" class="grid grid-cols:2 gap:50">
       <div>
         <base-title>{{ page.title }}</base-title>
-        <base-excerpt>{{ page.excerpt }}</base-excerpt>
+        <base-excerpt>{{ page.description }}</base-excerpt>
         <p class="my:10" v-if="page.url && page.status != 'Offline'">
           <a :href="page.url" target="_blank" class="btn btn-lg btn-primary">View the site <!--<img src="/external.svg" alt="External link" class="inline-block w-3 h-3">--></a>
         </p>

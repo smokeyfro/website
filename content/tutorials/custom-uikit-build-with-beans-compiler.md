@@ -13,8 +13,7 @@ category: WordPress
 difficulty: Easy
 type: Video
 video_duration: "9"
-searchTerms: wordpress, uikit, beans, compiler, tutorials, tuts, tutorial
-excerpt: "In this video I show you how to use Beans as a quick and easy way to create custom builds of UIkit, for your static projects. Also covers Beans auto-loading feature, which takes the frustration out of loading UIkit components without the needed dependencies."
+description: "In this video I show you how to use Beans as a quick and easy way to create custom builds of UIkit, for your static projects. Also covers Beans auto-loading feature, which takes the frustration out of loading UIkit components without the needed dependencies."
 ---
 
 ::youtube{title="Part 1" id="_UZgj-bUEbE"}

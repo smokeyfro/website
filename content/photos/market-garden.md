@@ -1,7 +1,7 @@
 ---
 title: Market Garden
 slug: market-garden
-excerpt: Our market garden where we grow herbs and veg that we either trade or process.
+description: Our market garden where we grow herbs and veg that we either trade or process.
 image: "v1690808884/albums/market-garden/owl-gate.jpg"
 category: farm
 albumClass: grid-style3

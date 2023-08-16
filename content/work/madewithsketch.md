@@ -1,7 +1,7 @@
 ---
 title: Made with Sketch
 slug: madewithsketch
-excerpt: Resources for Sketch (a popular design app) optimised for the smallest download size.
+description: Resources for Sketch (a popular design app) optimised for the smallest download size.
 type: WordPress
 contact: Side Project
 client_content: Me

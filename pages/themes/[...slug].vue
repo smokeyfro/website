@@ -6,7 +6,7 @@
     <div v-if="page" class="grid grid-cols:2 gap:50">
       <div>
         <base-title>{{ page.title }}</base-title>
-        <base-excerpt>{{ page.excerpt }}</base-excerpt>
+        <base-excerpt>{{ page.description }}</base-excerpt>
         <div class="bg:#fff mb:20 p:30 r:5 b:1|solid|#ddd">
           <ul class="m:0 p:0 list-style:none flex ai:end jc:start">
             <li>
@@ -53,7 +53,7 @@
       .findOne(),
   )
   const title: string = page.value?.title || ''
-  const description: string = page.value?.excerpt || ''
+  const description: string = page.value?.description || ''
   const image: string = page.value?.image || ''
   const ogImage: string = page.value?.image || ''
   useHead({

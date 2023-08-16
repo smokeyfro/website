@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Tutorial, Sections } from '~/types'
+import type { Tutorial, Section } from '~/types'
 
 const {
   params: { slug },
@@ -15,7 +15,7 @@ const { data: tutorials } = await useAsyncData(`tutorials-${slug}`,
 const topic: string = replaceHyphen(slug as string)
 const title: string = `Tutorials > ${topic}`
 const description: string = `Here's a list of all my tutorials with the ${topic} tag`
-const section: Sections = 'tutorials'
+const section: Section = 'tutorials'
 
 useHead({
   title,

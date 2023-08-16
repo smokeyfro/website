@@ -1,7 +1,7 @@
 ---
 title: Drinking Games
 slug: drinking-games
-excerpt: Drinking games app built with Airtable and Gridsome.
+description: Drinking games app built with Airtable and Gridsome.
 type: Gridsome
 company: n/a
 contact: 

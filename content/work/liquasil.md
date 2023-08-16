@@ -1,7 +1,7 @@
 ---
 title: Liquasil
 slug: liquasil
-excerpt: Complete rebuild and migration from WordPress to the Jamstack, using Prismic (and their Slices feature), along with Nuxt and Tailwind for the front-end.
+description: Complete rebuild and migration from WordPress to the Jamstack, using Prismic (and their Slices feature), along with Nuxt and Tailwind for the front-end.
 type: Nuxt
 company: Liquasil
 contact: David Carter 

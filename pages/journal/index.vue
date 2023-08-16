@@ -6,7 +6,7 @@
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
     <ul class="list-style:none m:0 p:0 flex flex:col gap:40">
-      <li v-for="{ _path: slug, title, excerpt, date, topics } in posts" :key="slug">
+      <li v-for="{ _path: slug, title, description, date, topics } in posts" :key="slug">
         <nuxt-link :to="slug" class="flex gap:30 text-decoration:none color:#222">
           <div class="mt:10">
             <span class="min-width:180 w:180 block">{{ formatDate(date) }}</span>

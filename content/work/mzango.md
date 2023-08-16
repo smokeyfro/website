@@ -1,7 +1,7 @@
 ---
 title: Mzango
 slug: mzango
-excerpt: The adventure travellers guide to backpacking in South Africa.
+description: The adventure travellers guide to backpacking in South Africa.
 featured: true
 thumb: "v1690984745/work/mzango-thumb.jpg"
 image: "v1690984745/work/featured-mzango.jpg"

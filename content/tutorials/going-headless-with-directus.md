@@ -12,8 +12,7 @@ topic: Going Headless
 category: Going Headless
 difficulty: Easy
 type: Article
-searchTerms: directus, headless, cms
-excerpt: I'm a huge fan of Directus, the open-source headless content management system. I've used it to create an online-learning app, a gardening app, as a page builder for client projects. It's incredibly versatile and provides so much out-the-box and is easy to extend.
+description: I'm a huge fan of Directus, the open-source headless content management system. I've used it to create an online-learning app, a gardening app, as a page builder for client projects. It's incredibly versatile and provides so much out-the-box and is easy to extend.
 ---
 
 Content

@@ -1,7 +1,7 @@
 ---
 title: Approved Experts
 slug: approved-experts
-excerpt: Design for a web-application that would pair up appropriate service providers on a per project basis.
+description: Design for a web-application that would pair up appropriate service providers on a per project basis.
 type: Design
 company: Fatwax Media
 contact: Kieron Bolton

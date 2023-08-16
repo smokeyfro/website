@@ -5,7 +5,7 @@
     </template>
     <div v-if="page" class="max-width:960">
       <base-title>{{ page.title }}</base-title>
-      <base-excerpt>{{ page.excerpt }}</base-excerpt>
+      <base-excerpt>{{ page.description }}</base-excerpt>
       <silent-box :gallery="page.photos" class="gallery grid-cols:3 gap:30 mt:50"></silent-box>
       <content-renderer :value="page">
         <template #empty></template>
@@ -25,7 +25,7 @@
   )
 
   const title: string = page.value?.title || ''
-  const description: string = page.value?.excerpt || ''
+  const description: string = page.value?.description || ''
   const image: string = page.value?.image || ''
   const ogImage: string = page.value?.image || ''
   useHead({

@@ -5,14 +5,13 @@ export type WorkType = "WordPress" | "Jamstack" | "Website" | "Webapp" | "Web/UX
 export interface Page extends MarkdownParsedContent {
   title: string;
   description: string;
-  excerpt: string;
   draft: boolean;
   image?: string;
 }
 
 export interface Post extends MarkdownParsedContent {
   title: string;
-  excerpt: string;
+  description: string;
   date: string;
   image?: string;
   tags: string[];
@@ -30,7 +29,7 @@ export interface Portfolio extends MarkdownParsedContent {
   services: string[];
   company?: string;
   contact?: string;
-  excerpt: string;
+  description: string;
   url: string;
   image?: string;
   thumb?: string;
@@ -41,7 +40,7 @@ export interface Portfolio extends MarkdownParsedContent {
 export interface Theme extends MarkdownParsedContent {
   title: string;
   slug: string;
-  excerpt: string;
+  description: string;
   date: string;
   tags: string[];
   platform: string;
@@ -57,16 +56,22 @@ export interface Theme extends MarkdownParsedContent {
 
 export interface Tutorial extends MarkdownParsedContent {
   title: string;
-  excerpt: string;
+  description: string;
   date: string;
   category: string;
   image?: string;
+  thumb?: string;
   tags: string[];
+  types: string[];
+  type: string;
+  published: boolean;
+  difficulty: string;
+  slug: string;
 }
 
 export interface Album extends MarkdownParsedContent {
   title: string;
-  excerpt: string;
+  description: string;
   date: string;
   image?: string;
   category: string;
@@ -77,7 +82,7 @@ export interface Album extends MarkdownParsedContent {
 export interface Video extends MarkdownParsedContent {
   title: string;
   slug: string;
-  excerpt: string;
+  description: string;
   date: string;
   image?: string;
   video_id?: string;

@@ -1,7 +1,7 @@
 ---
 title: The Glade
 slug: the-glade
-excerpt: The Glade is the circular opening where the forest starts making its way down the property.
+description: The Glade is the circular opening where the forest starts making its way down the property.
 image: "v1690808884/albums/the-glade/cover.jpg"
 category: farm
 albumClass: grid-style1

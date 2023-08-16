@@ -1,7 +1,7 @@
 ---
 title: Jenkins
 slug: jenkins
-excerpt: Jenkins is a simple blogging theme with minimal styling, putting the focus on your content.
+description: Jenkins is a simple blogging theme with minimal styling, putting the focus on your content.
 platform: WordPress
 group: beans
 order: 4

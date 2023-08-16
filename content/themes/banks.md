@@ -1,7 +1,7 @@
 ---
 title: Banks
 slug: banks
-excerpt: Banks is a simple magazine theme that is void of sidebars, so you're content is always center stage.
+description: Banks is a simple magazine theme that is void of sidebars, so you're content is always center stage.
 platform: WordPress
 group: beans
 order: 3

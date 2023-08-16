@@ -1,7 +1,7 @@
 ---
 title: ThemeButler
 slug: themebutler
-excerpt: Our attempt at a theme club aimed at developers. The birthplace of Beans.
+description: Our attempt at a theme club aimed at developers. The birthplace of Beans.
 type: WordPress
 contact: Internal
 client_content: 

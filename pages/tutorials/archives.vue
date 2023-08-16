@@ -29,13 +29,13 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-  import type { TutorialPreview, Sections } from '~/types'
+  import type { TutorialPreview } from '~/types'
 
   const { data: tutorials } = await useAsyncData('tutorials',
     () => queryContent<TutorialPreview>('tutorials')
       .where({ topic: 'WordPress' })
       .sort({ date: -1 })
-      .only(['title', 'slug', '_path', 'description', 'thumb', 'topics', 'topic', 'tags'])
+      .only(['title', 'slug', '_path', 'thumb', 'topics', 'topic', 'tags'])
       .find(),
   )
 

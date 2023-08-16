@@ -1,7 +1,7 @@
 ---
 title: WPTips
 slug: wptips
-excerpt: Curated collection of the best WordPress tutorials and snippets.
+description: Curated collection of the best WordPress tutorials and snippets.
 type: WordPress
 contact: Side Project
 client_content: Me

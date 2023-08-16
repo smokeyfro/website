@@ -1,7 +1,7 @@
 ---
 title: Kitchen Garden
 slug: kitchen-garden
-excerpt: The edible food garden that sits adjascent to the old cottage ruin.
+description: The edible food garden that sits adjascent to the old cottage ruin.
 image: "v1690808884/albums/kitchen-garden/spring.jpg"
 category: farm
 photos:

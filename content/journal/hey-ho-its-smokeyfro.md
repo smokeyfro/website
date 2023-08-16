@@ -6,10 +6,9 @@ published: true
 tags: ['updates', 'life', 'work']
 topics: ['updates'] 
 searchTerms: ['updates']
+description: It's been a long time coming, but I finally got around to creating a personal site that I'm proud of. This a complete rebuild of my tired (and somewhat half-arsed) version, which lived over at devignerforhire.com for a couple years.
 ---
 
-It's been a long time coming, but I finally got around to creating a personal site that I'm proud of. This a complete rebuild of my tired (and somewhat half-arsed) version, which lived over at devignerforhire.com for a couple years.
-<!--more-->
 The motivation behind the rebuild was multi-fold...
 
 Firstly, I was never really happy with the old site. It was somewhat rushed and never finished and has been a thorn in my side for way too long. The story of the cobblers shoes comes to mind.

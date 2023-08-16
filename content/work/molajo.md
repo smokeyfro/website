@@ -1,7 +1,7 @@
 ---
 title: Molajo
 slug: molajo
-excerpt: Overhauling the installation process for an open-source CMS forked from Joomla.
+description: Overhauling the installation process for an open-source CMS forked from Joomla.
 type: Design
 contact: Molajo
 client_content: Molajo Foundation

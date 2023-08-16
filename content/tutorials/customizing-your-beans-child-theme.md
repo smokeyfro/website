@@ -13,8 +13,7 @@ category: WordPress
 difficulty: Easy
 type: Article
 video_duration: "37"
-searchTerms: wordpress, customise, customize, child theme, beans, tutorials, tuts, tutorial
-excerpt: "A quick video showing the process of getting setup with Beans, a child-theme and the Child-Theme Modifications for Beans plugin."
+description: "A quick video showing the process of getting setup with Beans, a child-theme and the Child-Theme Modifications for Beans plugin."
 ---
 
 ::youtube{title="Part 1" id="MqHCqtBRAm4"}

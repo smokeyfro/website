@@ -1,7 +1,7 @@
 ---
 title: DB Dynamics
 slug: dbdynamics
-excerpt: Marketing site for a local company using Nuxt & Prismic.
+description: Marketing site for a local company using Nuxt & Prismic.
 type: Nuxt
 company: DB Dynamics
 contact: Leon Wilson
