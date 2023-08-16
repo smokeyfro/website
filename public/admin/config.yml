@@ -13,7 +13,7 @@ site_url: "https://new.smokeyfro.com/"
 collections:
   - name: post
     label: Posts
-    folder: src/content/posts
+    folder: src/content/journal
     create: true
     format: frontmatter
     preview_path: post/{{slug}}
