@@ -51,7 +51,7 @@
           class="r:5 h:auto w:full b:2|solid|#ddd" />
       </div>
     </div>
-    <div class="markdown pt:6 my:5">
+    <div class="markdown pt:6 my:5" v-if="page">
       <h2 class="text:base font:bold my:3">About</h2>
       <div class="text:xl">
         <content-renderer :value="page">
