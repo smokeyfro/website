@@ -30,10 +30,10 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-import type { Theme } from '~/types'
+import type { ThemePreview } from '~/types'
 
 const { data: themes } = await useAsyncData('themes',
-  () => queryContent<Theme>('themes')
+  () => queryContent<ThemePreview>('themes')
     .where({ draft: { $ne: false } })
     .find(),
 )

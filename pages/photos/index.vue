@@ -19,7 +19,11 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-const photos = await queryContent('photos')
-  .where({ _partial: false })
-  .find()
+  import type { AlbumPreview } from '~/types'
+
+  const { data: photos } = await useAsyncData('photos',
+    () => queryContent<AlbumPreview>('photos')
+      .where({ draft: { $ne: false } })
+      .find(),
+  )
 </script>

@@ -24,14 +24,18 @@
 </template>
 
 <script setup lang="ts">
-  const posts = await queryContent('journal')
-    .sort({ date: -1 })
-    .where({ _partial: false })
-    .find()
+  import type { PostPreview, Section } from '~/types'
+
+  const { data: posts } = await useLazyAsyncData('journal',
+    () => queryContent<PostPreview>('journal')
+      .sort({ date: -1 })
+      .only(['title', 'description','slug', '_path', 'thumb', 'topics'])
+      .find(),
+  )
 
   const title: string = 'Journal'
   const description: string = 'Updates about what I\'m working on, books I\'m reading, stuff I\'m thinking about, news on the farm, product releases and more.'
-  //const section: Section = 'journal'
+  const section: Section = 'journal'
 
   // useHead({
   //   title,

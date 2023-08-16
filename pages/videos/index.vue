@@ -17,10 +17,10 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-import type { Video } from '~/types'
+import type { VideoPreview } from '~/types'
 
 const { data: videos } = await useAsyncData('videos',
-  () => queryContent<Video>('videos')
+  () => queryContent<VideoPreview>('videos')
     .where({ draft: { $ne: false } })
     .find(),
 )
