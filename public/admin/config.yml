@@ -43,10 +43,13 @@ collections:
         name: date
         widget: date
       - label: Services
-        name: services
-        widget: list
-        allow_add: true
-        label_singular: Service
+        name: service
+        widget: relation
+        collection: service
+        search_fields: [title]
+        value_field: title
+        display_fields: [title]
+        multiple: true
       - label: Tags
         name: tags
         widget: list
@@ -84,6 +87,22 @@ collections:
   - name: type
     label: Types
     folder: content/types
+    icon: collections_bookmark
+    format: frontmatter
+    create: true
+    slug: {{slug}}
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  - name: services
+    label: Services
+    folder: content/services
     icon: collections_bookmark
     format: frontmatter
     create: true
