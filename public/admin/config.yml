@@ -1,16 +1,24 @@
 backend:
-  name: github
-  repo: smokeyfro/website
-  branch: main
-  base_url: https://sveltia-cms-auth.chris-a04.workers.dev
+   name: github
+   repo: smokeyfro/website
+   branch: main
+   base_url: https://sveltia-cms-auth.chris-a04.workers.dev
+
 media_folder: public/media
 public_folder: /media
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: smokeyfro
+    api_key: 986198746664826
+    
 collections:
   - name: 'journal'
     label: 'Journal'
     folder: 'content/journal'
-    media_folder: '/static/media/journal'
-    public_folder: '/media/journal'
+    media_folder: /static/media/journal
+    public_folder: /media/journal
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
@@ -36,10 +44,6 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "Featured Image"
-        name: "image"
-        widget: "image"
-        choose_url: true
   - name: 'services'
     label: 'Services'
     folder: 'content/services'
