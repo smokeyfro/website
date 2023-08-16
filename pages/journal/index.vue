@@ -29,7 +29,7 @@
   const { data: posts } = await useLazyAsyncData('journal',
     () => queryContent<PostPreview>('journal')
       .sort({ date: -1 })
-      .only(['title', 'description','slug', '_path', 'thumb', 'topics'])
+      .only(['title', 'description','slug', '_path', 'thumb', 'topics', 'date'])
       .find(),
   )
 

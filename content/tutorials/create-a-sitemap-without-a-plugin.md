@@ -25,7 +25,9 @@ Normally you'd use one of the many plugins available, but now you don't have to.
 
 So, on with the show. I hope you find it useful.
 
-`youtube:https://youtu.be/z30PWwbyIj8`
+:youtube{title="Part 1" id="z30PWwbyIj8"}
+Create a sitemap without a plugin
+::
 
 ## Download the example files
 

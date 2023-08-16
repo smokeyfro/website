@@ -5,7 +5,7 @@ export const NavLinks: Navigation[] = [
         url: '/',
         text: 'Home',
         title: 'About this guy called SmokeyFro',
-        icon: ''
+        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 22 22"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>'
     },
     {
         url: '/about',

@@ -79,7 +79,7 @@ export interface Album extends MarkdownParsedContent {
   gallery: string[];
 }
 
-export interface Video extends MarkdownParsedContent {
+export interface Video extends ParsedContent {
   title: string;
   slug: string;
   description: string;
@@ -89,12 +89,10 @@ export interface Video extends MarkdownParsedContent {
   video_url?: string;
   duration?: string;
   start?: string;
-  custom_class?: string;
 }
 
 export type PostPreview = Omit<Post, 'body'>;
 export type TutorialPreview = Omit<Tutorial, 'body'>;
-export type VideoPreview = Omit<Video, 'body'>;
 export type PortfolioPreview = Omit<Portfolio, 'body'>;
 export type AlbumPreview = Omit<Album, 'body'>;
 export type ThemePreview = Omit<Theme, 'body'>;

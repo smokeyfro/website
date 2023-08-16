@@ -165,17 +165,6 @@ useHead({
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
-/*  main div:not(.download) a:not(.btn):after {
-    content: ' ';
-    border-bottom: 2px solid;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-  }
-  main a:not(.btn):hover {
-    background: #fff;
-  } */
   .btn {
     font-family: "Mandali";
     display: inline-block;
