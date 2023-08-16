@@ -55,6 +55,7 @@ collections:
         search_fields: [type.title]
         value_field: type.title
         display_fields: [type.title]
+      - label: Image
         name: image
         widget: image
       - label: Gallery
