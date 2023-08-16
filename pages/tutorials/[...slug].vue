@@ -3,6 +3,7 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[4].subnav" />
     </template>
+    <pre>{{ page }}</pre>
     <div v-if="page !== null">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.description }}</base-excerpt>
