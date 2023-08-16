@@ -1,6 +1,6 @@
 import type { ParsedContent, MarkdownParsedContent } from '@nuxt/content/dist/runtime/types';
 export type Section = "journal" | "work" | "themes" | "tutorials" | "photos";
-export type WorkType = "WordPress" | "Jamstack" | "Website" | "Webapp" | "Web/UX Design";
+export type WorkType = "WordPress" | "Jamstack" | "Gridsome" | "Nuxt" | "Design" | "Joomla";
 
 export interface Page extends MarkdownParsedContent {
   title: string;
