@@ -18,15 +18,15 @@ media_library:
     api_key: 986198746664826
     
 collections:
-  - name: 'work'
-    label: 'Work'
-    folder: 'content/work'
-    icon: 'collections_bookmark'
+  - name: work
+    label: Work
+    folder: content/work
+    icon: collections_bookmark
     media_folder: /public/media/work
     public_folder: /media/work
-    format: 'frontmatter'
+    format: frontmatter
     create: true
-    slug: '{{slug}}'
+    slug: {{slug}}
     editor:
       preview: false
     fields:
@@ -48,6 +48,7 @@ collections:
       - label: Gallery
         name: gallery
         widget: list
+        collapsed: true
         fields:
           - label: Thumb
             name: thumbnail
