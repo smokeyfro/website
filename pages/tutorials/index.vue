@@ -30,7 +30,7 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-  import type { TutorialPreview, Section } from '~/types'
+  import type { TutorialPreview } from '~/types'
 
   const { data: tutorials } = await useLazyAsyncData('tutorials',
     () => queryContent<TutorialPreview>('tutorials')
@@ -42,7 +42,7 @@
 
   const title: string = 'Tutorials'
   const description: string = 'My technical tutorials focussed on topics relating to the jamstack.'
-  const section: Section = 'tutorials'
+  //const section: Section = 'tutorials'
 
   useHead({
     title,
