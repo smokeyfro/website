@@ -20,6 +20,7 @@
         &middot;
         <span class="px:6 py:2">{{ formatDate(page.date) }}</span>
       </div>
+      <pre>{{ page._path }}</pre>
       <content-renderer :value="page">
         <template #empty></template>
       </content-renderer>

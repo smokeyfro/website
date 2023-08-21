@@ -56,17 +56,18 @@ export interface Theme extends MarkdownParsedContent {
 
 export interface Tutorial extends MarkdownParsedContent {
   title: string;
+  slug: string;
   description: string;
   date: string;
-  category: string;
   image?: string;
   thumb?: string;
   tags: string[];
-  types: string[];
+  topics: string[];
+  topic: string;
+  category: string;
   type: string;
   published: boolean;
   difficulty: string;
-  slug: string;
 }
 
 export interface Album extends MarkdownParsedContent {
