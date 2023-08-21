@@ -18,11 +18,6 @@ export default defineNuxtConfig({
       Lora: [400, 700],
     }
   },
-  content: {
-    highlight: {
-      theme: 'github-light'
-    }
-  },
   spaLoadingTemplate: false,
   image: {
     cloudinary: {
