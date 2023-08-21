@@ -33,10 +33,10 @@
   </nuxt-layout>
 </template>
 <script setup lang="ts">
-import type { Portfolio } from '~/types'
+import type { PortfolioPreview } from '~/types'
 
 const { data: work } = await useAsyncData('work',
-  () => queryContent<Portfolio>('work')
+  () => queryContent<PortfolioPreview>('work')
     .where({ draft: { $ne: false } })
     .sort({ date: -1 })
     .find(),
