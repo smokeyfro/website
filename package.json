@@ -8,10 +8,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.8.0",
-    "@nuxt/image-edge": "latest",
+    "@nuxt/image-edge": "1.0.0-rc.1-28205905.cb96767",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/robots": "^3.0.0",
-    "@types/node": "^20.5.0",
+    "@types/node": "^20.5.1",
     "lite-youtube-embed": "^0.2.0",
     "nuxt": "^3.6.5",
     "sitemap": "^7.1.1",

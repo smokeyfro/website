@@ -43,9 +43,9 @@ collections:
         name: date
         widget: date
       - label: Services
-        name: service
+        name: services
         widget: relation
-        collection: service
+        collection: services
         search_fields: [title]
         value_field: title
         display_fields: [title]
