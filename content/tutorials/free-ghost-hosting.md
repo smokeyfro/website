@@ -14,5 +14,4 @@ difficulty: Easy
 type: Article
 description: "The previous version of my portfolio was built with Gridsome, which was setup to normalize content from a variety of sources. One of those was my favourite blogging platform, Ghost. Here's how you can set it up for free."
 ---
-
 Content

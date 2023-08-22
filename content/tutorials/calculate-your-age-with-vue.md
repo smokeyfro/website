@@ -13,14 +13,13 @@ difficulty: Easy
 type: Article
 description: "Yesterday I finally started updating my new portfolio content and when I got to the about page on my old site, I noticed my age was still set to 35. Whoops."
 ---
-
 This is partly due to me spreading myself too thin and part of the motivation behind pulling all my side projects under a single roof.
 
 While it's easy to remedy (just set a reminder to update the dang age man!), a better solution would be to have the age value update automatically. Similarly to how one would auto update the copyright date in a sites footer.
 
 Doing this is in php would be pretty trivial, but being that it's not something I've done before in Vue.js, it took a bit of tinkering to get working.
 
-I'm using Gridsome for my site, but this will apply to any Vue.js project. Here is the snippet, added as computed properties:
+I'm using Nuxt for my site, but this will apply to any Vue.js project. Here is the snippet, added as computed properties:
 
 ```js
 <script>
@@ -63,6 +62,28 @@ Here is the updated version:
     }
 </script>
 ```
+
+Here is how we do the same using the new composition api in vue 3:
+
+```ts
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const currentDate = new Date();
+
+// Create reactive values using ref
+const birthDate = new Date("1980/12/31");
+const age = ref<number>(0); // Initialize with default value
+const differenceInMilliseconds = currentDate - birthDate;
+age.value = Math.floor(differenceInMilliseconds / 31557600000);
+
+const startDate = new Date("2001/02/01");
+const experience = ref<number>(0); // Initialize with default value
+const experienceDifferenceInMilliseconds = currentDate - startDate;
+experience.value = Math.floor(experienceDifferenceInMilliseconds / 31557600000);
+</script>
+```
+
 I could probably simplify this into a single re-usable function, but it does the trick for now. I'll likely cover that in a later post when I start to refactor all of my code. 
 
 Now that the methods are setup, we can output the values in our template using:

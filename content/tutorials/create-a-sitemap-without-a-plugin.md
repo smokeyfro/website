@@ -14,7 +14,6 @@ difficulty: Easy
 type: Article
 description: "In this tutorial, I cover the steps needed to create a sitemap, without using a plugin. This is something that Thierry came up with, so full credit to him for the code. I'm just sharing it here so you guys can use it too."
 ---
-
 ## What is a sitemap?
 
 First off, I'm guessing most of you know what a sitemap is, but if not, here's a basic definition:

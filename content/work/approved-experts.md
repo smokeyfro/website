@@ -42,7 +42,6 @@ tools: ['Adobe Fireworks']
 stack: ['Web App', 'Apache', 'PHP', 'MySQL']
 testimonial: 
 date: 2015-08-04
-layout: work
 ---
 Approved Experts was a service that aimed to simplify the process of finding experts in a particular area of the UK.
 

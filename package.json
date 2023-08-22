@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxi generate",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
@@ -12,6 +12,7 @@
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/robots": "^3.0.0",
     "@types/node": "^20.5.1",
+    "@vueuse/nuxt": "^10.3.0",
     "lite-youtube-embed": "^0.2.0",
     "nuxt": "^3.6.5",
     "sitemap": "^7.1.1",

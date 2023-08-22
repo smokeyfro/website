@@ -9,13 +9,19 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/image-edge',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@vueuse/nuxt',
   ],
   googleFonts: {
     download: true,
     display: 'auto',
     families: {
       Lora: [400, 700],
+    }
+  },
+  content: {
+    highlight: {
+      theme: 'solarized-light'
     }
   },
   spaLoadingTemplate: false,
@@ -36,12 +42,17 @@ export default defineNuxtConfig({
     },
   },
   experimental: {
-    payloadExtraction: true,
+    payloadExtraction: false,
     //inlineSSRStyles: false
   },
+  // routeRules: {
+  //   '/**': { prerender: true },
+  //   '/work/**': { prerender: true },
+  //   '/tutorials/**': { prerender: true },
+  //   '/themes/**': { prerender: true },
+  //   '/journal/**': { prerender: true },
+  // },
   nitro: {
-    preset: 'static',
-    compressPublicAssets: true,
     prerender: {
       routes: ['/sitemap.xml'],
       crawlLinks: true
