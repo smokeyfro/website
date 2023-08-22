@@ -41,21 +41,9 @@ export default defineNuxtConfig({
       },
     },
   },
-  experimental: {
-    payloadExtraction: false,
-    //inlineSSRStyles: false
-  },
-  // routeRules: {
-  //   '/**': { prerender: true },
-  //   '/work/**': { prerender: true },
-  //   '/tutorials/**': { prerender: true },
-  //   '/themes/**': { prerender: true },
-  //   '/journal/**': { prerender: true },
-  // },
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml'],
-      crawlLinks: true
+      routes: ['/sitemap.xml']
     }
   },
   build: {

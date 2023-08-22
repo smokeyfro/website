@@ -6,20 +6,7 @@
     <div v-if="page !== null">
       <base-title>{{ page.title }}</base-title>
       <base-excerpt>{{ page.description }}</base-excerpt>
-      <div class="flex gap:10 mb:20">
-        <span class="px:5 py:2"
-        :class="{
-          'bg:green color:#fff': page.topic === 'Learning Vue',
-          'bg:orange color:#fff': page.topic === 'Going Headless',
-          'bg:blue color:#fff': page.topic === 'WordPress',
-        }">{{ page.topic }}</span>
-        &middot;
-        <span v-if="page.tags && page.tags.length" class="flex ai:center jc:start gap:15">
-          <span v-for="(tag, index) in page.tags" :key="index" v-html="tag" class="bg:#ddd px:5 py:2" />
-        </span>
-        &middot;
-        <span class="px:6 py:2">{{ formatDate(page.date) }}</span>
-      </div>
+      
       <content-renderer :value="page">
         <template #empty></template>
       </content-renderer>

@@ -8,7 +8,7 @@
       <base-excerpt>Below you'll find a few examples of my work that showcase my overall design style and the types of projects I've worked on.</base-excerpt>
     </div>
     <ul class="list-style:none m:0 p:0 grid-cols:2 gap:30">
-      <li v-for="{ _path: slug, title, description, image, date, type, status } in work" :key="slug">
+      <li v-for="{ _path: slug, title, description, image, type } in work" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222 block bg:#fff b:1|solid|#ccc">
           <div class="w:full h:300 overflow:hidden">
             <nuxt-img v-if="image" provider="cloudinary" :src="image" width="400" height="auto" fit="cover" format="webp" loading="lazy" :alt="title" class="max-width:100% w:full" />

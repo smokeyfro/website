@@ -107,7 +107,7 @@ useHead({
     background-color: #fff;
     background-image: url('/topography.svg'); 
     background-repeat: repeat;
-    animation: color 9s infinite linear;
+    /* animation: color 9s infinite linear; */
     font-family: "Lora";
     font-weight: 400;
   }
@@ -117,14 +117,14 @@ useHead({
     min-height: 100vh;
   }
   .
-  @keyframes color {
+  /* @keyframes color {
     0%   { background-color: #33CCCC; }
     20%  { background-color: #33CC36; }
     40%  { background-color: #B8CC33; }
     60%  { background-color: #FCCA00; }
     80%  { background-color: #33CC36; }
     100% { background-color: #33CCCC; }
-  }
+  } */
   main > div {
     overflow-x: hidden;
     overflow-y: scroll;
