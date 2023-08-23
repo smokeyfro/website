@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
   telemetry: false,
+  devtools: true,
+  ssr: true,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',
   ],
@@ -22,6 +24,9 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: 'solarized-light'
+    },
+    experimental: {
+      clientDb: true
     }
   },
   spaLoadingTemplate: false,

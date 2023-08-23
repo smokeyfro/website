@@ -19,12 +19,12 @@
             <div class="flex gap:10 mt:15">
               <span class="px:5 py:2"
               :class="{
-                      'bg:pink color:#fff': type === 'Gridsome',
-                      'bg:orange color:#fff': type === 'Joomla',
-                      'bg:brown color:#fff': type === 'Design',
-                      'bg:red color:#fff': type === 'Nuxt',
-                      'bg:blue color:#fff': type === 'WordPress',
-                    }">{{ type }}</span>
+                'bg:pink color:#fff': type === 'Gridsome',
+                'bg:orange color:#fff': type === 'Joomla',
+                'bg:brown color:#fff': type === 'Design',
+                'bg:red color:#fff': type === 'Nuxt',
+                'bg:blue color:#fff': type === 'WordPress',
+              }">{{ type }}</span>
             </div>
           </div>
         </nuxt-link>
