@@ -16,8 +16,7 @@
     "lite-youtube-embed": "^0.2.0",
     "nuxt": "^3.6.5",
     "sitemap": "^7.1.1",
-    "vue-silentbox": "^3.0.4",
-    "vue3-perfect-scrollbar": "^1.6.1"
+    "vue-silentbox": "^3.0.4"
   },
   "dependencies": {
     "@master/css-server.nitro": "2.0.0-beta.160",

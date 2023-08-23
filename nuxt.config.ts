@@ -24,9 +24,6 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: 'solarized-light'
-    },
-    experimental: {
-      clientDb: true
     }
   },
   spaLoadingTemplate: false,
