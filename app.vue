@@ -97,9 +97,13 @@ useHead({
   html, body, #__nuxt { 
     min-height: 100vh; 
   }
+  html { 
+    overflow: hidden;
+  }
   body { 
     margin: 0; 
     padding: 0;
+    overflow: hidden;
     background-color: #fff;
     background-image: url('/topography.svg'); 
     background-repeat: repeat;
@@ -112,7 +116,9 @@ useHead({
     display: grid;
     min-height: 100vh;
   }
-  .
+  main {
+    overflow-x: auto;
+  }
   /* @keyframes color {
     0%   { background-color: #33CCCC; }
     20%  { background-color: #33CC36; }
@@ -122,8 +128,6 @@ useHead({
     100% { background-color: #33CCCC; }
   } */
   main > div {
-    overflow-x: hidden;
-    overflow-y: scroll;
     height: max-content;
     min-height: min-content;
   }
