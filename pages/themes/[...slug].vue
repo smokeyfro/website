@@ -36,7 +36,7 @@
           provider="cloudinary" />
       </div>
     </div>
-    <div v-if="page">
+    <div v-if="page.gallery">
       <silent-box :gallery="page.gallery" class="gallery grid-cols:4 gap:30 mt:50"></silent-box>
       <content-renderer :value="page">
         <template #empty></template>

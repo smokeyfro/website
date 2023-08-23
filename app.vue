@@ -97,13 +97,9 @@ useHead({
   html, body, #__nuxt { 
     min-height: 100vh; 
   }
-  html { 
-    overflow: hidden;
-  }
   body { 
     margin: 0; 
     padding: 0;
-    overflow: hidden;
     background-color: #fff;
     background-image: url('/topography.svg'); 
     background-repeat: repeat;

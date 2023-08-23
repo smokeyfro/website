@@ -14,12 +14,5 @@ thumb: v1690984745/themes/totem-thumb.jpg
 image: v1690984745/themes/totem.jpg
 download_theme: "https://github.com/smokeyfro/sf-files/raw/master/sf-totem.zip"
 download_source: "https://github.com/smokeyfro/sf-files/raw/master/sf-totem-source.zip"
-gallery:
-- /media/themes/totem-1-frontpage.jpg
-- /media/themes/totem-2-blog-single.jpg
-- /media/themes/totem-3-sidebar-left.jpg
-- /media/themes/totem-4-sidebar-right.jpg
-- /media/themes/totem-5-opposing-sidebars.jpg
-- /media/themes/totem-6-typography.jpg
 searchTerms: wordpress, themes, beans
 ---
