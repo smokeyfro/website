@@ -7,20 +7,21 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.8.0",
-    "@nuxt/image-edge": "1.0.0-rc.1-28205905.cb96767",
-    "@nuxtjs/google-fonts": "^3.0.2",
+    "@nuxt/devtools": "^1.0.6",
+    "@nuxt/image": "^1.1.0",
+    "@nuxt/image-edge": "1.1.0-28412089.180ea78",
+    "@nuxtjs/google-fonts": "^3.1.3",
     "@nuxtjs/robots": "^3.0.0",
-    "@types/node": "^20.5.1",
-    "@vueuse/nuxt": "^10.3.0",
-    "lite-youtube-embed": "^0.2.0",
-    "nuxt": "^3.6.5",
+    "@types/node": "^20.10.7",
+    "@vueuse/nuxt": "^10.7.1",
+    "lite-youtube-embed": "^0.3.0",
+    "nuxt": "^3.9.1",
     "sitemap": "^7.1.1",
     "vue-silentbox": "^3.0.4"
   },
   "dependencies": {
-    "@master/css-server.nitro": "2.0.0-beta.160",
-    "@master/css.vue": "2.0.0-beta.160",
-    "@nuxt/content": "^2.7.2"
+    "@master/css-server.nitro": "2.0.0-beta.214",
+    "@master/css.vue": "2.0.0-beta.215",
+    "@nuxt/content": "^2.10.0"
   }
 }

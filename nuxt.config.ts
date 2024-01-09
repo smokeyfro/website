@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
+    "@nuxt/image"
   ],
   googleFonts: {
     download: true,

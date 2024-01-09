@@ -1,6 +1,6 @@
 <template>
     <aside class="rel">
-        <div class="bg:rgba(255,255,255,0.9) br:1px|solid|#ccc@xs h:full fixed@xs top:0@xs left:130@xs w:full w:140@xs flex flex:row flex:col@xs jc:center@xs z:10">
+        <div class="bg:rgba(255,255,255,0.9) br:1px|solid|#ccc@xs h:full fixed@xs top:0@xs left:80@xs w:full w:200@xs flex flex:row flex:col@xs jc:center@xs z:10">
             <slot />
         </div>
     </aside>
