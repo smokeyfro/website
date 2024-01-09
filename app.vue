@@ -10,100 +10,96 @@
       initRuntime(config)
   })
 
-const description = ''
-const ogTitle = ''
-const twitterDescription = ''
-const twitterCard = 'https://smokeyfro.com/twitter-card.png'
-const mySite = 'https://smokeyfro.com'
-useHead({
-  htmlAttrs: {
-    lang: 'en',
-  },
-  charset: 'utf-8',
-  title: ogTitle,
-  titleTemplate: title =>
-    title !== ogTitle
-      ? `${title} · SmokeyFro`
-      : title,
-  meta: [
-    {
-      name: 'description',
-      content:
-          description,
+  const description = ''
+  const ogTitle = ''
+  const twitterDescription = ''
+  const twitterCard = 'https://smokeyfro.com/twitter-card.png'
+  const mySite = 'https://smokeyfro.com'
+  useHead({
+    htmlAttrs: {
+      lang: 'en',
     },
-    { 
-      property: 'og:site_name', 
-      content: mySite 
-    },
-    { 
-      property: 'og:type', 
-      content: 'website' 
-    },
-    {
-      property: 'og:url',
-      content: mySite,
-    },
-    {
-      property: 'og:title',
-      content: ogTitle
-    },
-    {
-      property: 'og:description',
-      content: description,
-    },
-    {
-      property: 'og:image',
-      content: twitterCard,
-    },
-    { 
-      name: 'twitter:site', 
-      content: '@smokeyfro' 
-    },
-    { 
-      name: 'twitter:card', 
-      content: 'summary_large_image' 
-    },
-    {
-      name: 'twitter:url',
-      content: mySite,
-    },
-    {
-      name: 'twitter:title',
-      content: ogTitle,
-    },
-    {
-      name: 'twitter:description',
-      content: twitterDescription,
-    },
-    {
-      name: 'twitter:image',
-      content: twitterCard,
-    },
-  ],
-  link: [
-    { 
-      rel: 'icon', 
-      type: 'image/x-icon', 
-      href: '/favicon.png' 
-    },
-    {
-      rel: 'canonical',
-      href: mySite,
-    },
-  ],
-})
+    charset: 'utf-8',
+    title: ogTitle,
+    titleTemplate: title =>
+      title !== ogTitle
+        ? `${title} · SmokeyFro`
+        : title,
+    meta: [
+      {
+        name: 'description',
+        content:
+            description,
+      },
+      { 
+        property: 'og:site_name', 
+        content: mySite 
+      },
+      { 
+        property: 'og:type', 
+        content: 'website' 
+      },
+      {
+        property: 'og:url',
+        content: mySite,
+      },
+      {
+        property: 'og:title',
+        content: ogTitle
+      },
+      {
+        property: 'og:description',
+        content: description,
+      },
+      {
+        property: 'og:image',
+        content: twitterCard,
+      },
+      { 
+        name: 'twitter:site', 
+        content: '@smokeyfro' 
+      },
+      { 
+        name: 'twitter:card', 
+        content: 'summary_large_image' 
+      },
+      {
+        name: 'twitter:url',
+        content: mySite,
+      },
+      {
+        name: 'twitter:title',
+        content: ogTitle,
+      },
+      {
+        name: 'twitter:description',
+        content: twitterDescription,
+      },
+      {
+        name: 'twitter:image',
+        content: twitterCard,
+      },
+    ],
+    link: [
+      { 
+        rel: 'icon', 
+        type: 'image/x-icon', 
+        href: '/favicon.png' 
+      },
+      {
+        rel: 'canonical',
+        href: mySite,
+      },
+    ],
+  })
 </script>
 <style>
   html, body, #__nuxt { 
     min-height: 100vh; 
   }
-  html { 
-    overflow: hidden;
-  }
   body { 
     margin: 0; 
     padding: 0;
-    overflow: hidden;
     background-color: #fff;
     background-image: url('/topography.svg'); 
     background-repeat: repeat;
@@ -113,8 +109,52 @@ useHead({
   }
   .app {
     width: 100%;
-    display: grid;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 20px;
+  }
+.three-col p, 
+.three-col li {
+    color: #1f2226;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  p, ul {
+    margin-bottom: 1.5rem;
+  }
+  @media ( min-width: 768px ) {
+    .app {
+      display: grid;
+    }
+    h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .three-col p, 
+  .three-col li {
+    color: #1f2226;
+    line-height: 1.5;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  p, ul {
+    margin-bottom: 2rem;
+  }
   }
   main {
     overflow-x: auto;
@@ -138,24 +178,7 @@ useHead({
   h1 {
     font-weight: 700;
   }
-  h2 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1;
-    margin-bottom: 1rem;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  p, li {
-    color: #1f2226;
-    line-height: 1.5;
-    font-size: 19px;
-    font-weight: 400;
-  }
-  p, ul {
-    margin-bottom: 2rem;
-  }
+ 
   ul, ol {
     padding-left: 1.2rem;
   }

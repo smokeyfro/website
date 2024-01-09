@@ -3,14 +3,14 @@
     <template v-slot:aside>
       <base-nav :subnav="NavLinks[2].subnav" />
     </template>
-    <div v-if="page !== null" class="grid grid-cols:2 gap:50">
+    <div v-if="page !== null" class="grid grid-cols:1 grid-cols:2@md gap:50@lg">
       <div>
         <base-title>{{ page.title }}</base-title>
         <base-excerpt>{{ page.description }}</base-excerpt>
         <p class="my:10" v-if="page.url && page.status != 'Offline'">
           <a :href="page.url" target="_blank" class="btn btn-lg btn-primary">View the site <!--<img src="/external.svg" alt="External link" class="inline-block w-3 h-3">--></a>
         </p>
-        <ul class="grid grid-cols:2 gap:20 list-style:none p:0 m:0 mt:30">
+        <ul class="grid grid-cols:3 gap:20 list-style:none p:0 m:0 mt:30">
           <li class="p:0 m:0 mb:3 truncate" v-if="page.company">
             <strong class="block">Company</strong>{{ page.company }}
           </li>
@@ -48,7 +48,7 @@
           :src="page.image" 
           :alt="page.title" 
           provider="cloudinary"
-          class="r:5 h:auto w:full b:2|solid|#ddd" />
+          class="block my:30 my:0@md r:5 h:auto w:full b:2|solid|#ddd" />
       </div>
     </div>
     <div class="markdown pt:6 my:5" v-if="page">
@@ -59,7 +59,7 @@
         </content-renderer>
       </div>
     </div>
-    <silent-box v-if="page" :gallery="page.gallery" class="gallery grid-cols:3 gap:20 mt:50"></silent-box>
+    <silent-box v-if="page" :gallery="page.gallery" class="gallery grid-cols:1 grid-cols:2@2xs grid-cols:3@lg gap:20 mt:50@lg"></silent-box>
   </nuxt-layout>
 </template>
 <style>

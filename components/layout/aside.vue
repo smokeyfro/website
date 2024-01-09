@@ -1,6 +1,6 @@
 <template>
-    <aside class="bg:rgba(255,255,255,0.9) rel br:1px|solid|#ccc">
-        <div class="h:full fixed top:0 left:130 w:140 flex flex:col jc:center z:10">
+    <aside class="rel">
+        <div class="bg:rgba(255,255,255,0.9) br:1px|solid|#ccc@xs h:full fixed@xs top:0@xs left:130@xs w:full w:140@xs flex flex:row flex:col@xs jc:center@xs z:10">
             <slot />
         </div>
     </aside>
@@ -14,17 +14,28 @@ aside nav a {
   text-decoration: none;
   font-family: "Lora";
 }
-aside nav a:after {
-  display: inline-block;
-  color: transparent;
-  content: "→";
-  transition: color .3s ease-out;
-  margin-left: 10px;
+@media ( min-width: 768px ) {
+  aside nav a:after {
+    display: inline-block;
+    color: transparent;
+    content: "→";
+    transition: color .3s ease-out;
+    margin-left: 10px;
+  }
+  aside nav .router-link-active:after {
+    color: #fc0;
+  }
+}
+@media ( max-width: 768px ) {
+  aside nav {
+    padding: 0.5rem 1.5rem 1.1rem;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    justify-content: center;
+  }
 }
 aside nav .router-link-active {
   color: #111;
 }
-aside nav .router-link-active:after {
-  color: #fc0;
-}
+
 </style>

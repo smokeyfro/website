@@ -5,11 +5,11 @@
     </template>
     <base-title>{{ title }}</base-title>
     <base-excerpt>{{ description }}</base-excerpt>
-    <ul class="list-style:none m:0 p:0 flex flex:col gap:40">
+    <ul class="list-style:none m:0 p:0 flex flex:col gap:0 gap:40@md">
       <li v-for="{ _path: slug, title, description, date, topics } in posts" :key="slug">
-        <nuxt-link :to="slug" class="flex gap:30 text-decoration:none color:#222">
-          <div class="mt:10">
-            <span class="min-width:180 w:180 block">{{ formatDate(date) }}</span>
+        <nuxt-link :to="slug" class="flex flex:col flex:row@md gap:0 gap:30@md text-decoration:none color:#222">
+          <div class="mt:10 flex flex:row flex:col@md gap:15 gap:0@md ai:center ai:flex-start@md">
+            <span class="min-width:180@lg w:180@lg block">{{ formatDate(date) }}</span>
             <span class="t:16 color:#666">#{{ topics[0] }}</span>
           </div>
           <div class="w:full">

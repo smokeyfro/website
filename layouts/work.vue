@@ -7,7 +7,7 @@
     </layout-aside>
     <main class="bg:rgba(255,255,255,0.85)">
       <div class="h:100vh">
-        <div class="p:80 rel">
+        <div class="p:40 p:80@lg rel">
           <slot />
         </div>
       </div>

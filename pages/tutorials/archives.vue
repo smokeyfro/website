@@ -8,8 +8,8 @@
     <ul class="list-style:none m:0 mt:40 p:0 flex flex:col gap:40">
       <li v-for="{ _path: slug, title, thumb, topic, tags } in tutorials" :key="slug">
         <nuxt-link :to="slug" class="text-decoration:none color:#222 bg:#fff {bg:#f7f7f7}:hover ~all|300ms|ease-in-out r:5 overflow:hidden flex ai:center b:1|solid|#ccc">
-          <nuxt-img v-if="thumb" provider="cloudinary" :src="thumb" fit="cover" :alt="title" class="max-width:100% w:400 h:300 object-fit:cover" />
-          <div class="py:40 px:55">
+          <nuxt-img v-if="thumb" provider="cloudinary" :src="thumb" fit="cover" :alt="title" class="hidden block@md max-width:100% w:400 h:300 object-fit:cover" />
+          <div class="p:30 py:40@md px:55@md">
             <h2 class="m:0">{{ title }}</h2>
             <div class="flex ai:center gap:10 mt:25 mb:10">
               <span class="px:6 py:2 f:14 r:3 color:#fff"

@@ -5,7 +5,7 @@ draft: false
 description: This site is only possible thanks to hard work from a looong list of fine folks who have all contributed their skills, time and energy to provide the web development community with the awesome tools we have at our disposal.
 ---
 
-<div class="flex jc:space-between mt:-20">
+<div class="flex flex:wrap flex:col flex:row@lg jc:space-between mt:-20@lg">
 <div>
 
 ## Stack

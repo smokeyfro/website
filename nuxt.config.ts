@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   telemetry: false,
-  devtools: true,
+  devtools: false,
   ssr: true,
   css: [
     '~/node_modules/lite-youtube-embed/src/lite-yt-embed.css',

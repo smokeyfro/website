@@ -1,6 +1,6 @@
 <template>
-    <div class="intro h:100vh flex">
-      <div class="flex jc:start ai:center gap:30 mt:-50">
+    <div class="intro h:100vh@lg mt:40 mt:0@lg flex">
+      <div class="flex flex:col flex:row@lg jc:start ai:center gap:30 mt:-50">
         <svg-sf />
         <div>
           <h1 class="mt:15 mb:5">{{ data.name }}</h1>

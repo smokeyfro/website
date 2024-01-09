@@ -1,6 +1,6 @@
 <template>
     <h2 class="mb:40">Contact</h2>
-    <ul class="grid grid-cols:2 gap:4 ml:0 list-style:none reset contact-info">
+    <ul class="grid grid-cols:2 gap:10 p:0 ml:0 list-style:none reset contact-info">
         <li>
             <span class="block text-sm text-gray-600">Website</span>
             <strong>{{ data.website }}</strong>
