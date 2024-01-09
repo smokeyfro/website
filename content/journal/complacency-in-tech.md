@@ -2,7 +2,7 @@
 title: Complacency in Tech
 slug: complacency-in-tech
 date: 2023-09-04
-published: true
+published: false
 tags: ['os', 'ubuntu', 'tools']
 topics: ['tools-of-the-trade']
 description: I’m sitting in the Glade, looking out at the beauty that surrounds me and find myself thinking about the state of the world we live in.
